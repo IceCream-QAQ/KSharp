@@ -63,7 +63,7 @@ class DotKtRunConfigurationProducer : LazyRunConfigurationProducer<DotNetProject
         val main = DotKtMainContext.main(context.psiLocation) ?: return false
         val runnable = DotKtMainContext.runnable(main) ?: return false
         val output = runnable.projectOutputs.single()
-        configuration.name = "${runnable.name} (DotKt)"
+        configuration.name = "${runnable.name} (KSharp)"
         configuration.parameters.apply {
             setUpFromProject(runnable)
             projectTfm = output.tfm!!.presentableName
@@ -134,6 +134,6 @@ class DotKtRunLineMarkerContributor : RunLineMarkerContributor(), DumbAware {
         val function = element.parent as? KtNamedFunction ?: return null
         if (function.nameIdentifier != element || DotKtMainContext.main(element) == null ||
             DotKtMainContext.runnable(element) == null) return null
-        return Info(AllIcons.RunConfigurations.TestState.Run, ExecutorAction.getActions()) { "Run DotKt .NET project" }
+        return Info(AllIcons.RunConfigurations.TestState.Run, ExecutorAction.getActions()) { "Run .NET project (KSharp)" }
     }
 }

@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "dev.dotktr"
-version = "0.1.1-dev"
+version = "0.1.2-dev"
 val riderPath = providers.gradleProperty("riderPath").orElse(providers.environmentVariable("RIDER_HOME"))
     .orElse("${System.getProperty("user.home")}/Applications/Rider.app/Contents")
 val ideaPath = providers.gradleProperty("ideaPath").orElse(providers.environmentVariable("IDEA_HOME"))
@@ -56,7 +56,7 @@ intellijPlatform {
     buildSearchableOptions = false
     instrumentCode = false
     pluginConfiguration {
-        name = "DotKtR"
+        name = "KSharp"
         version = project.version.toString()
         ideaVersion { sinceBuild = "262.10968"; untilBuild = "262.10968.*" }
     }
@@ -75,7 +75,7 @@ tasks.processResources {
 }
 tasks.withType<PrepareSandboxTask>().configureEach {
     dependsOn(compileDotNet)
-    from(layout.buildDirectory.dir("dotnet")) { include("DotKtR.Backend.dll", "DotKtR.Backend.pdb"); into("DotKtR/dotnet") }
+    from(layout.buildDirectory.dir("dotnet")) { include("DotKtR.Backend.dll", "DotKtR.Backend.pdb"); into("KSharp/dotnet") }
     doLast {
         project.exec {
             commandLine("python3", "tools/prepare_compat_host.py", "--idea", ideaPath.get(), "--rider", riderPath.get(),

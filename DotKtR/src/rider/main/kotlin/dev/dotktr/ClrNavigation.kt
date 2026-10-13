@@ -157,7 +157,7 @@ class DotNetDirectNavigationProvider : DirectNavigationProvider {
 class DotNetNavigationElement(private val projectRef: Project, val target: ClrNavigationTarget) :
     LightElement(PsiManager.getInstance(projectRef), KotlinLanguage.INSTANCE), NavigationItem {
     override fun getName(): String = target.xmlDocId
-    override fun toString(): String = "DotKt .NET navigation: ${target.xmlDocId}"
+    override fun toString(): String = "KSharp .NET navigation: ${target.xmlDocId}"
     override fun getText(): String = target.xmlDocId
     override fun getPresentation(): ItemPresentation = object : ItemPresentation {
         override fun getPresentableText(): String = target.xmlDocId.substringAfter(':')

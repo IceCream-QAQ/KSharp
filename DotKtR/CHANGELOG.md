@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2-dev
+
+- 将插件名称从 DotKtR 改为 KSharp，同步设置页、通知、刷新菜单、运行提示、兼容宿主和测试驱动的显示名称。
+- Gradle 工程与发布 ZIP/JAR 使用 KSharp；保留插件 ID、持久化设置、缓存目录和内部代码标识，以支持已有安装升级。
+
 ## 0.1.1-dev
 
 - 将编辑器依赖移入 Rider system 目录中的不可变 KLIB 缓存，项目 Clean 不再删除 IDE 使用的库。

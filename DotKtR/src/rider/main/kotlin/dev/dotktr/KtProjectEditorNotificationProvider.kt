@@ -28,8 +28,8 @@ class KtProjectEditorNotificationProvider : EditorNotificationProvider, DumbAwar
                 border = JBUI.Borders.empty(5, 12)
             }
             val forThisProject = FileUtil.pathsEqual(status.projectFile, file.path)
-            val label = JBLabel(if (forThisProject) status.message.lineSequence().first().take(160) else
-                "DotKt · ${file.name} · Refresh to load this project's KLIB dependencies")
+            val label = JBLabel(if (forThisProject) "KSharp · " + status.message.lineSequence().first().take(160) else
+                "KSharp · ${file.name} · Refresh to load this project's KLIB dependencies")
             label.toolTipText = if (forThisProject) status.message else "This preview analyzes one DotKt project at a time."
             panel.add(label, BorderLayout.CENTER)
             panel.add(JButton(if (status.busy && forThisProject) "Refreshing KLIB…" else "Refresh KLIB", AllIcons.Actions.Refresh).apply {

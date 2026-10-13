@@ -131,7 +131,7 @@ class DotNetNavigationService(private val project: Project, private val scope: C
     }
 
     private fun notify(title: String, text: String, type: NotificationType) {
-        if (!project.isDisposed) NotificationGroupManager.getInstance().getNotificationGroup("DotKt")
+        if (!project.isDisposed) NotificationGroupManager.getInstance().getNotificationGroup("KSharp")
             .createNotification(title, text, type).notify(project)
     }
 }

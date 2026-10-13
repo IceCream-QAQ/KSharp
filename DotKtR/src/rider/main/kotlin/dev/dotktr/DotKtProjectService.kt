@@ -71,11 +71,11 @@ class DotKtProjectService(private val project: Project, private val scope: Corou
                 }
                 discovered = true
                 check(java.lang.Boolean.getBoolean("kotlin.index.non.source.roots")) {
-                    "DotKt's compatibility host requires -Dkotlin.index.non.source.roots=true in Rider VM options. Restart Rider after adding it; Gradle runIde sets it automatically."
+                    "KSharp's compatibility host requires -Dkotlin.index.non.source.roots=true in Rider VM options. Restart Rider after adding it; Gradle runIde sets it automatically."
                 }
                 selected = requestedProject ?: settings.projectPath.takeIf { it.isNotBlank() }?.let {
                     Path.of(project.basePath!!).resolve(it).toAbsolutePath().normalize().toString()
-                } ?: projects.singleOrNull() ?: error("Select a .ktproj in Settings | Languages & Frameworks | DotKt. This version imports one Kotlin project at a time.")
+                } ?: projects.singleOrNull() ?: error("Select a .ktproj in Settings | Languages & Frameworks | KSharp. This version imports one Kotlin project at a time.")
                 selected = projects.singleOrNull { FileUtil.pathsEqual(it, selected) }
                     ?: error("The selected .ktproj is not loaded in this solution.")
                 val projectFile = Path.of(selected)
@@ -141,7 +141,7 @@ class DotKtProjectService(private val project: Project, private val scope: Corou
                 if (manual) notify(if (hit) "KLIB cache is up to date." else "KLIB cache refreshed.", false)
             } catch (cancelled: CancellationException) {
                 if (cancelled !is TimeoutCancellationException) throw cancelled
-                failed(ticket, selected, "DotKt refresh timed out. Retry after the build completes.", manual || discovered)
+                failed(ticket, selected, "KSharp refresh timed out. Retry after the build completes.", manual || discovered)
             } catch (failure: Exception) {
                 log.warn("DotKt project refresh failed", failure)
                 failed(ticket, selected, failure.message ?: failure.javaClass.simpleName, manual || discovered)
@@ -220,7 +220,7 @@ class DotKtProjectService(private val project: Project, private val scope: Corou
         val candidates = EnvironmentUtil.getValue("PATH").orEmpty().split(java.io.File.pathSeparator)
             .filter { it.isNotBlank() }.map { Path.of(it, name) } + listOf(Path.of(System.getProperty("user.home"), ".dotnet", name))
         return candidates.firstOrNull { Files.isRegularFile(it) && Files.isExecutable(it) }?.toString()
-            ?: error("Configure the dotnet executable in Settings | Languages & Frameworks | DotKt.")
+            ?: error("Configure the dotnet executable in Settings | Languages & Frameworks | KSharp.")
     }
 
     private suspend fun execute(command: List<String>, directory: Path): String = withTimeout(300_000) {
@@ -249,7 +249,7 @@ class DotKtProjectService(private val project: Project, private val scope: Corou
     }
 
     private fun notify(message: String, error: Boolean) {
-        if (!project.isDisposed) NotificationGroupManager.getInstance().getNotificationGroup("DotKt")
-            .createNotification("DotKt", message, if (error) NotificationType.WARNING else NotificationType.INFORMATION).notify(project)
+        if (!project.isDisposed) NotificationGroupManager.getInstance().getNotificationGroup("KSharp")
+            .createNotification("KSharp", message, if (error) NotificationType.WARNING else NotificationType.INFORMATION).notify(project)
     }
 }

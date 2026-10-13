@@ -121,7 +121,7 @@ public sealed class NavigationService
         if (navigate)
         {
             var context = _dataContexts.CreateOnApplicationWideState(_lifetime);
-            var options = NavigationOptions.FromDataContext(context, "DotKtR navigation");
+            var options = NavigationOptions.FromDataContext(context, "KSharp navigation");
             _navigation.Navigate(target, options.PopupWindowContextSource, true, null, JetBrains.IDE.TabOptions.NormalTab);
         }
         return JsonSerializer.Serialize(new { success = true, owner, identity, expectedAssembly, consumerPath,

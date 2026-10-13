@@ -23,7 +23,7 @@ class DotKtConfigurable(private val project: Project) : SearchableConfigurable {
     private val projectFile = JTextField()
     private val framework = JTextField()
     override fun getId() = "dev.dotktr.settings"
-    override fun getDisplayName() = "DotKt"
+    override fun getDisplayName() = "KSharp"
     override fun createComponent(): JComponent = JPanel(BorderLayout(0, 12)).apply {
         val fields = JPanel(GridLayout(0, 1, 0, 6))
         fields.add(automatic)

@@ -1,8 +1,10 @@
-# DotKtR
+# KSharp
 
-DotKt `.ktproj` 的 Rider 插件，当前版本 `0.1.1-dev`。
+DotKt `.ktproj` 的 Rider 插件，原名 DotKtR，当前版本 `0.1.2-dev`。
 
 现在有独立的插件前端、ReSharper 后端、设置页、MSBuild 项目导入、Gradle 打包和安装验证。实验原型保留在 `spikes/` 供复现，未打入插件。当前仍需要固定版本的 Kotlin/Java 兼容宿主，属于可安装的早期预览，尚未发布到 Marketplace。
+
+插件显示名称、设置页和安装包统一使用 KSharp。沿用插件 ID `dev.dotktr`、既有设置文件和缓存目录，可作为原 DotKtR 插件的升级安装。源码目录、内部命名空间及后端程序集仍沿用原标识；历史验证记录保留对应版本的名称。
 
 ## 当前功能
 
@@ -11,8 +13,8 @@ DotKt `.ktproj` 的 Rider 插件，当前版本 `0.1.1-dev`。
 - Cmd＋左键通过 ReSharper 进入 C# 源码或 Rider 的外部库导航流程。
 - 顶层普通 `main` 使用原生 `.NET Project` 配置，运行前执行项目级 Clean＋Build，支持控制台和 Stop。
 - IDE 独立保存完整 KLIB 快照，项目 Clean 不会删除编辑器正在使用的库；刷新失败时保留上一份快照。
-- `.ktproj` 文本编辑器顶部右侧提供 **Refresh KLIB** 按钮，显示解析状态；`Tools | Refresh DotKt Project` 也可手动刷新。
-- `Settings | Languages & Frameworks | DotKt` 配置 dotnet、项目和目标框架。
+- `.ktproj` 文本编辑器顶部右侧提供 **Refresh KLIB** 按钮，显示解析状态；`Tools | Refresh KSharp Project` 也可手动刷新。
+- `Settings | Languages & Frameworks | KSharp` 配置 dotnet、项目和目标框架。
 - 项目文件、已导入引用 DLL、已监视工具链文件，以及项目目录下 Kotlin 文件的增删可触发刷新；普通 Kotlin 文本编辑不重新运行 MSBuild。
 - MSBuild 仅在 Rider 已信任的项目中运行；取消导入和关闭项目会结束其解析进程。
 
@@ -27,7 +29,7 @@ DotKt `.ktproj` 的 Rider 插件，当前版本 `0.1.1-dev`。
 | Gradle JVM / 编译 toolchain | JDK 21 / JDK 25 |
 | 本轮 GUI 验证 | macOS arm64，.NET SDK 10 |
 
-Kotlin/Java 宿主适配仍是明确的产品化限制。`prepareSandbox` 从本机 IDEA 复制这两个插件到隔离沙箱，提供 Java capability，并补入两个原始 marker interface、移除与 Rider 冲突的 `CompileFile` 注册。工具严格检查 SDK build，记录适配摘要，不修改已安装的 IDE；这些 JetBrains 二进制不进入 Git，也不进入 DotKtR ZIP。
+Kotlin/Java 宿主适配仍是明确的产品化限制。`prepareSandbox` 从本机 IDEA 复制这两个插件到隔离沙箱，提供 Java capability，并补入两个原始 marker interface、移除与 Rider 冲突的 `CompileFile` 注册。工具严格检查 SDK build，记录适配摘要，不修改已安装的 IDE；这些 JetBrains 二进制不进入 Git，也不进入 KSharp ZIP。
 
 宿主还必须在启动前设置 `-Dkotlin.index.non.source.roots=true`，让 `.ktproj` 文件进入 Kotlin stub 索引。`runIde` 与安装验证启动器会设置此 Kotlin 开关；手动准备宿主时需在 Rider 的自定义 VM options 中添加并重启。插件导入会检查该条件，不能用启动后的属性修改替代它。
 
@@ -44,7 +46,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 ./gradlew -PdotnetPath="$HOME/.dotnet/dotnet" runIde -Psolution=/absolute/path/App.sln
 ```
 
-产物为 `build/distributions/DotKtR-0.1.1-dev.zip`，包含 JVM 插件及 `DotKtR.Backend.dll`。在已经准备好匹配 Kotlin/Java 组件的 Rider 宿主中，可以使用 **Install Plugin from Disk** 安装该 ZIP。普通 Rider 上只安装这一份 ZIP，尚不能替代上述兼容宿主准备；当前不应将其描述为任意 Rider 版本上开箱即用的 Marketplace 插件。
+产物为 `build/distributions/KSharp-0.1.2-dev.zip`，包含 JVM 插件及 `DotKtR.Backend.dll`。在已经准备好匹配 Kotlin/Java 组件的 Rider 宿主中，可以使用 **Install Plugin from Disk** 安装该 ZIP。普通 Rider 上只安装这一份 ZIP，尚不能替代上述兼容宿主准备；当前不应将其描述为任意 Rider 版本上开箱即用的 Marketplace 插件。
 
 Rider 授权使用正常 IDE 授权流程。构建和发布包不含授权文件。
 

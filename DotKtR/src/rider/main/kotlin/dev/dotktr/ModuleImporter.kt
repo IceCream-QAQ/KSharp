@@ -65,7 +65,7 @@ object ModuleImporter {
             }
             val facets = FacetManager.getInstance(module)
             val model = facets.createModifiableModel()
-            model.addFacet(facets.createFacet(KotlinFacetType.INSTANCE, "DotKt", configuration, null))
+            model.addFacet(facets.createFacet(KotlinFacetType.INSTANCE, "KSharp", configuration, null))
             model.commit()
             project.putUserData(DotKtModuleBinding.CLR_LIBRARIES, libraries)
             project.putUserData(DotKtModuleBinding.KEY, DotKtModuleBinding(module, root, sources,

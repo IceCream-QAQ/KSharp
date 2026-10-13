@@ -1,2 +1,2 @@
 pluginManagement { repositories { gradlePluginPortal(); mavenCentral() } }
-rootProject.name = "DotKtR"
+rootProject.name = "KSharp"

@@ -48,11 +48,11 @@ def prepare(idea: Path, rider: Path, plugins: Path):
     bridge = plugins / "dotktr-host-bridge/lib"
     bridge.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(bridge / "bridge.jar", "w") as archive:
-        archive.writestr("META-INF/plugin.xml", """<idea-plugin><id>dev.dotktr.hostbridge</id><name>DotKtR Host Bridge</name>
-<version>0.1.0-dev</version><vendor>DotKtR contributors</vendor>
+        archive.writestr("META-INF/plugin.xml", """<idea-plugin><id>dev.dotktr.hostbridge</id><name>KSharp Host Bridge</name>
+<version>0.1.2-dev</version><vendor>KSharp contributors</vendor>
 <idea-version since-build="262.10968" until-build="262.10968.*"/>
 <depends>com.intellij.modules.rider</depends><module value="com.intellij.modules.java-capable"/>
-<description>Compatibility capability for the pinned local DotKtR preview host.</description></idea-plugin>""")
+<description>Compatibility capability for the pinned local KSharp preview host.</description></idea-plugin>""")
     (plugins.parent / "host-compatibility.json").write_text(json.dumps(metadata, indent=2) + "\n")
 
 
