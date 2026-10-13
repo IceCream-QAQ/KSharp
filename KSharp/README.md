@@ -4,7 +4,7 @@ DotKt `.ktproj` 的 Rider 插件，原名 DotKtR，当前版本 `0.1.2-dev`。
 
 现在有独立的插件前端、ReSharper 后端、设置页、MSBuild 项目导入、Gradle 打包和安装验证。实验原型保留在 `spikes/` 供复现，未打入插件。当前仍需要固定版本的 Kotlin/Java 兼容宿主，属于可安装的早期预览，尚未发布到 Marketplace。
 
-插件显示名称、设置页和安装包统一使用 KSharp。沿用插件 ID `dev.dotktr`、既有设置文件和缓存目录，可作为原 DotKtR 插件的升级安装。源码目录、内部命名空间及后端程序集仍沿用原标识；历史验证记录保留对应版本的名称。
+插件显示名称、设置页、安装包、solution 和工程目录统一使用 KSharp，后端项目及程序集为 `KSharp.Backend`。沿用插件 ID `dev.dotktr`、Kotlin 包名、既有设置文件和缓存目录，可作为原 DotKtR 插件的升级安装。历史验证记录保留对应版本的名称与路径。
 
 ## 当前功能
 
@@ -46,7 +46,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 ./gradlew -PdotnetPath="$HOME/.dotnet/dotnet" runIde -Psolution=/absolute/path/App.sln
 ```
 
-产物为 `build/distributions/KSharp-0.1.2-dev.zip`，包含 JVM 插件及 `DotKtR.Backend.dll`。在已经准备好匹配 Kotlin/Java 组件的 Rider 宿主中，可以使用 **Install Plugin from Disk** 安装该 ZIP。普通 Rider 上只安装这一份 ZIP，尚不能替代上述兼容宿主准备；当前不应将其描述为任意 Rider 版本上开箱即用的 Marketplace 插件。
+产物为 `build/distributions/KSharp-0.1.2-dev.zip`，包含 JVM 插件及 `KSharp.Backend.dll`。在已经准备好匹配 Kotlin/Java 组件的 Rider 宿主中，可以使用 **Install Plugin from Disk** 安装该 ZIP。普通 Rider 上只安装这一份 ZIP，尚不能替代上述兼容宿主准备；当前不应将其描述为任意 Rider 版本上开箱即用的 Marketplace 插件。
 
 Rider 授权使用正常 IDE 授权流程。构建和发布包不含授权文件。
 
@@ -93,11 +93,11 @@ python3 tools/smoke_installed.py --foreground
 ## 工程组织
 
 - `src/rider/main`：产品前端与插件描述。
-- `src/dotnet/DotKtR.Backend`：ReSharper 导航服务。
+- `src/dotnet/KSharp.Backend`：ReSharper 导航服务。
 - `src/rider/test`：项目元数据、缓存恢复、失效判定与原子发布测试。
 - `src/rider/integrationTest`：独立安装验证驱动。
 - `third_party/dotkt`：固定 commit 的五个未修改 CLR 规则文件，附 Apache-2.0 许可、来源和摘要。
 - `spikes/native-psi`：历史原型与样例。
 - `docs`：阶段报告与运行证据；历史报告描述的是当时版本，不代表全部检查在每次更改后重跑。
 
-原先未使用的 ReSharper/.NET Framework 模板、空 RD 生成工程及模板发布脚本已移出活动工程。开发后端可打开仓库根目录的 `DotKtR.sln`；独立 .NET 构建需传入 `-p:RiderHost=/path/to/Rider/lib/ReSharperHost`。
+原先未使用的 ReSharper/.NET Framework 模板、空 RD 生成工程及模板发布脚本已移出活动工程。开发后端可打开仓库根目录的 `KSharp.sln`；独立 .NET 构建需传入 `-p:RiderHost=/path/to/Rider/lib/ReSharperHost`。

@@ -295,7 +295,7 @@ C# 未编译源码投影、跨语言重命名、跨语言引用搜索等建议�
 从本机模板根目录执行：
 
 ```bash
-cd /Users/icecream/RiderProjects/DotKtR/DotKtR
+cd /Users/icecream/RiderProjects/KSharp/KSharp
 
 # 基础 Kotlin / C# 编辑体验
 ./gradlew -p spikes/native-psi runIde

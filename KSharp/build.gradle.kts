@@ -63,9 +63,9 @@ intellijPlatform {
 }
 
 val compileDotNet by tasks.registering(Exec::class) {
-    inputs.files(fileTree("src/dotnet/DotKtR.Backend") { exclude("bin/**", "obj/**") }, "src/dotnet/Directory.Build.props")
+    inputs.files(fileTree("src/dotnet/KSharp.Backend") { exclude("bin/**", "obj/**") }, "src/dotnet/Directory.Build.props")
     outputs.dir(layout.buildDirectory.dir("dotnet"))
-    commandLine(dotnet.get(), "build", "src/dotnet/DotKtR.Backend/DotKtR.Backend.csproj", "-c", "Release", "--nologo",
+    commandLine(dotnet.get(), "build", "src/dotnet/KSharp.Backend/KSharp.Backend.csproj", "-c", "Release", "--nologo",
         "-v:minimal", "-p:UseSharedCompilation=false", "-p:RiderHost=${riderPath.get()}/lib/ReSharperHost",
         "-o", layout.buildDirectory.dir("dotnet").get().asFile.absolutePath)
 }
@@ -75,7 +75,7 @@ tasks.processResources {
 }
 tasks.withType<PrepareSandboxTask>().configureEach {
     dependsOn(compileDotNet)
-    from(layout.buildDirectory.dir("dotnet")) { include("DotKtR.Backend.dll", "DotKtR.Backend.pdb"); into("KSharp/dotnet") }
+    from(layout.buildDirectory.dir("dotnet")) { include("KSharp.Backend.dll", "KSharp.Backend.pdb"); into("KSharp/dotnet") }
     doLast {
         project.exec {
             commandLine("python3", "tools/prepare_compat_host.py", "--idea", ideaPath.get(), "--rider", riderPath.get(),

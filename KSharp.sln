@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotKtR.Backend", "DotKtR/src/dotnet/DotKtR.Backend/DotKtR.Backend.csproj", "{55E7926F-B0DC-4934-85CB-F74BB8886D9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSharp.Backend", "KSharp/src/dotnet/KSharp.Backend/KSharp.Backend.csproj", "{55E7926F-B0DC-4934-85CB-F74BB8886D9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,7 +15,7 @@ using JetBrains.ReSharper.Psi.Caches;
 using JetBrains.ReSharper.Psi.Tree;
 using JetBrains.ReSharper.Psi.Modules;
 
-namespace DotKtR.Backend;
+namespace KSharp.Backend;
 
 [SolutionComponent(Instantiation.ContainerAsyncPrimaryThread)]
 public sealed class NavigationService

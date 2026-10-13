@@ -4,7 +4,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <NoWarn>$(NoWarn);MSB3277</NoWarn>
-    <AssemblyName>DotKtR.Backend</AssemblyName>
+    <AssemblyName>KSharp.Backend</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="$(RiderHost)/JetBrains.Platform.Core.dll" Private="false" />

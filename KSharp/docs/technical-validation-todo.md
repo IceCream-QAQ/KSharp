@@ -46,7 +46,7 @@ Kotlin PSI 提供语法结构；类型推断、引用和重载解析需要 Analy
 
 - [ ] 固定首个 Rider 验证版本，同步前端平台依赖、后端 SDK 和 RD 生成器的兼容组合。
 - [ ] 分开记录插件自身的 Kotlin 编译版本与 dotkt 分析内核版本，避免混用 IDE 内置编译器和 dotkt 内核。
-- [ ] 将内层 `DotKtR/build.gradle.kts` 作为 Gradle 项目导入，确认 SDK 依赖可索引、模板可构建、开发沙箱可启动。
+- [ ] 将内层 `KSharp/build.gradle.kts` 作为 Gradle 项目导入，确认 SDK 依赖可索引、模板可构建、开发沙箱可启动。
 - [ ] 定义一个最小 RD 请求，验证 Rider 前端与 ReSharper 后端通信及 solution 关闭时的生命周期清理。
 - [ ] 建立最小混合 solution：C# 类库、引用它的 `.ktproj`、可导航的外部程序集。
 - [x] 为样例加入构造函数、实例方法、同名重载、泛型类型与方法、属性、扩展方法、继承静态成员。
