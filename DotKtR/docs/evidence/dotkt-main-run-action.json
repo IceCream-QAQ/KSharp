@@ -1,0 +1,446 @@
+{
+  "mode": "interactive",
+  "ide": "JetBrains Rider 2026.2.3.1",
+  "build": "RD-262.10968.170",
+  "processId": 65118,
+  "source": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/Program.kt",
+  "phase": "ready",
+  "backendReady": {
+    "ready": true,
+    "status": {
+      "ready": true,
+      "solution": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/DotKt-AspNetCore.sln",
+      "projects": [
+        "",
+        "",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/KotlinWeb.ktproj"
+      ]
+    }
+  },
+  "k2": {
+    "module": "dotktr-kotlin",
+    "klibCount": 308,
+    "sourceIndexing": [
+      {
+        "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/HelloController.kt",
+        "fileType": "Kotlin",
+        "canHaveStub": true,
+        "stubDefinition": "com.intellij.psi.stubs.LanguageStubDefinitionAdapter"
+      },
+      {
+        "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/Program.kt",
+        "fileType": "Kotlin",
+        "canHaveStub": true,
+        "stubDefinition": "com.intellij.psi.stubs.LanguageStubDefinitionAdapter"
+      },
+      {
+        "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/Routes.kt",
+        "fileType": "Kotlin",
+        "canHaveStub": true,
+        "stubDefinition": "com.intellij.psi.stubs.LanguageStubDefinitionAdapter"
+      }
+    ],
+    "fileIndexClass": "com.jetbrains.rider.projectView.ideaInterop.RiderProjectFileIndexImpl",
+    "fileModule": "rider.module",
+    "isInSource": false,
+    "modules": [
+      {
+        "name": "rider.module",
+        "sources": []
+      },
+      {
+        "name": "dotktr-kotlin",
+        "sources": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb"
+        ]
+      }
+    ],
+    "sourcePsi": "org.jetbrains.kotlin.psi.KtFile",
+    "analysisModule": "org.jetbrains.kotlin.idea.base.fir.projectStructure.modules.source.KaSourceModuleImpl",
+    "platform": "JS/JVM (1.8)/Native (general)/wasm-js (JS)/wasm-wasi (WASI)",
+    "dependencyCount": 308,
+    "stringSymbol": {
+      "origin": "LIBRARY",
+      "file": "/private/tmp/dotktr-dotkt-400ab504/build/clr-stdlib-frontend-klib/kotlin-stdlib-clr-frontend.klib!/default/linkdata/package_kotlin/13_kotlin.knm",
+      "superTypes": [
+        "kotlin/Comparable\u003ckotlin/String\u003e",
+        "kotlin/CharSequence"
+      ]
+    },
+    "calls": [
+      {
+        "text": "CreateBuilder(args)",
+        "offset": 250,
+        "symbol": "Microsoft/AspNetCore/Builder/WebApplication.CreateBuilder",
+        "resolved": true,
+        "expressionType": "Microsoft/AspNetCore/Builder/WebApplicationBuilder",
+        "parameters": [
+          "kotlin/Array\u003ckotlin/String\u003e"
+        ],
+        "returnType": "Microsoft/AspNetCore/Builder/WebApplicationBuilder",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.klib!/default/linkdata/package_Microsoft.AspNetCore.Builder/0_Builder.knm"
+      },
+      {
+        "text": "AddControllers()",
+        "offset": 291,
+        "symbol": "Microsoft/Extensions/DependencyInjection/AddControllers",
+        "resolved": true,
+        "expressionType": "Microsoft/Extensions/DependencyInjection/IMvcBuilder",
+        "parameters": [],
+        "returnType": "Microsoft/Extensions/DependencyInjection/IMvcBuilder",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.klib!/default/linkdata/package_Microsoft.Extensions.DependencyInjection/0_DependencyInjection.knm"
+      },
+      {
+        "text": "Build()",
+        "offset": 330,
+        "symbol": "Microsoft/AspNetCore/Builder/WebApplicationBuilder.Build",
+        "resolved": true,
+        "expressionType": "Microsoft/AspNetCore/Builder/WebApplication",
+        "parameters": [],
+        "returnType": "Microsoft/AspNetCore/Builder/WebApplication",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.klib!/default/linkdata/package_Microsoft.AspNetCore.Builder/0_Builder.knm"
+      },
+      {
+        "text": "mapDotKtEndpoints()",
+        "offset": 347,
+        "symbol": "dotkt/web/mapDotKtEndpoints",
+        "resolved": true,
+        "expressionType": "kotlin/Unit",
+        "parameters": [],
+        "returnType": "kotlin/Unit",
+        "origin": "SOURCE",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/Routes.kt"
+      },
+      {
+        "text": "MapControllers()",
+        "offset": 375,
+        "symbol": "Microsoft/AspNetCore/Builder/MapControllers",
+        "resolved": true,
+        "expressionType": "Microsoft/AspNetCore/Builder/ControllerActionEndpointConventionBuilder",
+        "parameters": [],
+        "returnType": "Microsoft/AspNetCore/Builder/ControllerActionEndpointConventionBuilder",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Core.klib!/default/linkdata/package_Microsoft.AspNetCore.Builder/0_Builder.knm"
+      },
+      {
+        "text": "Run(\"http://127.0.0.1:5088\")",
+        "offset": 400,
+        "symbol": "Microsoft/AspNetCore/Builder/WebApplication.Run",
+        "resolved": true,
+        "expressionType": "kotlin/Unit",
+        "parameters": [
+          "kotlin/String?"
+        ],
+        "returnType": "kotlin/Unit",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.klib!/default/linkdata/package_Microsoft.AspNetCore.Builder/0_Builder.knm"
+      }
+    ],
+    "diagnostics": [],
+    "semanticSuccess": true,
+    "additionalFiles": [
+      {
+        "source": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/HelloController.kt",
+        "calls": [
+          {
+            "text": "Ok(GreetingResponse(\"Hello from a Kotlin Controller!\", \"Kotlin\"))",
+            "symbol": "Microsoft/AspNetCore/Mvc/ControllerBase.Ok",
+            "expressionType": "Microsoft/AspNetCore/Mvc/OkObjectResult"
+          },
+          {
+            "text": "GreetingResponse(\"Hello from a Kotlin Controller!\", \"Kotlin\")",
+            "expressionType": "dotkt/web/controllers/GreetingResponse"
+          },
+          {
+            "text": "Ok(GreetingResponse(\"Hello, $name!\", \"Kotlin\"))",
+            "symbol": "Microsoft/AspNetCore/Mvc/ControllerBase.Ok",
+            "expressionType": "Microsoft/AspNetCore/Mvc/OkObjectResult"
+          },
+          {
+            "text": "GreetingResponse(\"Hello, $name!\", \"Kotlin\")",
+            "expressionType": "dotkt/web/controllers/GreetingResponse"
+          }
+        ],
+        "diagnostics": []
+      },
+      {
+        "source": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/Routes.kt",
+        "calls": [
+          {
+            "text": "MapGet(\"/\", RequestDelegate { context -\u003e\n        context.Response.ContentType \u003d \"text/plain; charset\u003dutf-8\"\n        context.Response.WriteAsync(\"Hello from Kotlin on ASP.NET Core!\")\n    })",
+            "symbol": "Microsoft/AspNetCore/Builder/MapGet",
+            "expressionType": "Microsoft/AspNetCore/Builder/IEndpointConventionBuilder"
+          },
+          {
+            "text": "RequestDelegate { context -\u003e\n        context.Response.ContentType \u003d \"text/plain; charset\u003dutf-8\"\n        context.Response.WriteAsync(\"Hello from Kotlin on ASP.NET Core!\")\n    }",
+            "symbol": "Microsoft/AspNetCore/Http/RequestDelegate",
+            "expressionType": "Microsoft/AspNetCore/Http/RequestDelegate"
+          },
+          {
+            "text": "WriteAsync(\"Hello from Kotlin on ASP.NET Core!\")",
+            "symbol": "Microsoft/AspNetCore/Http/WriteAsync",
+            "expressionType": "System/Threading/Tasks/Task"
+          },
+          {
+            "text": "MapGet(\"/health\", RequestDelegate { context -\u003e\n        context.Response.StatusCode \u003d 200\n        context.Response.ContentType \u003d \"application/json\"\n        context.Response.WriteAsync(\"\"\"{\"status\":\"ok\",\"language\":\"Kotlin\",\"platform\":\"ASP.NET Core\"}\"\"\")\n    })",
+            "symbol": "Microsoft/AspNetCore/Builder/MapGet",
+            "expressionType": "Microsoft/AspNetCore/Builder/IEndpointConventionBuilder"
+          },
+          {
+            "text": "RequestDelegate { context -\u003e\n        context.Response.StatusCode \u003d 200\n        context.Response.ContentType \u003d \"application/json\"\n        context.Response.WriteAsync(\"\"\"{\"status\":\"ok\",\"language\":\"Kotlin\",\"platform\":\"ASP.NET Core\"}\"\"\")\n    }",
+            "symbol": "Microsoft/AspNetCore/Http/RequestDelegate",
+            "expressionType": "Microsoft/AspNetCore/Http/RequestDelegate"
+          },
+          {
+            "text": "WriteAsync(\"\"\"{\"status\":\"ok\",\"language\":\"Kotlin\",\"platform\":\"ASP.NET Core\"}\"\"\")",
+            "symbol": "Microsoft/AspNetCore/Http/WriteAsync",
+            "expressionType": "System/Threading/Tasks/Task"
+          }
+        ],
+        "diagnostics": []
+      }
+    ]
+  },
+  "editorClass": "com.intellij.openapi.editor.impl.EditorImpl",
+  "editorFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/Program.kt",
+  "syntaxTokenTypes": [
+    "CLOSING_QUOTE",
+    "COLON",
+    "DOT",
+    "EQ",
+    "GT",
+    "IDENTIFIER",
+    "LBRACE",
+    "LPAR",
+    "LT",
+    "OPEN_QUOTE",
+    "RBRACE",
+    "REGULAR_STRING_PART",
+    "RPAR",
+    "WHITE_SPACE",
+    "fun",
+    "package",
+    "val"
+  ],
+  "editors": [
+    {
+      "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/HelloController.kt",
+      "analysisFinished": true,
+      "errors": [],
+      "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/ui-HelloController.kt.png"
+    },
+    {
+      "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/Program.kt",
+      "analysisFinished": true,
+      "errors": [],
+      "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/ui-Program.kt.png"
+    },
+    {
+      "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/Routes.kt",
+      "analysisFinished": true,
+      "errors": [],
+      "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/ui-Routes.kt.png"
+    }
+  ],
+  "visibleCompletion": [
+    {
+      "name": "Services",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "Build",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "Run",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "Logger",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "Urls",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "Configuration",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "Environment",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "Lifetime",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "RunAsync",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "ApplicationServices",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "DataSources",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "Properties",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "ServerFeatures",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "ServiceProvider",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "CreateApplicationBuilder",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "Dispose",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "DisposeAsync",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "New",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "StartAsync",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "StopAsync",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "Use",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "Use",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "equals",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "hashCode",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "toString",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "mapDotKtEndpoints",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "MapControllers",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    }
+  ],
+  "completionSuccess": true,
+  "completionPopupShown": true,
+  "startupSuccess": true,
+  "success": true,
+  "mainRun": {
+    "phase": "complete",
+    "runnableProjects": [
+      {
+        "project": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/KotlinWeb.ktproj",
+        "kind": "RunnableProjectKind(name\u003dDotNetCore)",
+        "outputs": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/bin/Debug/net10.0/KotlinWeb"
+        ]
+      },
+      {
+        "project": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/KotlinWeb.ktproj",
+        "kind": "RunnableProjectKind(name\u003dStaticMethod)",
+        "outputs": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/bin/Debug/net10.0/KotlinWeb.dll"
+        ]
+      }
+    ],
+    "activeProducers": [
+      "org.jetbrains.kotlin.idea.run.KotlinRunConfigurationProducer",
+      "com.jetbrains.rider.run.configurations.project.DotNetProjectConfigurationProducer",
+      "dotktr.probe.DotKtRunConfigurationProducer"
+    ],
+    "marker": true,
+    "jvmMarkerHidden": true,
+    "directProduced": "KotlinWeb (DotKt)",
+    "contextConfigurations": [
+      {
+        "name": "KotlinWeb",
+        "type": "DotNetProject",
+        "implementation": "com.jetbrains.rider.run.configurations.project.DotNetProjectConfiguration"
+      }
+    ],
+    "beforeRunTasks": [
+      {
+        "provider": "Build",
+        "enabled": true
+      }
+    ],
+    "configuration": {
+      "project": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/KotlinWeb.ktproj",
+      "tfm": "",
+      "exe": "",
+      "workingDirectory": "",
+      "tracksProjectOutput": true,
+      "expectedOutput": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/bin/Debug/net10.0/KotlinWeb"
+    },
+    "visibleMarkers": [
+      {
+        "start": 189,
+        "tooltip": "\u003chtml\u003eRun DotKt .NET project\u0026nbsp;\u0026nbsp;\u003cfont color\u003d\u0027#9fa2a8\u0027\u003e⌃⇧R\u003c/font\u003e\u003c/html\u003e"
+      }
+    ],
+    "runActionClass": "com.intellij.execution.actions.RunContextAction",
+    "action": "RunClass",
+    "executionEvents": [
+      "scheduled",
+      "starting",
+      "started"
+    ],
+    "http": [
+      {
+        "route": "/",
+        "status": 200,
+        "body": "Hello from Kotlin on ASP.NET Core!"
+      },
+      {
+        "route": "/health",
+        "status": 200,
+        "body": "{\"status\":\"ok\",\"language\":\"Kotlin\",\"platform\":\"ASP.NET Core\"}"
+      },
+      {
+        "route": "/api/hello/Ada",
+        "status": 200,
+        "body": "{\"message\":\"Hello, Ada!\",\"language\":\"Kotlin\"}"
+      }
+    ],
+    "processHandler": "com.jetbrains.rider.run.TerminalProcessHandler",
+    "outputExists": true,
+    "console": "\u001b[?1h\u001b\u003dinfo: Microsoft.Hosting.Lifetime[14]\r\n      Now listening on: http://127.0.0.1:50499\r\ninfo: Microsoft.Hosting.Lifetime[0]\r\n      Application started. Press Ctrl+C to shut down.\r\ninfo: Microsoft.Hosting.Lifetime[0]\r\n      Hosting environment: Production\r\ninfo: Microsoft.Hosting.Lifetime[0]\r\n      Content root path: /Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[1]\r\n      Request starting HTTP/1.1 GET http://127.0.0.1:50499/ - - -\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]\r\n      Executing endpoint \u0027HTTP: GET /\u0027\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]\r\n      Executed endpoint \u0027HTTP: GET /\u0027\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[2]\r\n      Request finished HTTP/1.1 GET http://127.0.0.1:50499/ - 200 - text/plain;+charset\u003dutf-8 15.4743ms\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[1]\r\n      Request starting HTTP/1.1 GET http://127.0.0.1:50499/health - - -\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]\r\n      Executing endpoint \u0027HTTP: GET /health\u0027\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]\r\n      Executed endpoint \u0027HTTP: GET /health\u0027\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[2]\r\n      Request finished HTTP/1.1 GET http://127.0.0.1:50499/health - 200 - application/json 1.1588ms\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[1]\r\n      Request starting HTTP/1.1 GET http://127.0.0.1:50499/api/hello/Ada - - -\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]\r\n      Executing endpoint \u0027dotkt.web.controllers.HelloController.greet (KotlinWeb)\u0027\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]\r\n      Route matched with {action \u003d \"greet\", controller \u003d \"Hello\"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult greet(System.String) on controller dotkt.web.controllers.HelloController (KotlinWeb).\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[101]\r\n      Executing action method dotkt.web.controllers.HelloController.greet (KotlinWeb) - Validation state: Valid\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[103]\r\n      Executed action method dotkt.web.controllers.HelloController.greet (KotlinWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2917ms.\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]\r\n      Executing OkObjectResult, writing value of type \u0027dotkt.web.controllers.GreetingResponse\u0027.\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]\r\n      Executed action dotkt.web.controllers.HelloController.greet (KotlinWeb) in 31.6342ms\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]\r\n      Executed endpoint \u0027dotkt.web.controllers.HelloController.greet (KotlinWeb)\u0027\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[2]\r\n      Request finished HTTP/1.1 GET http://127.0.0.1:50499/api/hello/Ada - 200 - application/json;+charset\u003dutf-8 50.9752ms\r\n",
+    "stopped": true,
+    "success": true
+  },
+  "focusedFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz/fixture/KotlinWeb/HelloController.kt"
+}

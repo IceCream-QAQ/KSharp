@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ProjectTypeGuids>{9A19103F-16F7-4668-BE54-9A1E7A4F7556}</ProjectTypeGuids>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <LanguageTargets>$(MSBuildToolsPath)/Microsoft.CSharp.targets</LanguageTargets>
+    <KotlinClrRoot Condition="'$(KotlinClrRoot)' == ''">$(DotKtSourceRoot)</KotlinClrRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Api/Api.csproj" />
+  </ItemGroup>
+  <Import Project="$(KotlinClrRoot)/eng/KotlinClr.targets" Condition="'$(KotlinClrRoot)' != ''" />
+</Project>

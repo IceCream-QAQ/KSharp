@@ -1,0 +1,7 @@
+{
+  "spikes/native-psi/fixtures/aspnet/KotlinWeb/HelloController.kt": "2f4cd2a62eb6822ac8ee2344c07eb2c5423d65fc73d8148d14b5ce3b9e6e398e",
+  "spikes/native-psi/fixtures/aspnet/KotlinWeb/Program.kt": "0d84b30fe7bc7a13fe2fab9be09adb2dc87d87ce4ba5ea31380e33f670df93fd",
+  "spikes/native-psi/prepare_aspnet.py": "95e9b6e5eed8e12a5e33322b92d776b71be6234fed998f4fe7606202fe879742",
+  "spikes/native-psi/run_probe.py": "09402b945ff81a7668593717242ede9a6ad412dff5a0a8c3a1b5c1f8eeead419",
+  "spikes/native-psi/src/GuiDemoActivity.kt": "e3953e3f6f19a2986292583d485450e5b1eea195c91499b0fb830b62b63519a5"
+}

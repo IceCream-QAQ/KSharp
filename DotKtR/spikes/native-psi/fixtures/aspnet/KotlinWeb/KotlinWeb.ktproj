@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <Import Project="../DotKt.Local.props" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ProjectTypeGuids>{9A19103F-16F7-4668-BE54-9A1E7A4F7556}</ProjectTypeGuids>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LanguageTargets>$(MSBuildToolsPath)/Microsoft.CSharp.targets</LanguageTargets>
+  </PropertyGroup>
+  <Import Project="$(KotlinClrRoot)/eng/KotlinClr.targets" />
+</Project>

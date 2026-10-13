@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>$(NoWarn);MSB3277</NoWarn>
+    <AssemblyName>DotKtR.Backend</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(RiderHost)/JetBrains.Platform.Core.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Lifetimes.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.Metadata.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.ComponentModel.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.Util.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.Util.Text.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.Shell.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.ProjectModel.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.DocumentModel.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.Text.Protocol.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.Platform.RdProtocol.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.RdFramework.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.RdBackend.Common.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.ReSharper.Psi.dll" Private="false" />
+    <Reference Include="$(RiderHost)/JetBrains.ReSharper.Feature.Services.dll" Private="false" />
+  </ItemGroup>
+</Project>

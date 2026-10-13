@@ -1,0 +1,2231 @@
+{
+  "expectedDotktCommit": "400ab50472c0839a9b7de6a94a18db4bc9ad4bb5",
+  "dotktSource": "/private/tmp/dotktr-dotkt-400ab504",
+  "projectFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/KotlinWeb.ktproj",
+  "targetFramework": "net10.0",
+  "runtimeIdentifier": "",
+  "kotlinVersion": "2.4.10",
+  "sourceRoot": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb",
+  "sourceFiles": [
+    "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/HelloController.kt",
+    "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/Program.kt",
+    "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/Routes.kt"
+  ],
+  "stdlib": "/private/tmp/dotktr-dotkt-400ab504/build/clr-stdlib-frontend-klib/kotlin-stdlib-clr-frontend.klib",
+  "expectedCallCount": 6,
+  "demo": {
+    "name": "DotKt-AspNetCore",
+    "completionAnchor": "app.Run(",
+    "completionPrefix": "app.",
+    "completionNames": [
+      "Run",
+      "StartAsync",
+      "Urls"
+    ],
+    "focusFile": "HelloController.kt",
+    "notification": "HelloController.kt \u5305\u542b Kotlin Controller\uff1bProgram.kt \u5df2\u6ce8\u518c MVC\uff0cRoutes.kt \u4fdd\u7559 Minimal API \u7aef\u70b9\u3002"
+  },
+  "references": [
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Antiforgery.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Antiforgery.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "363423c5d11bab56ea445334d8b19a98484283d2a5c10ff9cdc03139448ad9e9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Authentication.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "50a1ca8808b1520699f4747c1b7a306b545e8652756502b8a984668ee58e45e7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Authentication.BearerToken.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.BearerToken.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1a6eb48770144737a2c07c433085ef210dc219043c7ae883869d729bcadaa3e2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Authentication.Cookies.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.Cookies.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "9391305ec04dbe76c2407772e1f6af154e21b2e13bf914e5c03ff7e46d3df181"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Authentication.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.Core.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "db69c8f282aa9ed262f3d2d5dd65af513b9a824b276e993cfaca9f2cb150e1b8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Authentication.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "bbbcab96c0a4309d8cffa74f487cd8e30ed9afabbd98d36d1e9a27644510b3f9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Authentication.OAuth.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.OAuth.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8ba856a252fdfca31c6f595046ed7dce58f01c24463c5bf81110e8994544c2dc"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Authorization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authorization.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "03ccbc011842bd307a6f89a78ff86b5a5dc94f40eb585256de0958a9ca770076"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Authorization.Policy.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authorization.Policy.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "ee2c7cc276361d74fb80435b622f7e50c9543e041d0ac5b74235c503047f0baf"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Components.Authorization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Authorization.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "40e4e3f2cced350e49156b2196bba0800ee7ff4bbde16c103a05947e1bda1dc1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Components.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "9d4e6481dbefefb01e852d09bde3880a8499e065f2a85627da09b2faed98191a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Components.Endpoints.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Endpoints.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "4034a00d258172060548f3aece1ca1c8ed9fae35c35f257cceeb9d1d6fa408b8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Components.Forms.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Forms.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f87bc4e83516354300c68e7a0f1be76e46161ed507ece450fef59e1db47d9cea"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Components.Server.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Server.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "96de807a480a80480711ae0dfa99662ff06f789abd2e27961791a6a7d97be178"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Components.Web.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Web.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b625259344857eb0545c144ff2398b4f4e650466eda13140795f718988bdd50a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Connections.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "16bc79d6ae8dedf1ec80f1db750c39eac988d6301f1c6b6fd20a42369cb628f6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.CookiePolicy.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.CookiePolicy.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "89d4bf3538cbc4a3cab0536e72790fb30230dd8ee2f31157a7f764e0ddb7264b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Cors.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Cors.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "bd9e4f147a9c6512044d672143a24030262a56a24a5c9834e806551397048a11"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Cryptography.Internal.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "012ff0a57c99b55ebc59043f703367ec7d30a2e0c80c5dc9918323e6cbf5b566"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Cryptography.KeyDerivation.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "fd420171b2312a92cd0e4d0c874d4c5ac3df97fd5e21e6ee879262e7dc50d8dd"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.DataProtection.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "fe964ce08115b89b2524e89f617746ff17103bb5d6f57d50b37bcc21912b17ff"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.DataProtection.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.DataProtection.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5f41aa558bbac6d60308d1d1bfeb75807ae8d7c814388552dffe078a9a162649"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.DataProtection.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.DataProtection.Extensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1e50b3ecc8d16ee9c0e07e6db285573708eff2cc9769d3e739cabc7d2ed0253e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Diagnostics.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f6b0382d0c91ddc20441b7b4ececd3654d4d5cd990ad81f306608fc88220a78e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Diagnostics.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Diagnostics.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "779e823c54a64eac61f8ea2ec7c1daadc8e441f5b3fad2215558d0f8281f7b23"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Diagnostics.HealthChecks.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "01c7483a71c1b367464adbf9898cf3cfb48279a45a120a067b0e02fb877df77f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "92ed18a4133fe3b6609dcdba5ee2e67331fb83a72bf3ac5680a21b02af900425"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.HostFiltering.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.HostFiltering.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7ff3377d16739f5a87c45373a2d57a04cdb3257443da5e9c9f79581804eedb7e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Hosting.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d8ab7fb0131ef37f8fee0b83c1612aac6197baafa1f9ccc7a2c1d31c8f476ece"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Hosting.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Hosting.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "74dd3c162d89d5476d64fbb8eb887af1c71c51eabba92aab9eecffa93937ec2d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Hosting.Server.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "20f4512152831529935e03687e16278f260a3b6fab02768354ccd8726bae5a04"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Html.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Html.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "dad968d0829b5095e7a78cdc5bc56d61493cffe56c668969ae79e309e4d82263"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "081c8d78c4b3b79323d21fdab69710e06748ab40296381f6e98c240b7e720e14"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Connections.Common.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "854bc2fd7d45444ff7070e2777ed4ff9fb396578207d50772ebe98c7b9e036c1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.Connections.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Connections.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8017761211e59abdecd031287d3ebaf2eb57ac3c07caa5e3a87fc8b038ceae9d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "ff2bd277927e6854ca0fc0c151e3a7fe98be1b4880557c7bb8c531159f1fbb4c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Extensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "128c5a33f3f88accd12096154340833b9a5f38ff20c96e1d33c942195cb85ca4"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.Features.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Features.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "18fa7d6172093a77e756d7714327a48276d574125d8a28969d34ef372a72da02"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.Results.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Results.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "643bcbf6d4f77f23eff06a301993e8eeb2bea83fdc2e0c442ee15badc8200be0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.HttpLogging.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.HttpLogging.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "bf2b776629f6e2d4a7156edcbfd7259b105ec1b6f542accf088c44ef47e00a86"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.HttpOverrides.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.HttpOverrides.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b518eb5e99da2e3252bc3fab9d83d625148056c0b5312f31a2713b8549df059e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.HttpsPolicy.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.HttpsPolicy.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d95bb804004524fdca0aa2a61764a027a7f32b1e07ded5ec45a32a05d91c8e3b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Identity.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Identity.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7262b5b7c54fbbc9c1c2c43474a7fd8bf92055821004e6610585b6118a6617a6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Localization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Localization.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a97fffb7128eb3e2c2bbb1395641f5b75b862abfea259ccacc90f95fe38fe0e7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Localization.Routing.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Localization.Routing.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "67d20e38e516d3ff75d65fb92983b129a7153e50f7ce1801f5f3335db2033e46"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Metadata.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Metadata.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "ff921a18768b318a71797676306fa2dbdafeec5c0dff29efa6d63d50c72db60b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7f9310df294d58e87f383828667e8d9aaa0efe46bb32cb8e363b2b9f6977cb65"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.ApiExplorer.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8e889489d4df464a4f71c3b5b15e8a2dd13096abc894c8dfcc7bd4c39dd431c9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Core.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "18ffab04b86174fcd7f3617285acd1a7fa14f8bb9ede75b2a3b25f749db78d71"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Cors.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Cors.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "fccf4c8d145bd31da968b2d9dff92003ff7774134cfa3f9fa7dc0728bed83ca7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.DataAnnotations.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.DataAnnotations.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "71c8109ebf4cb19174001ac59c1e410c5baf152736febe97e090b7c6fa991080"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e45ea685c1220b3d9ac314e5fa75d9342f19a0467cf570fff61bc5ce3421626e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Formatters.Json.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b48a9abd45451327bb277d13e62c1f578835ff58d3d3e1f8c4af8803b6dbf635"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Formatters.Xml.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7c4e8a3f65c843272231ecb3fe71aa3cee077911dd9b9c1bdf8e820d5c2d8dff"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Localization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Localization.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a63315c06bcfe2863fb5b68f2ebfc3e2ef6147a8c02ac3e287307e2bb6114908"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Razor.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Razor.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c235caefa5c33e2389f371fc36a1f589444c77db3142b0987baa791ad67052b3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.RazorPages.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.RazorPages.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7d3d0d1ff2860904e44d6bb4822fecdcae1573a39eb706319b773217a711b3aa"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.TagHelpers.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.TagHelpers.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "cd61e24748f19f97ef433a28894a72c90e372497a41e6a329fe9ecd8681dbf0d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.ViewFeatures.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.ViewFeatures.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "ff843c99b4479e06ebb0462dd3bd9e11494025ceea28bfa577146db539f8863b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.OutputCaching.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.OutputCaching.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "82041495f85c7e6b4e708244aa2a61bebf29681878051a84f79a27f2c7ddc879"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.RateLimiting.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.RateLimiting.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d2942e12331a0c853b5003339e703630c111848df634a62076d533fce3ab7419"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Razor.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Razor.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1d3337bb4ec2e0856fc19ee13d8e826cae431f415dac921743ca12c99e5790a0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Razor.Runtime.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Razor.Runtime.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "aaa33d91577fda53a021a2bb26c1130bc63ebfeae94757f96f936bbe9ef19534"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.RequestDecompression.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.RequestDecompression.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "efb2a090585f2feaf71220ab06e4203875c8fb88350b0ae84036fc64e3142135"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.ResponseCaching.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "bf0a8f8c728d4ef365c03091d53fbbf7a9c005eed2dda9a74ba11e3625847197"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.ResponseCaching.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.ResponseCaching.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0aa7bd519660f9acba76f1c61ba6d6e5356f64ce95e0d3845262e0dfe4d03686"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.ResponseCompression.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.ResponseCompression.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a29f055124a4deaaf296934211a90f76f68f0469f110bfded883c11c266b7c98"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Rewrite.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Rewrite.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "08b3894e90ec5c0cfc0f99977ea13a3f37ac5366e24ff66dee801ef6b3de2165"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Routing.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Routing.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1874b09d43315f9a2cd9a2cd0bec7d64c6f8d3b833de7e6025d3c0fdbaefc042"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Routing.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Routing.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "92face580e96f7ee3a2be789587dde37f8ccda5f2826bdd1d6429a52bdff90e8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Server.HttpSys.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.HttpSys.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e99876c6abc080ec1e773dec036c24f3a60296953fb26f96f631c0e58ecd6b5a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Server.IIS.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.IIS.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "df7a93d22dd8a4cbd2db167e360d8ab4cfa73380c82436467b52fb697d59614e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Server.IISIntegration.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.IISIntegration.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "9680b1192fa0cbeb46f52e41fb289f2e9a597af22710a058cccef38aa1c65f6e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.Core.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e65560b3f7ad99394d976b977e2bfbfe53e48aab5c29e817ae8b8812d5f6ecd1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Server.Kestrel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "9fbf778d36e37f5fbadf92c9c5f9e980a92361d67ddd604d962ff617b86a37ad"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8f161079ef4b72ca86fed63cf7fd529c49c7fe9112d56d03c2b56381e7255735"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "305c826df89c6a632b22cba163f5155c79449e8a746984c56a75af970b31c985"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "024ba6a2d0b95dc3cb736fa5d3d9ec119e55ebb018d52c19a09bd554d2dbc975"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Session.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Session.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "cd52dc4049b13b82edbdb14de9f48e14a7cebddcdf1ba3196991d42f8a440d78"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.SignalR.Common.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.SignalR.Common.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "3327736849ec0c4bba7ffd9024db57846c5fb87ec4023528fb2f5c3206aa5c90"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.SignalR.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.SignalR.Core.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "30d463280af30fb4345c060259196413f03003238156c2ba78999384f2514aac"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.SignalR.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.SignalR.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "73a6ae6c9e5306709bfb4aa99f6574d67e4ef932c6bd2dccade5e8dc3135d39a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.SignalR.Protocols.Json.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5c8dece2df6b96932e0a001df5ff8f3903e2c36101d3fd2873c45afbf5ef0ed6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.StaticAssets.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.StaticAssets.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "954bbe3f8ab3de45eede384318d754ea61d1d4efbc121b1e4978f4852fa4535e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.StaticFiles.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.StaticFiles.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0b1d1701465f90ae5d5baddf64b9577fc514fd08ebdd2aa99c9bea7495c0ee2b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.WebSockets.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.WebSockets.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "ac631012fa82abf23d8a1e7b884ff4e621b456b3291cbbaf105aec7fffea5114"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.WebUtilities.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.WebUtilities.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "32b8488ee2755b3931fbc056005edd0f07a24fa5df111c585721f807985cada7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.CSharp.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.CSharp.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "59937d9388d0df0b24278b1dc1927aea864d8751624decae8db90cc2dce26cc6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Caching.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Caching.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e258a390a564a5f829f7fdf7c54a015d313086bd132f090a45b07d16947cf312"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Caching.Memory.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Caching.Memory.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "2feb1cd99a86d2ec9068545721f8beff3319e90e3d80db92a63e686b26bf4c4e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a44bcb235d4a8fedb0813672935e52800331c6769d97a641266643d406e47f85"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.Binder.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Binder.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "37e8f61a9195f0d0cb632be6346f2533c7218beb681efeefaa32c7bd273bf3ea"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.CommandLine.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "161190689cff49779c96dcd85970210ddce8b81985fe2e07b31191c075fe78ab"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "238a33e619f154dd0ae6f43cad81a5200adbbd2dcd6bda775be0c1c393389a7a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.EnvironmentVariables.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "46da567219e104b1678bdf7dac10e2dbd3ae5f4024482da87728c9fd8831c9c3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.FileExtensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e5d8419c29e675ae4041c3553416b6849fb1cdd390124a67c7ccc3977bb79333"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.Ini.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Ini.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "099307e8178e5f653964f2f4ce9a9962da748d4ea3fcee585253e8093d740868"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Json.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "4f5de8ab9039a7c927d30cd9db4a3ff758ce9770883de0582d52d731196c009e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.KeyPerFile.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.KeyPerFile.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f83976103bb2e26f53649f42a415ee1a02309365a84556eac27d26561920e233"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.UserSecrets.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "77878c36d760456088214cc95704a1b79a5d7c3ccbf811397f03cee4e9369837"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Configuration.Xml.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Xml.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "bdac12bab8583f065402deef8453e901e3c510ee6b8ca6232865a99a3f5aa18e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.DependencyInjection.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "852cda5d7f3843ba03d65da2774e5953507c2325a714dd9846a6f2d3ee4fba91"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.DependencyInjection.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.DependencyInjection.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d92a2d521637398d64d09108eb11905fdd95143ced7aa4b10fd53af382167de9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Diagnostics.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d0a235367d8c071755170023dddb43ce1b5cdc2e9f1d62560ba17aad99b66975"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Diagnostics.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Diagnostics.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "98d5e18a445fe68fc1ea3fd7c427aea66d83d5a7832c7c60914203cfa65bcb9f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "4350c19acce4bfe0917084d0f97ad7c0b9d2a0f26eb50776644721b8f8552425"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Diagnostics.HealthChecks.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b1ae9b91a6949d0ddb6e55f2ee95ce04d20769c3869140ac1634a572b5d5334c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Features.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Features.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "92bfc71dfb4803bf0aacfeafa8a94b54cc64dcfd730e65815cb5790ae6aada4e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileProviders.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "631a806c8ab489559472276e503d5a67186fcddba73bfc70ab724572a275c684"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.FileProviders.Composite.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileProviders.Composite.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5635e8b2c3b1b8684b617675160ea3aaeb7d3e1042ed7a097f93a53d6ed0240b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileProviders.Embedded.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "82bbe4838e2faeb95c05ad198d2b788f6ae85a0f79eb1d0abf4e9c12410535bc"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.FileProviders.Physical.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileProviders.Physical.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "195cf8eb042fbfd23d0bcf9e924fc190b4c3a165f6181bb87e34c4e038b528f3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileSystemGlobbing.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0bb442ebf811a103d6479df85b670798cbc0cf0d879edc8e8a465da5f8cc6c87"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Hosting.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1ab52aa633553181ed4b64f50dbfc33e35eb7e6fdc3ae7456ef3bb7ea4103696"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Hosting.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Hosting.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "017e682d784a7fb3aa5b3a88741309de06a9d53c7140aeae490ea24521701b43"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Http.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Http.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "eb50a0a3193b7df631f6251bc484d925ad1bc9f5f1f71785e447e0dfe4df01d8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Identity.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Identity.Core.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "20ebcb7c4111e877a66ab05988794f7e19df2f9c5ff7bace57164bcc2c0a3741"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Identity.Stores.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Identity.Stores.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7eaf98528b3ca8847fa65adb0e9a859fe409600e8abe4c82814e675940754474"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Localization.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Localization.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "184b3e362f8e25cbd1ba9bcaaea351b57d2447a8bb569e7ac5f8d1b87adf0091"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Localization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Localization.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5da49f2fe8dec320cc934f4a8791ec7400924ddb93a3678aac40cff6134667e7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Logging.Abstractions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.Abstractions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "905662c02091578f1d7ca4cf74b8758c3c1631a7ec3584d1a679974f24394f2b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Logging.Configuration.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.Configuration.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c601f21486cbb9c821269a442410ac7cb0b7ad2edabf50de5dcd1b8d01eb58d3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Logging.Console.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.Console.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "4a86c1f7a96902e0894ae3df4a9d17cb97770248138b91f5a0562899b83e734e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Logging.Debug.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.Debug.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "37cc047cdb822b31599989901cc721582b929817ce04529bcfebbbf068a14bb9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Logging.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "db873499cb6f855e3d634e467b3e3284b5461e97c9f3b89527b04c2cda31da0e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Logging.EventLog.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.EventLog.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d76be7d13d752cd44e9b7d32b20c9a1c70dcc534785f7ca523eb1e0d98cb9473"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Logging.EventSource.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.EventSource.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "54a202c42cdf9ae3747b58aca541eee40ac5da1a270eb25fdefb031be6968a88"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Logging.TraceSource.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.TraceSource.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5ffbb5b505feee5cd1579c839430602618aafcf97fe0739b01f60c52b57242dd"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.ObjectPool.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.ObjectPool.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8f033d401a04ec29624da44f9864ac87f3bddf43f17015d8f5de9bc17cca1e2e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Options.ConfigurationExtensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8445e374717118bc40e997bde3d8fff52e1d70c8d7c2846865712f57a02ed260"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Options.DataAnnotations.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Options.DataAnnotations.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "339742cc37b45593efc84e856566ce115e732f0d8a7c78f1ac458c11ee7ebb34"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Options.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Options.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "180f031a16a41153d171640a575b0a8ddd84a207ca0a0fecbc3e256d6f1c0104"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b3709f61f6c07f1718c1872bf700146b11ae4313923a2d108e9bc0eaf5efbf3a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.Validation.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Validation.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c861444cc12e26dfeec272a211371197016446f3db90e315bc20948dca5e2ba0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Extensions.WebEncoders.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.WebEncoders.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e18f0161f2e30fe05d9c7138728f9d0ea9c99c420c2a118e6dbb29211d9934be"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.JSInterop.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.JSInterop.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7e445c5e03fdf387760234010dbc402c1ac75825c84917337f94074776eb3ba6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Net.Http.Headers.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Net.Http.Headers.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "4ed85dd1347d0047f60b6242c757f6e3a9685a0a3608d322a9551f45b9e427cd"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.VisualBasic.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.VisualBasic.Core.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f500077ece7d0dffc8e9c1fcc7e0a011f2771647028e706ce8e98fcd37d0568d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.VisualBasic.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.VisualBasic.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d718a5e645d1d78a77f86cc275ee7c6b8ec8705e0a190f060b195b14afa77198"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Win32.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Win32.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "6fb2f245e0f4baaabad9106916cf07be13a88c1f36a12037326289d2bf67d27b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Win32.Registry.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Win32.Registry.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "3f740d0438f77979f035df24a424478d0d0ae105b60f646cf8bc836ab49d0607"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/mscorlib.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/mscorlib.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "06f4eb1d12f2d39832b0d1782fe621b8b2177516160f3c9c5e1c17b8939b5a3e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/netstandard.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/netstandard.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "050283c39b839117c67019c3d9451f442e8cefa560ba17095bda5a99cd8282c0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.AppContext.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.AppContext.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0e6a583b6531f26c2a30756e9376ab20f4c5386284c68afaaf8cfce3237e66df"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Buffers.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Buffers.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f32ff454980553d65367ef6e60f1bbff59b324a0d15ebd580265ce4bcd40fc48"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.Concurrent.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.Concurrent.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d21b68abaf7f4b780efd01c207a88eefbb941c1996fc74281f5fc1ce654e8236"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d2faeff8f5546b3e0536419fb6bc89448c5f977e7d58190b0d0fe85e682ee7fb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.Immutable.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.Immutable.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d1fc10b142b2f9a200517f6690457918b320bfb6044d61e09a43e7207135ffc8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.NonGeneric.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.NonGeneric.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0e24f35d1c87a81dd0dfbe9de15089ff27ff837983895d360034ac8f11bf9d2b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.Specialized.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.Specialized.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5ca2111ebc5524fa80d00555e148f9212f0a73781d87e42e1535ef979cc64fca"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.Annotations.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.Annotations.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "3eb362e9bd2f536c419a87b5a8e8eb8a889fd557c1f660a618b76cd8fe177ec8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.DataAnnotations.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.DataAnnotations.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b0d8473b44b5946b5779c367169b7fbf03f2dc85ab3712f89e7f43f53934d85c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "21045cd472a63a633798197d73a2294dd80d0307055dcd96a50af7bc1645cedb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.EventBasedAsync.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.EventBasedAsync.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "6cb8d847b8f8cb3dede39d37b514cf0b67d40cbafe38f7e1efd7bc264da40936"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b1fb66a10067293ec9ae2d19273fb40df1a2e0292f9c5d067f8cd7473d4002a5"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.TypeConverter.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.TypeConverter.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b7459b5bd2aa63df2f3d289910e2346289753637c97a771e81245404b4294e62"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Configuration.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Configuration.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "353f4043417e9a9d2f69fb3d983152b56a0ee5e994a4ca1d9d848b56fa282372"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Console.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Console.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "fc7a2f5420499a273fe2b5157cd5d3670e25fc14d15cad280bb4d0a3ff7f05f1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Core.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "48b1a8aaad0ccaa3ed60893c4f2f7c520d707b7b1531b4639c609f623d29bed0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Data.Common.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Data.Common.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "da256936edeab6b93ab478370053b16f0514291c5c8ff66213396bd2d1b4a396"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Data.DataSetExtensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Data.DataSetExtensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e41fc98435f67bcd4f3e6ad980e59f23850ab1f39faf2e14790a5515785618a7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Data.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Data.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "2004c41316ba69caa00fd5d5479cd74db4e63b1840c9548da64a54161cdcbdad"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Contracts.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Contracts.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "47c65a2d70dc48ddea1918b82e2f8e5b79ae7a78fc1a962c1e085823427465ab"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Debug.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Debug.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c1294559990e294a6ff0e8f167410faa53358b94c24a5d95cc51e21dd9d3a8b6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.DiagnosticSource.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.DiagnosticSource.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "aa360af8eb304b81b82684263002f2b6a51371f72db411fc48ee9a983427d26a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.EventLog.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.EventLog.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "071224bd985bf73b72f6f9f92e3dc21f57f95810eb30a4a82be88952e8ca0748"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.FileVersionInfo.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.FileVersionInfo.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "55b02bf55fd2b114be0db43b6f960e7eb2441029556db43b1c21c9636e7839b1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Process.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Process.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c0879262c00e5bf3220a19f983c552a749d3fb24972c3563001ca450cfff8216"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.StackTrace.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.StackTrace.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a0912b4154d8e3ebc1be35ef36d8e64a41806910a1eaf299989c48a5e2979e08"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.TextWriterTraceListener.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.TextWriterTraceListener.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "80e35d1bd7afeb8f204f2e2efb96b96b975e61285a73a86f39f4cf7619f4d0ad"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Tools.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Tools.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "58802464b92f6c4000e3bcc4dac65844aae16094ff1aa1ef56bcf6f8283c493d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.TraceSource.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.TraceSource.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b181b1e8c860dae6c36f10064872a7ecf04a5fc909b0ac7b3ab8a94831603bc6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Tracing.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Tracing.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "190b296fff9e805e3590b583a78d8d9d36adc4dd6b814ace126bfad7d997a5f7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7285caccc93620148505d176b7906210d601c8b196ce46d1184ec7f5977939b4"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Drawing.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Drawing.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "ed0da2d87a5c268d0f859d0b12e25cdbbfd5f888efa158319020f8fb4ab2caa9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Drawing.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Drawing.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f740de4921e6ee24c1612e5d5dd1985c8fbea66026eb41cffe50e3d1ce1d028d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Dynamic.Runtime.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Dynamic.Runtime.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5a8d709077d91ed8d6b7070887a0132564ad7c7aa45e81319bb5546bf9a1c5bc"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Formats.Asn1.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Formats.Asn1.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "abfb2e1f74bcc3a3617ad86534d60f424aed2fc99810ffc74ee6ca37d4c907b2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/System.Formats.Cbor.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Formats.Cbor.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1ac5009c2cc0d6afc87398fa30c8e2583e45a052dbbdea0138fe0433ae2732a9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Formats.Tar.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Formats.Tar.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "51c3b038ad0f8503b5661ac1672f2497f35518aee57018824baf9e9216a64049"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Globalization.Calendars.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Globalization.Calendars.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e055528863acbeff8b85346123deea1e05a3ba125c47884aedbd2c69ad3d1b43"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Globalization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Globalization.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "eebb34b7a3229687e17bd7ebbe331d87c27015e487a68fffc59fbbf1d2629a2c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Globalization.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Globalization.Extensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "6c6df3ebc1f6574207c588f3fec8cd6f6afaf76227cb79cd56556e8c76ac662a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Compression.Brotli.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Compression.Brotli.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f96ffd238a7715da45c038407bb63861ba899de4e1e8334b00914ab47827a50c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Compression.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Compression.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5249f24745e9557b9700bbc4784a6e3957094a264db9ab892a758ff150807a61"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Compression.FileSystem.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Compression.FileSystem.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "9277f14f9b0ebb3cc8c79e0aa63a0f2e10d26d7de4b0e2e2a5a07863933ea67f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Compression.ZipFile.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Compression.ZipFile.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a64ccce49b85ef34a79f18855ae18a6a3916e062b566b695759d951826739a17"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8eb7bdebf8878fd33cac591a08ea60a6c5f93f6f8d5f6410110aaa8d57a21147"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.AccessControl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.AccessControl.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "cc7445c504a4049e75d2385b8a69771a945d17f9050d8fb807258ddc30315751"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "3009fc56ed14ee2f441a48dbf80a54c4219e43624691ad20731831ac36991303"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.DriveInfo.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.DriveInfo.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b0e763b0137e4d16a832c22e44b5f23c72b844f5cc39d78487b81cef556641eb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "78434738645e3670e53f9a23284edca93d83d11c69dcbc80f26e361fd48b4679"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.Watcher.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.Watcher.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "01d2c4bb9742a175ba8dea8d39ce043398010dbb5b368baefc3d10609eba5e9d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.IsolatedStorage.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.IsolatedStorage.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c054cfca1e04a3e57089551d24746f854994943cf244ad07a6d3b7a93a7232b2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.MemoryMappedFiles.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.MemoryMappedFiles.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "6a24f2278eeeb88fa06115962ab53989b9232da4488fd7991d9856f2382ba8f1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Pipelines.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Pipelines.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a21b362f6ccc1e6b483dd76e05d29b13ea78010554c1f32a00521c96830186a6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Pipes.AccessControl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Pipes.AccessControl.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "eaff23ca4e96bd0de37214e1c5c715fecc2569bd7af6da5b13c178fa6cc75a8b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Pipes.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Pipes.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5aa3e7d9ed60682da7fe4d043961a71060fa929822681e764aac9aea2ce98fb7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.UnmanagedMemoryStream.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.UnmanagedMemoryStream.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "eb62a25692fc0023c5057df0f7ab2b37c6f556b3265cfd326d4ea5bb58c108fa"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.AsyncEnumerable.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.AsyncEnumerable.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "9eb7ad636c17762458dc47ffe30490276344469cc7375746c55f00c9737c8fe9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "00836be1e44d7d72977fff5ae5f7a98a9b1d5498077ec41ada828f5cbe80c496"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.Expressions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.Expressions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "09ebfa0124ff2b268a8d214f148787e96b5f4208c41d029e1442dcb1a064f792"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.Parallel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.Parallel.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "48456a137d24dedc15310f88fe58e9cb08b4e80ff547040b6426dbd4ac65c209"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.Queryable.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.Queryable.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1a0ced928fb31610ee52ede08248da3eea52ec03c8b38a070d42f62c3f4203f7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Memory.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Memory.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "37130c8ce407183aeee1676940830f194f125704f3b9aebf1549479f6de16ea4"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a05beac9bfbbf6027694fd639cd564d96404098b3ba96d60839bd7611eb20cb7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Http.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Http.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "379728761ae715a48b826d1dd96a5313174bdc7a63eaee90eaaca675c97f5601"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Http.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Http.Json.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5ab4ac20ea2fbaf9b655640b00f72a9cc6ad1322b65ff3c4a6100671b0806ffb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.HttpListener.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.HttpListener.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "385da2d075d9f81c9058afaba3f174ad26bd0f5d9a965617fb5e3cec48c83a3f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Mail.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Mail.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5bd8246f315f728a5b255fe52fad9fa1e5386ea33ba76a30deace511fbad9310"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.NameResolution.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.NameResolution.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "88bf704d78fd4c838982da25e6ddf9dc69734e33d3312d847b9a34e35218d172"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.NetworkInformation.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.NetworkInformation.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "485c15679beb0a955d24b16764c10cbdf65e45abc24be5f16c7f0bea7175d13a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Ping.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Ping.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "331056635c2a9918c91368daa1ca02fbeee40fcd2d81de6908588e2e653d970e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "ccf898b130055997ca0c760eaaeaff2c9fa88cb3a8810646fe28b98c61ad2c9d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Quic.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Quic.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0fae5e2c1843c2ab51213d6a4523919f652d0a28fc7d5d457f2b331aaccabd53"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Requests.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Requests.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "fd2d9934f028ef1e43c9e8a16d51744508bc18e69f5126860544eebd433c6445"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Security.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Security.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "277a31a65f6ecf1190c1c36d9f79d507cb78ed828d02242df4e8a6796875106f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.ServerSentEvents.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.ServerSentEvents.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "80694b2f234615719bb88b3b706ec6b7615e5b763b2400330fddd60e1e9cb674"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.ServicePoint.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.ServicePoint.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "cb8a96edc3f774546af357deb8c6296d1c4f2d530dc3db67ae0ad2916364e8c2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Sockets.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Sockets.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "04ba3bb88114ebabacb92e5952f9f7707e32d5827ebfd7687318a1b7f875c0eb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebClient.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebClient.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "fb85367cc44a8e199289e4ed52bbff48f68f4d081ccc7fa8b9dd3d74bb5a8a7d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebHeaderCollection.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebHeaderCollection.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "489557211e5baf7bf381f0498d480b604553785ad6e8518adc89a50de3582710"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebProxy.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebProxy.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "2c559cf55144316764b01144cbe94256df39d5c3f5c22fded6be4827a7411772"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebSockets.Client.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebSockets.Client.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "06eae5b797a174a8f10de2000b2f314ccb3cdea1d4d84fb69dd97061f548d8ad"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebSockets.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebSockets.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "78337d727bd6f8ba42d455cce63a8e7369e62c8635c24553a3bb28f5201a6fdf"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Numerics.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Numerics.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "d8667e0ad22344f820e4c136631291898076415572ce98ea7ebcbedffc326b79"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Numerics.Vectors.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Numerics.Vectors.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "39bdcd65dd35ccd9365a4e89f06167b71348a76f29faa5700d695a1e901283b0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ObjectModel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ObjectModel.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "de8dbd3f81d6acfc5e44fa151e2ff393ccb122ca74c272d35149cb84f5c6e28e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.DispatchProxy.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.DispatchProxy.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "05da4cd3255fc57722cf78c39081e288cdbff0c632c886ece72ab6af43759328"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b6a379ae20e8776d08bd93dea7a597132d7d4e2b31c3ff5ab4a5030893212604"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Emit.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Emit.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a1ea3fe617b2320c46cfc8a94881468d5b5db1e3f6233f3371e0ff971e435463"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Emit.ILGeneration.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Emit.ILGeneration.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0c64923f6e6bb3ffbaea27b201bd65a4b1220fb4a55e0469a8c7fa2cde137960"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Emit.Lightweight.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Emit.Lightweight.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "9788c4971fc75f2ea29305667243e00e7666c24390721e1c8e110358a672036b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Extensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0fe91542f00239b506ab9b517161bfdfb1d67362ce278ea980624cd95dc62c44"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Metadata.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Metadata.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "6de70d1a568bb74ee97e53828b9c0fd3c4d59787e3d7abdc374b0a34eaccaf87"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "3b6e4b26b8b8764dc112eae2a3ea944b5a6c9349286c0c74545a02836053b40c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.TypeExtensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.TypeExtensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "fec0f19b1922a8bb0ee16e8f028c118e325677e3f3fa7b3dc2e0db6c82041339"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Resources.Reader.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Resources.Reader.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "93c2dd3761847fdde8078fc104d6ff75f61838380a79c5b99f8b115d2591fc44"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Resources.ResourceManager.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Resources.ResourceManager.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1e002ad60cd7691d4edcf71173ca8966513f92db5360b9725e04d61fc5445eef"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Resources.Writer.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Resources.Writer.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "281b3af3ca12ed177b257d9708ed59491bbd76c927e67e52d93fd50b6a81c9e3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.CompilerServices.Unsafe.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.CompilerServices.Unsafe.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "22a59648de5e1016bc089d70ad41b02c33187ae46b7f00b082c4d579dfac3fb0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.CompilerServices.VisualC.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.CompilerServices.VisualC.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "194f3752a85239ca6b032c5819fe01a50553a2de4b8c841def3d6c0367a5c95b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "819683a2c625c8f5ba4a37f5fb4e44ab6f9f13af116553b8f7ca3a3c0e7da6fe"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Extensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c4a9186638d9e4a18b1a6c1a64853a0c109bf48aae3b808636b515e8c1583d76"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Handles.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Handles.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c484a220aa4beea9627f7dd11f1c0c587d01644a007d9bc87ba3994813deab0b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.InteropServices.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.InteropServices.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "2e50f4f38ee0f10012533f74a5fa328f4630f0b04f85013bb10a84e00e5eb0b5"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.InteropServices.JavaScript.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.InteropServices.JavaScript.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "660cb9ea78aa57919b655288225f3a300dfa80a0968735856968cce7b4a1e649"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.InteropServices.RuntimeInformation.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b8dd6b81370c4ae95020e3c8e6f86143095553493fec391ca1425fbe998cadb6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Intrinsics.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Intrinsics.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c93f550139f81bbdd1bd1fda035c25d2a1324b9d4b745ecb9bedd3816f7025d3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Loader.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Loader.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a43af0f2853b5f2a40cb5c05037c3cdb6420f75eeacbca57adc47e36b74549cb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Numerics.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Numerics.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "2bc5ee3c584677c34c7c208a23553340ace6566725b8d7cce0d25359fee3d5b5"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "baaa8c10974792204c2fa5efc4a44b80c13b3c0b1cc93c8423dfcc6a3976df94"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.Formatters.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.Formatters.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "df448519f5d2cb57c31f2b42bacb6d7af49d68e37e7fec21d5fa51d83b897565"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.Json.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "95eaceec50c170336906776084d0fd5c42d260970e20d76ffbd484b0e28ecffb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "660639fc834036faa95c781a6879984d8deeb89a52d3bd59db435927809afad3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.Xml.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.Xml.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "2af122293b8731c61199fc503e27343987e592b2ff146d7c0ea67b8a9fe7e2dd"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.AccessControl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.AccessControl.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "14ee0a0e6a92d62a04ee8692e62801441dd76bea3da06a82dbc38a28d27c35e1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Claims.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Claims.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "41f65f42060233f43c04782d9e86b07986af5eb8267b5053274125c64a20978d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Algorithms.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Algorithms.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f77c8d191f92d3d1c0f2cc4e49ffd6a72f80662eea5b5ba68a52b8b7886716d1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Cng.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Cng.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "f458d8d42cab6da17f414ec0b0a3dd4c5aea15d859e3c201285cf62741e1e79b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Csp.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Csp.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "863eab817baa84bf12d8e99896c33ecd3f562a0d1338badd190d9904f03a0d34"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "0e7955df24cbf3b56113e8f859ee5fa532e4c021f22d13fe0420ff84a43cee24"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Encoding.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Encoding.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "528fc5f11986383c6b7ba140ab88a6817df43fb49f8f242ebd26032cd70435f9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.OpenSsl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.OpenSsl.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "57a6b7913bfad8045f8997c50cda05e492f20f08e05bf094943415694798c9fc"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Primitives.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "5469b5525bedd5d6bb8600cb7dc7d5972a24059cb0921598f17cc66a9d1e9519"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.X509Certificates.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.X509Certificates.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "43e4ba411d90a274d8faa9777fa729e030555d8fff01d66c969197379e0bfd5b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Xml.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Xml.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "928da79cb847d3edc0e5b24155557b42d677b5d094f65c78359b807f38a09894"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b75034025527c08f0f5903979b9f15d31106fc5c76ecc25a1ba73eb40d278b76"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Principal.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Principal.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "92f11e054350945f9d8fab49722a7308060de0017f6e2ddb82421223984dc86e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Principal.Windows.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Principal.Windows.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "595f79171b2a1621e6a13735ff8a15e1c7d6bdcbc65d782a5e7d354ef001a8c8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.SecureString.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.SecureString.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "ab1bb27b77cce832005572892e0f5f81c66ce346ce0682c7daf509ec1f30ad7b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ServiceModel.Web.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ServiceModel.Web.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "cf9c60f8158da14d75bf91a5de1b05b36cc54bdcc5cbf928bf67b7b11e79eb02"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ServiceProcess.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ServiceProcess.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "25df1787eaa76c3a723726f76d75c479cff9b96ba5ee0474a3a17604256ea979"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Encoding.CodePages.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Encoding.CodePages.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "473c574bf840d53a82661b2841fa5a73ed2c0030ca171390113fe2d4996a474c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Encoding.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Encoding.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "039b022c35bfc9fac8870ff8b4d5dc7ca1e2877545852ef5a28a7869ac8b0a02"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Encoding.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Encoding.Extensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "25fabc682b317c0c84c05a3826418a040ea792ed22a8deed9705bf08159b8e60"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Encodings.Web.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Encodings.Web.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "98ed0559cd232530eab7df9003f3952154a18414f71d62e891ed9154b89d312a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Json.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "e42039302b3c625bbc710d880de537d21936ee593bf431f1757faaffdb950bcd"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.RegularExpressions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.RegularExpressions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "fc4b20ddee22a44f1d874448be9e0b7be8ed4f21abcbd677eec24135cacc89a3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.AccessControl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.AccessControl.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8f917bbe76157ba041b4bc1c7a1fb507bcc41f529012966672722898f9500bce"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Channels.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Channels.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7c0be9c5cbd223fcb14fbb86e8c14cadf6be514d59e2e80d76fc7b124f024beb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "1b2df956254409a040c6d79d645953cd1d94fbf31e5967532eae471964277ee7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Overlapped.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Overlapped.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "bcd3f74c4514d610d0dc73883a15bccbe74ccc7d9ad1c491d1ab401303018b92"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/System.Threading.RateLimiting.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.RateLimiting.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a8c5c7ef867d0bd6f3301e54b4aa98fff89880c3a187012967e568e13bf2a41b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Tasks.Dataflow.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Tasks.Dataflow.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "81ee2c89fe9a7b4b8d15faf1ed815163971ff6ed29b0bbf6b295add498e095cf"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Tasks.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Tasks.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "65af27aa5f5c66801bfca887eb3e85908ddac3081c13e26f7648007eb9efc0ca"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Tasks.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Tasks.Extensions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "9e40bc97bffd9466daca988f00a8e494303d621fd907159cde429c72f83243f7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Tasks.Parallel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Tasks.Parallel.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "60a5eea501340cd13bf5531edac460ee35e9bad78f8ecdf24dfd9f341477fc19"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Thread.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Thread.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "2d980cc9bdf3297793cebd1e26a453bf9450a4dba47e053232ab7f126af4e7f6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.ThreadPool.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.ThreadPool.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "206b493d62a96219f9249bd6f7567896ae22b3f89502e4a2ec748083402677fa"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Timer.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Timer.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "085efced3251cb7cc1c793d4dcd0edf13b3a188cb76e69b63f5f2c92468874db"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Transactions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Transactions.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8cd1268b68093c74cd94af5721765f68652a1c22b274baf0687063965c4e38e9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Transactions.Local.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Transactions.Local.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "bbc6637181e51fd278ec015bdad359e6c808ab1060f9fb84acbf495d4fbbaf4c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ValueTuple.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ValueTuple.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "37ace6699ec20ea5714adf012d8e26821b13c5a077859c7b8b613859ec1dc74c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Web.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Web.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "75594de3140894dd29cea57c5e47787277191c7507b28f36d8ee6641bed2c108"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Web.HttpUtility.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Web.HttpUtility.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8373797d0dfc972efa1eede05984ebef89d4ea10d736e422bb8df57928362ff2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Windows.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Windows.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "45c9dc06fee8fb503575194691b27a0c3aefc9293867473e833a33b9429dff12"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c744b26b33bb3225990432a99e1d0c437ebab7e262628e660cdec079ad60f70f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.Linq.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.Linq.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "55994decc31a7fcfa711c13773aba4fb035909027871bbbc994a85118e22bd73"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.ReaderWriter.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.ReaderWriter.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "a53a2e9d017a7701524e9ac3156bf61d19f1a75b91fbbb5299e2e70fb86ade26"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.Serialization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.Serialization.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "7929fa792504b44baeb10e3fc2796f6c11289f021da16511c167d6549facd7c4"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XDocument.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XDocument.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "b1d6bd9ba12097f284cae64c02ebfe6f56de153e8f43e15d3bc1b1e286ec931d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XmlDocument.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XmlDocument.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "833f3b9a20a831ae7693892fadb54a0f23437b0163fdab3d53e5b7bee12cb3e6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XmlSerializer.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XmlSerializer.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "52dbbcc25ee0688988f1f9d923eddf03e0ceb69a26e3052bb7697498cf03b361"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XPath.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XPath.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "8b6d102fe56a7fa0e4de2d40db6b45ca5e0b4e0fc82143db77b904a3ae101a84"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XPath.XDocument.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XPath.XDocument.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "c776496968d86a677e4ee9d95e2838913ccbcdd8f85ad576779946f4092612bf"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/WindowsBase.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/WindowsBase.klib",
+      "targetFramework": "net10.0",
+      "runtimeIdentifier": "",
+      "sha256": "edca9ca1a3337d5bae169cc3c5dab2ddcfd88e300ffafeda437ddb6fb479fad7"
+    }
+  ],
+  "commands": [
+    {
+      "label": "restore",
+      "command": [
+        "/Users/icecream/.dotnet/dotnet",
+        "restore",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/KotlinWeb.ktproj",
+        "--nologo"
+      ],
+      "cwd": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet"
+    },
+    {
+      "label": "resolve-public-klibs",
+      "command": [
+        "/Users/icecream/.dotnet/dotnet",
+        "msbuild",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/KotlinWeb.ktproj",
+        "-t:DotKtResolveKlibReferences",
+        "-getItem:DotKtResolvedKlibReference,KotlinCompile,ReferencePath",
+        "-getProperty:TargetFramework,RuntimeIdentifier,DotKtStdlib,DotKtKotlinVersion"
+      ],
+      "cwd": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet"
+    },
+    {
+      "label": "frontend-baseline",
+      "command": [
+        "bash",
+        "/private/tmp/dotktr-dotkt-400ab504/toolchain/kotc/build/install/kotc/bin/kotc",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/HelloController.kt",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/Program.kt",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/Routes.kt",
+        "-classpath",
+        "/private/tmp/dotktr-dotkt-400ab504/build/clr-stdlib-frontend-klib/kotlin-stdlib-clr-frontend.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Antiforgery.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.BearerToken.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.Cookies.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.Core.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authentication.OAuth.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authorization.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Authorization.Policy.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Authorization.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Endpoints.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Forms.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Server.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Components.Web.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Connections.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.CookiePolicy.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Cors.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Cryptography.Internal.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Cryptography.KeyDerivation.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.DataProtection.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.DataProtection.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.DataProtection.Extensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Diagnostics.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Diagnostics.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Diagnostics.HealthChecks.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.HostFiltering.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Hosting.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Hosting.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Hosting.Server.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Html.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Connections.Common.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Connections.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Extensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Features.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Http.Results.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.HttpLogging.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.HttpOverrides.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.HttpsPolicy.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Identity.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Localization.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Localization.Routing.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Metadata.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.ApiExplorer.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Core.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Cors.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.DataAnnotations.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Formatters.Json.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Formatters.Xml.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Localization.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.Razor.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.RazorPages.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.TagHelpers.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Mvc.ViewFeatures.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.OutputCaching.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.RateLimiting.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Razor.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Razor.Runtime.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.RequestDecompression.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.ResponseCaching.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.ResponseCaching.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.ResponseCompression.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Rewrite.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Routing.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Routing.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.HttpSys.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.IIS.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.IISIntegration.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.Core.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.Session.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.SignalR.Common.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.SignalR.Core.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.SignalR.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.SignalR.Protocols.Json.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.StaticAssets.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.StaticFiles.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.WebSockets.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.AspNetCore.WebUtilities.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.CSharp.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Caching.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Caching.Memory.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Binder.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.CommandLine.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.EnvironmentVariables.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.FileExtensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Ini.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Json.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.KeyPerFile.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.UserSecrets.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Configuration.Xml.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.DependencyInjection.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.DependencyInjection.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Diagnostics.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Diagnostics.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Diagnostics.HealthChecks.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Features.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileProviders.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileProviders.Composite.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileProviders.Embedded.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileProviders.Physical.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.FileSystemGlobbing.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Hosting.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Hosting.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Http.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Identity.Core.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Identity.Stores.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Localization.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Localization.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.Abstractions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.Configuration.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.Console.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.Debug.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.EventLog.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.EventSource.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Logging.TraceSource.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.ObjectPool.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Options.ConfigurationExtensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Options.DataAnnotations.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Options.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.Validation.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Extensions.WebEncoders.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.JSInterop.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Net.Http.Headers.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.VisualBasic.Core.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.VisualBasic.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Win32.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/Microsoft.Win32.Registry.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/mscorlib.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/netstandard.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.AppContext.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Buffers.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.Concurrent.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.Immutable.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.NonGeneric.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Collections.Specialized.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.Annotations.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.DataAnnotations.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.EventBasedAsync.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ComponentModel.TypeConverter.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Configuration.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Console.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Core.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Data.Common.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Data.DataSetExtensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Data.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Contracts.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Debug.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.DiagnosticSource.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.EventLog.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.FileVersionInfo.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Process.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.StackTrace.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.TextWriterTraceListener.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Tools.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.TraceSource.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Diagnostics.Tracing.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Drawing.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Drawing.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Dynamic.Runtime.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Formats.Asn1.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Formats.Cbor.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Formats.Tar.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Globalization.Calendars.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Globalization.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Globalization.Extensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Compression.Brotli.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Compression.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Compression.FileSystem.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Compression.ZipFile.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.AccessControl.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.DriveInfo.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.FileSystem.Watcher.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.IsolatedStorage.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.MemoryMappedFiles.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Pipelines.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Pipes.AccessControl.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.Pipes.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.IO.UnmanagedMemoryStream.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.AsyncEnumerable.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.Expressions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.Parallel.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Linq.Queryable.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Memory.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Http.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Http.Json.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.HttpListener.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Mail.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.NameResolution.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.NetworkInformation.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Ping.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Quic.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Requests.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Security.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.ServerSentEvents.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.ServicePoint.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.Sockets.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebClient.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebHeaderCollection.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebProxy.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebSockets.Client.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Net.WebSockets.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Numerics.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Numerics.Vectors.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ObjectModel.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.DispatchProxy.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Emit.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Emit.ILGeneration.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Emit.Lightweight.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Extensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Metadata.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Reflection.TypeExtensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Resources.Reader.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Resources.ResourceManager.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Resources.Writer.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.CompilerServices.Unsafe.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.CompilerServices.VisualC.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Extensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Handles.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.InteropServices.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.InteropServices.JavaScript.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.InteropServices.RuntimeInformation.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Intrinsics.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Loader.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Numerics.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.Formatters.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.Json.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Runtime.Serialization.Xml.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.AccessControl.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Claims.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Algorithms.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Cng.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Csp.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Encoding.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.OpenSsl.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Primitives.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.X509Certificates.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Cryptography.Xml.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Principal.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.Principal.Windows.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Security.SecureString.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ServiceModel.Web.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ServiceProcess.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Encoding.CodePages.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Encoding.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Encoding.Extensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Encodings.Web.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.Json.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Text.RegularExpressions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.AccessControl.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Channels.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Overlapped.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.RateLimiting.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Tasks.Dataflow.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Tasks.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Tasks.Extensions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Tasks.Parallel.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Thread.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.ThreadPool.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Threading.Timer.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Transactions.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Transactions.Local.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.ValueTuple.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Web.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Web.HttpUtility.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Windows.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.Linq.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.ReaderWriter.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.Serialization.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XDocument.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XmlDocument.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XmlSerializer.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XPath.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/System.Xml.XPath.XDocument.klib:/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/obj/Debug/net10.0/klib/WindowsBase.klib",
+        "-d",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/aspnet/bir"
+      ],
+      "cwd": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet"
+    },
+    {
+      "label": "build-web",
+      "command": [
+        "/Users/icecream/.dotnet/dotnet",
+        "build",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet/KotlinWeb/KotlinWeb.ktproj",
+        "--nologo",
+        "-v:minimal",
+        "-p:UseSharedCompilation=false"
+      ],
+      "cwd": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/aspnet"
+    }
+  ],
+  "runtimeBuildPassed": true
+}

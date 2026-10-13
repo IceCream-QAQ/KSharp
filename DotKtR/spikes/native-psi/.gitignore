@@ -1,0 +1,7 @@
+/build/
+/.gradle/
+/fixtures/aspnet/DotKt.Local.props
+/fixtures/aspnet/**/bin/
+/fixtures/aspnet/**/obj/
+/fixtures/**/.idea/
+/fixtures/**/*.iml

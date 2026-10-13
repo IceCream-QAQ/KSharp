@@ -1,0 +1,40 @@
+// Interactive launcher for the validated native spike, using the installed Rider SDK.
+// The production plugin template's runIde remains separate until the spike is integrated.
+tasks.register('runIde', Exec) {
+    group = 'application'
+    description = 'Build the native DotKt demo plugin and open its isolated Rider window'
+    workingDir projectDir
+    commandLine 'python3', 'run_probe.py', '--ui',
+        '--full-kotlin', '--experimental-java-host', '--clr-sessions', '--backend',
+        '--solution', 'fixtures/mixed/Probe.sln',
+        '--analysis-source', 'fixtures/mixed/App/Program.kt',
+        '--license-config', new File(System.getProperty('user.home'),
+            'Library/Application Support/JetBrains/Rider2026.2').absolutePath
+    if (providers.gradleProperty('demoSandbox').isPresent()) {
+        args '--sandbox-dir', providers.gradleProperty('demoSandbox').get()
+    } else {
+        args '--fresh'
+    }
+}
+
+tasks.register('prepareAspNet', Exec) {
+    group = 'application'
+    description = 'Build the real Kotlin ASP.NET Core project and resolve its KLIBs with MSBuild'
+    workingDir projectDir
+    commandLine 'python3', 'prepare_aspnet.py'
+}
+
+tasks.register('runAspNetIde', Exec) {
+    group = 'application'
+    description = 'Open the Kotlin ASP.NET Core project in an isolated Rider'
+    dependsOn 'prepareAspNet'
+    workingDir projectDir
+    commandLine 'python3', 'run_probe.py', '--ui', '--fresh',
+        '--full-kotlin', '--experimental-java-host', '--clr-sessions', '--backend',
+        '--fixture-root', 'fixtures/aspnet',
+        '--solution', 'fixtures/aspnet/DotKt-AspNetCore.sln',
+        '--analysis-source', 'fixtures/aspnet/KotlinWeb/Program.kt',
+        '--input-snapshot', 'build/aspnet/input-snapshot.json',
+        '--license-config', new File(System.getProperty('user.home'),
+            'Library/Application Support/JetBrains/Rider2026.2').absolutePath
+}

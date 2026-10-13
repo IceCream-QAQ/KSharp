@@ -1,0 +1,12 @@
+{
+  "spikes/native-psi/run_probe.py": "7efeac51f4d5a067b2eaa58cfb3bf0e65fb3b40fa16a2243cd890b5817f628b8",
+  "spikes/native-psi/src/ClrSessionConfigurator.kt": "9a3eb37d2fdf395f9d88868727c95d94dc0067b2dc994f2e3596129f84122601",
+  "spikes/native-psi/src/CompletionProbe.kt": "b0be8e051e439ee54f6d753ad3a39674d24af5bd438a08f99165d53b180a4823",
+  "spikes/native-psi/src/DocumentEditProbe.kt": "8d2e1202a50351f94a750744012c95e564d8e375b16ad62daa73f044783cb740",
+  "spikes/native-psi/src/DotKtModuleBinding.kt": "090660fb8988727dd0558341af3cb8821f90dc7223fd1579a4441e2389176907",
+  "spikes/native-psi/src/GuiDemoActivity.kt": "1c80f43dd699e14a10e685977454605612d9351ef035126cec4ba64e7181c416",
+  "spikes/native-psi/src/GuiEditorChecks.kt": "866acd1a567d3f2f815eb472320d1a70a0985ae707afeb4e1bff16ee0eb8410d",
+  "spikes/native-psi/src/K2Probe.kt": "cac50fbf4f75afcc933dfddf1b7ff7331153ff71511f0fe87bbe2a051ab74df8",
+  "spikes/native-psi/src/NativePsiProbe.java": "5e5f62c286292c65f50454e006c3ac3777901fc26505e463736fedcc25e4c2fd",
+  "spikes/native-psi/src/NavigationProbeClient.kt": "0242139e106b056a3f274c6cebe08747608da7bce18eb0c60456cfede58105b6"
+}

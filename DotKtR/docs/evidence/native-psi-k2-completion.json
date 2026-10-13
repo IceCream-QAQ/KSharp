@@ -1,0 +1,164 @@
+{
+  "ide": "JetBrains Rider 2026.2.3.1",
+  "build": "RD-262.10968.170",
+  "processId": 45420,
+  "projectClass": "com.intellij.openapi.project.impl.ProjectImpl",
+  "fileType": "Kotlin",
+  "psiClass": "org.jetbrains.kotlin.psi.KtFile",
+  "physical": true,
+  "hostPsi": true,
+  "declarations": [
+    "KtClass",
+    "KtNamedFunction"
+  ],
+  "syntaxErrors": [],
+  "k2": {
+    "module": "dotktr-kotlin",
+    "klibCount": 169,
+    "fileIndexClass": "com.jetbrains.rider.projectView.ideaInterop.RiderProjectFileIndexImpl",
+    "sourceRoot": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/App",
+    "fileModule": "dotktr-kotlin",
+    "isInSource": true,
+    "modules": [
+      {
+        "name": "rider.module",
+        "sources": []
+      },
+      {
+        "name": "dotktr-kotlin",
+        "sources": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/App"
+        ]
+      }
+    ],
+    "sourcePsi": "org.jetbrains.kotlin.psi.KtFile",
+    "analysisModule": "org.jetbrains.kotlin.idea.base.fir.projectStructure.modules.source.KaSourceModuleImpl",
+    "platform": "JS/JVM (1.8)/Native (general)/wasm-js (JS)/wasm-wasi (WASI)",
+    "dependencyCount": 169,
+    "stringSymbol": {
+      "origin": "LIBRARY",
+      "file": "/private/tmp/dotktr-dotkt-400ab504/build/clr-stdlib-frontend-klib/kotlin-stdlib-clr-frontend.klib!/default/linkdata/package_kotlin/13_kotlin.knm",
+      "superTypes": [
+        "kotlin/Comparable<kotlin/String>",
+        "kotlin/CharSequence"
+      ]
+    },
+    "calls": [
+      {
+        "text": "Pick(42)",
+        "offset": 164,
+        "symbol": "DotKtProbe/Api.Pick",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "kotlin/Int"
+        ],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Pick(\"hello\")",
+        "offset": 200,
+        "symbol": "DotKtProbe/Api.Pick",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "kotlin/String"
+        ],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Identity(\"generic\")",
+        "offset": 244,
+        "symbol": "DotKtProbe/Api.Identity",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Echo(\"inherited\")",
+        "offset": 300,
+        "symbol": "DotKtProbe/Base.Echo",
+        "resolved": true,
+        "expressionType": "kotlin/String!",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Box(\"boxed\")",
+        "offset": 332,
+        "symbol": "DotKtProbe/Box",
+        "resolved": true,
+        "expressionType": "DotKtProbe/Box<kotlin/String>",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "DotKtProbe/Box<T>",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Read()",
+        "offset": 411,
+        "symbol": "DotKtProbe/Box.Read",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Describe()",
+        "offset": 450,
+        "symbol": "DotKtProbe/Describe",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      }
+    ],
+    "diagnostics": [],
+    "semanticSuccess": true
+  },
+  "completion": {
+    "position": "box.<caret>Read()",
+    "variants": [
+      "Describe",
+      "Read",
+      "Value",
+      "also",
+      "apply",
+      "equals",
+      "hashCode",
+      "let",
+      "run",
+      "runCatching",
+      "takeIf",
+      "takeUnless",
+      "to",
+      "toString"
+    ],
+    "expected": [
+      "Read",
+      "Value",
+      "Describe"
+    ],
+    "success": true
+  },
+  "success": true
+}

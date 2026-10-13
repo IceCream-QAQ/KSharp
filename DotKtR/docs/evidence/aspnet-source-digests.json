@@ -1,0 +1,17 @@
+{
+  "spikes/native-psi/prepare_aspnet.py": "83def47b9728e8b3131e32979618208f014d7926f562d966f07a1e409b19a482",
+  "spikes/native-psi/run_probe.py": "049644e0d956c6d0bbaf8fcf10915d0fb52c1c391483d664953180de19414459",
+  "spikes/native-psi/build.gradle": "dc65b1f5dee844ac7fdd40601dea33d50aebe2454d24ded13a54afe97f9e0f39",
+  "spikes/native-psi/src/DocumentEditProbe.kt": "8d2e1202a50351f94a750744012c95e564d8e375b16ad62daa73f044783cb740",
+  "spikes/native-psi/src/NativePsiProbe.java": "5e5f62c286292c65f50454e006c3ac3777901fc26505e463736fedcc25e4c2fd",
+  "spikes/native-psi/src/K2Probe.kt": "fecb66bb4a8ffcbc890f517d5396c593022436fd5d05539f8dbca54fbc9e811b",
+  "spikes/native-psi/src/GuiEditorChecks.kt": "866acd1a567d3f2f815eb472320d1a70a0985ae707afeb4e1bff16ee0eb8410d",
+  "spikes/native-psi/src/NavigationProbeClient.kt": "0242139e106b056a3f274c6cebe08747608da7bce18eb0c60456cfede58105b6",
+  "spikes/native-psi/src/GuiDemoActivity.kt": "2f9410b276fe9ad8abb735c5893a9b2fc7daff587d61908f39a484392cc38067",
+  "spikes/native-psi/src/ClrSessionConfigurator.kt": "9a3eb37d2fdf395f9d88868727c95d94dc0067b2dc994f2e3596129f84122601",
+  "spikes/native-psi/src/DotKtModuleBinding.kt": "b676716fa7193740560b1092938206385e89b542f76202073335b2012b71d79b",
+  "spikes/native-psi/src/CompletionProbe.kt": "b0be8e051e439ee54f6d753ad3a39674d24af5bd438a08f99165d53b180a4823",
+  "spikes/native-psi/fixtures/aspnet/KotlinWeb/Program.kt": "8fe3f216f4821b90587af20fda4f8be42411caf0a7f88f49f4a34247c82caf14",
+  "spikes/native-psi/fixtures/aspnet/KotlinWeb/Routes.kt": "abff26725aad60468a3f43d344c5273b68ab0a39aa66e73b291524bd4598d8ef",
+  "spikes/native-psi/fixtures/aspnet/KotlinWeb/KotlinWeb.ktproj": "f36dc0e101413689e2609f33dc5f6cedabbee204130ab1f7817c97ba164c0eba"
+}

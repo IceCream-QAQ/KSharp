@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-13",
+  "webSandbox": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-y3elyf3m",
+  "mixedSandbox": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm",
+  "files": [
+    {
+      "file": "src/ClrNavigation.kt",
+      "sha256": "3afd229f775d51ff141f4db32f0150e812f6975c3acdbf49ed42d6d9e10be909"
+    },
+    {
+      "file": "src/DotNetNavigationService.kt",
+      "sha256": "e92aefecfe6fb4f725e8c854ead3469151b534744a501b16874510749f777450"
+    },
+    {
+      "file": "src/DotNetNavigationChecks.kt",
+      "sha256": "9ba2bc3b4204a708891dc8727aa50638f5e94b151ec0a696f7d8d0c2144c6178"
+    },
+    {
+      "file": "src/DotKtModuleBinding.kt",
+      "sha256": "fc9d7daeadf123541d0046d4525406cbe79a4b981568e12aafa8ead079bbc0df"
+    },
+    {
+      "file": "src/K2Probe.kt",
+      "sha256": "f0fae53b2860d787dd08875fbda7d66ed96143c09f07d6a76002769c95b63d15"
+    },
+    {
+      "file": "src/GuiDemoActivity.kt",
+      "sha256": "deaa589a94c9874014c16ed0a978c2efaeb1992767fc495e93dd8803777476a4"
+    },
+    {
+      "file": "backend/NavigationProbe.cs",
+      "sha256": "68aa793c33d11a89be680d9923ff04fce611c1ffb2f2cb21e2029fbc84d3093b"
+    },
+    {
+      "file": "run_probe.py",
+      "sha256": "6989c16802370cc35d7c3fd22d53f73977c5f6bc1d4e95c373f8edc6559866bc"
+    }
+  ],
+  "checks": {
+    "externalSourceCmdClick": 5,
+    "solutionSourceCmdClick": 2,
+    "nativeKotlinGoToDeclaration": 1,
+    "allPassed": true
+  },
+  "note": "Web run preceded only the launcher backend-build/help update; mixed run includes that update. Plugin sources are identical in both runs."
+}

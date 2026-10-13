@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/tmyt/dotkt",
+  "commit": "400ab50472c0839a9b7de6a94a18db4bc9ad4bb5",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "source": "toolchain/kotc/src/main/kotlin/kotc/pipeline/ClrStaticScopes.kt",
+      "sha256": "2efabb4849029d5d68fdd12bf4abf3631ae83d5a10b40872fb8dcd47a7cbaeb2"
+    },
+    {
+      "source": "toolchain/kotc/src/main/kotlin/kotc/pipeline/ClrStaticVisibility.kt",
+      "sha256": "4779bee00c28e0fb20c6385ef5c1e4ef02bd24676c8d76a8b8b62a8910400cbd"
+    },
+    {
+      "source": "toolchain/kotc/src/main/kotlin/kotc/pipeline/ClrStaticConflictResolver.kt",
+      "sha256": "28bca207c8d7bdfc69b3edad99b244c13e7e113e70e8b88b2cd7416dab368676"
+    },
+    {
+      "source": "toolchain/kotc/src/main/kotlin/kotc/pipeline/ClrDefaultImports.kt",
+      "sha256": "5d98924b534aa4a903c0459f23b0517b3392781ba7c638ff8e00178ee71cab5f"
+    },
+    {
+      "source": "toolchain/kotc/src/main/kotlin/kotc/frontend/StaticOwners.kt",
+      "sha256": "b42612aa11eaf43dbf2bde8e39d69a19c6d755e1c95f5a8501af1a57a0126233"
+    }
+  ]
+}

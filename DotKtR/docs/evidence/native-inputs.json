@@ -1,0 +1,860 @@
+{
+  "expectedDotktCommit": "400ab50472c0839a9b7de6a94a18db4bc9ad4bb5",
+  "sourceDigests": {
+    "toolchain/kotc/build.gradle.kts": "08dcac5d34c32561314c5b626024846b4f92f8c0c2cf2885ae5abda0dc4939e4",
+    "toolchain/dll2klib/Program.cs": "69eb80a90582791ef56c9588b9f4e21778ae90910023d82ab79d50d6c5ae5a73",
+    "toolchain/kotc/src/main/kotlin/kotc/pipeline/ClrCliPipeline.kt": "aaf0690a2a045b0ae84cc15a211daafb4359e0369c84dc5cc28be6f27d0fc099",
+    "toolchain/kotc/src/main/kotlin/kotc/pipeline/ClrStaticScopes.kt": "2efabb4849029d5d68fdd12bf4abf3631ae83d5a10b40872fb8dcd47a7cbaeb2"
+  },
+  "dotktSource": "/private/tmp/dotktr-dotkt-400ab504",
+  "targetFramework": "net10.0",
+  "sourceRoot": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/App",
+  "sourceFiles": [
+    "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/App/Program.kt"
+  ],
+  "stdlib": "/private/tmp/dotktr-dotkt-400ab504/build/clr-stdlib-frontend-klib/kotlin-stdlib-clr-frontend.klib",
+  "references": [
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.CSharp.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Microsoft.CSharp.klib",
+      "sha256": "59937d9388d0df0b24278b1dc1927aea864d8751624decae8db90cc2dce26cc6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.VisualBasic.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Microsoft.VisualBasic.Core.klib",
+      "sha256": "f500077ece7d0dffc8e9c1fcc7e0a011f2771647028e706ce8e98fcd37d0568d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.VisualBasic.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Microsoft.VisualBasic.klib",
+      "sha256": "d718a5e645d1d78a77f86cc275ee7c6b8ec8705e0a190f060b195b14afa77198"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Win32.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Microsoft.Win32.Primitives.klib",
+      "sha256": "6fb2f245e0f4baaabad9106916cf07be13a88c1f36a12037326289d2bf67d27b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/Microsoft.Win32.Registry.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Microsoft.Win32.Registry.klib",
+      "sha256": "3f740d0438f77979f035df24a424478d0d0ae105b60f646cf8bc836ab49d0607"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/mscorlib.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/mscorlib.klib",
+      "sha256": "06f4eb1d12f2d39832b0d1782fe621b8b2177516160f3c9c5e1c17b8939b5a3e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/netstandard.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/netstandard.klib",
+      "sha256": "050283c39b839117c67019c3d9451f442e8cefa560ba17095bda5a99cd8282c0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.AppContext.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.AppContext.klib",
+      "sha256": "0e6a583b6531f26c2a30756e9376ab20f4c5386284c68afaaf8cfce3237e66df"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Buffers.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Buffers.klib",
+      "sha256": "f32ff454980553d65367ef6e60f1bbff59b324a0d15ebd580265ce4bcd40fc48"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.Concurrent.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Collections.Concurrent.klib",
+      "sha256": "d21b68abaf7f4b780efd01c207a88eefbb941c1996fc74281f5fc1ce654e8236"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Collections.klib",
+      "sha256": "d2faeff8f5546b3e0536419fb6bc89448c5f977e7d58190b0d0fe85e682ee7fb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.Immutable.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Collections.Immutable.klib",
+      "sha256": "d1fc10b142b2f9a200517f6690457918b320bfb6044d61e09a43e7207135ffc8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.NonGeneric.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Collections.NonGeneric.klib",
+      "sha256": "0e24f35d1c87a81dd0dfbe9de15089ff27ff837983895d360034ac8f11bf9d2b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Collections.Specialized.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Collections.Specialized.klib",
+      "sha256": "5ca2111ebc5524fa80d00555e148f9212f0a73781d87e42e1535ef979cc64fca"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.Annotations.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ComponentModel.Annotations.klib",
+      "sha256": "3eb362e9bd2f536c419a87b5a8e8eb8a889fd557c1f660a618b76cd8fe177ec8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.DataAnnotations.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ComponentModel.DataAnnotations.klib",
+      "sha256": "b0d8473b44b5946b5779c367169b7fbf03f2dc85ab3712f89e7f43f53934d85c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ComponentModel.klib",
+      "sha256": "21045cd472a63a633798197d73a2294dd80d0307055dcd96a50af7bc1645cedb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.EventBasedAsync.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ComponentModel.EventBasedAsync.klib",
+      "sha256": "6cb8d847b8f8cb3dede39d37b514cf0b67d40cbafe38f7e1efd7bc264da40936"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ComponentModel.Primitives.klib",
+      "sha256": "b1fb66a10067293ec9ae2d19273fb40df1a2e0292f9c5d067f8cd7473d4002a5"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ComponentModel.TypeConverter.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ComponentModel.TypeConverter.klib",
+      "sha256": "b7459b5bd2aa63df2f3d289910e2346289753637c97a771e81245404b4294e62"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Configuration.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Configuration.klib",
+      "sha256": "353f4043417e9a9d2f69fb3d983152b56a0ee5e994a4ca1d9d848b56fa282372"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Console.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Console.klib",
+      "sha256": "fc7a2f5420499a273fe2b5157cd5d3670e25fc14d15cad280bb4d0a3ff7f05f1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Core.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Core.klib",
+      "sha256": "48b1a8aaad0ccaa3ed60893c4f2f7c520d707b7b1531b4639c609f623d29bed0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Data.Common.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Data.Common.klib",
+      "sha256": "da256936edeab6b93ab478370053b16f0514291c5c8ff66213396bd2d1b4a396"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Data.DataSetExtensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Data.DataSetExtensions.klib",
+      "sha256": "e41fc98435f67bcd4f3e6ad980e59f23850ab1f39faf2e14790a5515785618a7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Data.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Data.klib",
+      "sha256": "2004c41316ba69caa00fd5d5479cd74db4e63b1840c9548da64a54161cdcbdad"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Contracts.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.Contracts.klib",
+      "sha256": "47c65a2d70dc48ddea1918b82e2f8e5b79ae7a78fc1a962c1e085823427465ab"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Debug.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.Debug.klib",
+      "sha256": "c1294559990e294a6ff0e8f167410faa53358b94c24a5d95cc51e21dd9d3a8b6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.DiagnosticSource.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.DiagnosticSource.klib",
+      "sha256": "aa360af8eb304b81b82684263002f2b6a51371f72db411fc48ee9a983427d26a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.FileVersionInfo.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.FileVersionInfo.klib",
+      "sha256": "55b02bf55fd2b114be0db43b6f960e7eb2441029556db43b1c21c9636e7839b1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Process.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.Process.klib",
+      "sha256": "c0879262c00e5bf3220a19f983c552a749d3fb24972c3563001ca450cfff8216"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.StackTrace.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.StackTrace.klib",
+      "sha256": "a0912b4154d8e3ebc1be35ef36d8e64a41806910a1eaf299989c48a5e2979e08"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.TextWriterTraceListener.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.TextWriterTraceListener.klib",
+      "sha256": "80e35d1bd7afeb8f204f2e2efb96b96b975e61285a73a86f39f4cf7619f4d0ad"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Tools.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.Tools.klib",
+      "sha256": "58802464b92f6c4000e3bcc4dac65844aae16094ff1aa1ef56bcf6f8283c493d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.TraceSource.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.TraceSource.klib",
+      "sha256": "b181b1e8c860dae6c36f10064872a7ecf04a5fc909b0ac7b3ab8a94831603bc6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Diagnostics.Tracing.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Diagnostics.Tracing.klib",
+      "sha256": "190b296fff9e805e3590b583a78d8d9d36adc4dd6b814ace126bfad7d997a5f7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.klib",
+      "sha256": "7285caccc93620148505d176b7906210d601c8b196ce46d1184ec7f5977939b4"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Drawing.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Drawing.klib",
+      "sha256": "ed0da2d87a5c268d0f859d0b12e25cdbbfd5f888efa158319020f8fb4ab2caa9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Drawing.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Drawing.Primitives.klib",
+      "sha256": "f740de4921e6ee24c1612e5d5dd1985c8fbea66026eb41cffe50e3d1ce1d028d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Dynamic.Runtime.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Dynamic.Runtime.klib",
+      "sha256": "5a8d709077d91ed8d6b7070887a0132564ad7c7aa45e81319bb5546bf9a1c5bc"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Formats.Asn1.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Formats.Asn1.klib",
+      "sha256": "abfb2e1f74bcc3a3617ad86534d60f424aed2fc99810ffc74ee6ca37d4c907b2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Formats.Tar.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Formats.Tar.klib",
+      "sha256": "51c3b038ad0f8503b5661ac1672f2497f35518aee57018824baf9e9216a64049"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Globalization.Calendars.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Globalization.Calendars.klib",
+      "sha256": "e055528863acbeff8b85346123deea1e05a3ba125c47884aedbd2c69ad3d1b43"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Globalization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Globalization.klib",
+      "sha256": "eebb34b7a3229687e17bd7ebbe331d87c27015e487a68fffc59fbbf1d2629a2c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Globalization.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Globalization.Extensions.klib",
+      "sha256": "6c6df3ebc1f6574207c588f3fec8cd6f6afaf76227cb79cd56556e8c76ac662a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Compression.Brotli.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.Compression.Brotli.klib",
+      "sha256": "f96ffd238a7715da45c038407bb63861ba899de4e1e8334b00914ab47827a50c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Compression.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.Compression.klib",
+      "sha256": "5249f24745e9557b9700bbc4784a6e3957094a264db9ab892a758ff150807a61"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Compression.FileSystem.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.Compression.FileSystem.klib",
+      "sha256": "9277f14f9b0ebb3cc8c79e0aa63a0f2e10d26d7de4b0e2e2a5a07863933ea67f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Compression.ZipFile.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.Compression.ZipFile.klib",
+      "sha256": "a64ccce49b85ef34a79f18855ae18a6a3916e062b566b695759d951826739a17"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.klib",
+      "sha256": "8eb7bdebf8878fd33cac591a08ea60a6c5f93f6f8d5f6410110aaa8d57a21147"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.AccessControl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.FileSystem.AccessControl.klib",
+      "sha256": "cc7445c504a4049e75d2385b8a69771a945d17f9050d8fb807258ddc30315751"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.FileSystem.klib",
+      "sha256": "3009fc56ed14ee2f441a48dbf80a54c4219e43624691ad20731831ac36991303"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.DriveInfo.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.FileSystem.DriveInfo.klib",
+      "sha256": "b0e763b0137e4d16a832c22e44b5f23c72b844f5cc39d78487b81cef556641eb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.FileSystem.Primitives.klib",
+      "sha256": "78434738645e3670e53f9a23284edca93d83d11c69dcbc80f26e361fd48b4679"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.FileSystem.Watcher.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.FileSystem.Watcher.klib",
+      "sha256": "01d2c4bb9742a175ba8dea8d39ce043398010dbb5b368baefc3d10609eba5e9d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.IsolatedStorage.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.IsolatedStorage.klib",
+      "sha256": "c054cfca1e04a3e57089551d24746f854994943cf244ad07a6d3b7a93a7232b2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.MemoryMappedFiles.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.MemoryMappedFiles.klib",
+      "sha256": "6a24f2278eeeb88fa06115962ab53989b9232da4488fd7991d9856f2382ba8f1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Pipelines.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.Pipelines.klib",
+      "sha256": "a21b362f6ccc1e6b483dd76e05d29b13ea78010554c1f32a00521c96830186a6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Pipes.AccessControl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.Pipes.AccessControl.klib",
+      "sha256": "eaff23ca4e96bd0de37214e1c5c715fecc2569bd7af6da5b13c178fa6cc75a8b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.Pipes.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.Pipes.klib",
+      "sha256": "5aa3e7d9ed60682da7fe4d043961a71060fa929822681e764aac9aea2ce98fb7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.IO.UnmanagedMemoryStream.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.IO.UnmanagedMemoryStream.klib",
+      "sha256": "eb62a25692fc0023c5057df0f7ab2b37c6f556b3265cfd326d4ea5bb58c108fa"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.AsyncEnumerable.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Linq.AsyncEnumerable.klib",
+      "sha256": "9eb7ad636c17762458dc47ffe30490276344469cc7375746c55f00c9737c8fe9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Linq.klib",
+      "sha256": "00836be1e44d7d72977fff5ae5f7a98a9b1d5498077ec41ada828f5cbe80c496"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.Expressions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Linq.Expressions.klib",
+      "sha256": "09ebfa0124ff2b268a8d214f148787e96b5f4208c41d029e1442dcb1a064f792"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.Parallel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Linq.Parallel.klib",
+      "sha256": "48456a137d24dedc15310f88fe58e9cb08b4e80ff547040b6426dbd4ac65c209"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Linq.Queryable.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Linq.Queryable.klib",
+      "sha256": "1a0ced928fb31610ee52ede08248da3eea52ec03c8b38a070d42f62c3f4203f7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Memory.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Memory.klib",
+      "sha256": "37130c8ce407183aeee1676940830f194f125704f3b9aebf1549479f6de16ea4"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.klib",
+      "sha256": "a05beac9bfbbf6027694fd639cd564d96404098b3ba96d60839bd7611eb20cb7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Http.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Http.klib",
+      "sha256": "379728761ae715a48b826d1dd96a5313174bdc7a63eaee90eaaca675c97f5601"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Http.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Http.Json.klib",
+      "sha256": "5ab4ac20ea2fbaf9b655640b00f72a9cc6ad1322b65ff3c4a6100671b0806ffb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.HttpListener.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.HttpListener.klib",
+      "sha256": "385da2d075d9f81c9058afaba3f174ad26bd0f5d9a965617fb5e3cec48c83a3f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Mail.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Mail.klib",
+      "sha256": "5bd8246f315f728a5b255fe52fad9fa1e5386ea33ba76a30deace511fbad9310"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.NameResolution.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.NameResolution.klib",
+      "sha256": "88bf704d78fd4c838982da25e6ddf9dc69734e33d3312d847b9a34e35218d172"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.NetworkInformation.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.NetworkInformation.klib",
+      "sha256": "485c15679beb0a955d24b16764c10cbdf65e45abc24be5f16c7f0bea7175d13a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Ping.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Ping.klib",
+      "sha256": "331056635c2a9918c91368daa1ca02fbeee40fcd2d81de6908588e2e653d970e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Primitives.klib",
+      "sha256": "ccf898b130055997ca0c760eaaeaff2c9fa88cb3a8810646fe28b98c61ad2c9d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Quic.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Quic.klib",
+      "sha256": "0fae5e2c1843c2ab51213d6a4523919f652d0a28fc7d5d457f2b331aaccabd53"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Requests.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Requests.klib",
+      "sha256": "fd2d9934f028ef1e43c9e8a16d51744508bc18e69f5126860544eebd433c6445"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Security.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Security.klib",
+      "sha256": "277a31a65f6ecf1190c1c36d9f79d507cb78ed828d02242df4e8a6796875106f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.ServerSentEvents.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.ServerSentEvents.klib",
+      "sha256": "80694b2f234615719bb88b3b706ec6b7615e5b763b2400330fddd60e1e9cb674"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.ServicePoint.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.ServicePoint.klib",
+      "sha256": "cb8a96edc3f774546af357deb8c6296d1c4f2d530dc3db67ae0ad2916364e8c2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.Sockets.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.Sockets.klib",
+      "sha256": "04ba3bb88114ebabacb92e5952f9f7707e32d5827ebfd7687318a1b7f875c0eb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebClient.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.WebClient.klib",
+      "sha256": "fb85367cc44a8e199289e4ed52bbff48f68f4d081ccc7fa8b9dd3d74bb5a8a7d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebHeaderCollection.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.WebHeaderCollection.klib",
+      "sha256": "489557211e5baf7bf381f0498d480b604553785ad6e8518adc89a50de3582710"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebProxy.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.WebProxy.klib",
+      "sha256": "2c559cf55144316764b01144cbe94256df39d5c3f5c22fded6be4827a7411772"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebSockets.Client.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.WebSockets.Client.klib",
+      "sha256": "06eae5b797a174a8f10de2000b2f314ccb3cdea1d4d84fb69dd97061f548d8ad"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Net.WebSockets.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Net.WebSockets.klib",
+      "sha256": "78337d727bd6f8ba42d455cce63a8e7369e62c8635c24553a3bb28f5201a6fdf"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Numerics.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Numerics.klib",
+      "sha256": "d8667e0ad22344f820e4c136631291898076415572ce98ea7ebcbedffc326b79"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Numerics.Vectors.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Numerics.Vectors.klib",
+      "sha256": "39bdcd65dd35ccd9365a4e89f06167b71348a76f29faa5700d695a1e901283b0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ObjectModel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ObjectModel.klib",
+      "sha256": "de8dbd3f81d6acfc5e44fa151e2ff393ccb122ca74c272d35149cb84f5c6e28e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.DispatchProxy.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.DispatchProxy.klib",
+      "sha256": "05da4cd3255fc57722cf78c39081e288cdbff0c632c886ece72ab6af43759328"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.klib",
+      "sha256": "b6a379ae20e8776d08bd93dea7a597132d7d4e2b31c3ff5ab4a5030893212604"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Emit.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.Emit.klib",
+      "sha256": "a1ea3fe617b2320c46cfc8a94881468d5b5db1e3f6233f3371e0ff971e435463"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Emit.ILGeneration.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.Emit.ILGeneration.klib",
+      "sha256": "0c64923f6e6bb3ffbaea27b201bd65a4b1220fb4a55e0469a8c7fa2cde137960"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Emit.Lightweight.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.Emit.Lightweight.klib",
+      "sha256": "9788c4971fc75f2ea29305667243e00e7666c24390721e1c8e110358a672036b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.Extensions.klib",
+      "sha256": "0fe91542f00239b506ab9b517161bfdfb1d67362ce278ea980624cd95dc62c44"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Metadata.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.Metadata.klib",
+      "sha256": "6de70d1a568bb74ee97e53828b9c0fd3c4d59787e3d7abdc374b0a34eaccaf87"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.Primitives.klib",
+      "sha256": "3b6e4b26b8b8764dc112eae2a3ea944b5a6c9349286c0c74545a02836053b40c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Reflection.TypeExtensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Reflection.TypeExtensions.klib",
+      "sha256": "fec0f19b1922a8bb0ee16e8f028c118e325677e3f3fa7b3dc2e0db6c82041339"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Resources.Reader.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Resources.Reader.klib",
+      "sha256": "93c2dd3761847fdde8078fc104d6ff75f61838380a79c5b99f8b115d2591fc44"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Resources.ResourceManager.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Resources.ResourceManager.klib",
+      "sha256": "1e002ad60cd7691d4edcf71173ca8966513f92db5360b9725e04d61fc5445eef"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Resources.Writer.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Resources.Writer.klib",
+      "sha256": "281b3af3ca12ed177b257d9708ed59491bbd76c927e67e52d93fd50b6a81c9e3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.CompilerServices.Unsafe.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.CompilerServices.Unsafe.klib",
+      "sha256": "22a59648de5e1016bc089d70ad41b02c33187ae46b7f00b082c4d579dfac3fb0"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.CompilerServices.VisualC.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.CompilerServices.VisualC.klib",
+      "sha256": "194f3752a85239ca6b032c5819fe01a50553a2de4b8c841def3d6c0367a5c95b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.klib",
+      "sha256": "819683a2c625c8f5ba4a37f5fb4e44ab6f9f13af116553b8f7ca3a3c0e7da6fe"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Extensions.klib",
+      "sha256": "c4a9186638d9e4a18b1a6c1a64853a0c109bf48aae3b808636b515e8c1583d76"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Handles.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Handles.klib",
+      "sha256": "c484a220aa4beea9627f7dd11f1c0c587d01644a007d9bc87ba3994813deab0b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.InteropServices.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.InteropServices.klib",
+      "sha256": "2e50f4f38ee0f10012533f74a5fa328f4630f0b04f85013bb10a84e00e5eb0b5"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.InteropServices.JavaScript.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.InteropServices.JavaScript.klib",
+      "sha256": "660cb9ea78aa57919b655288225f3a300dfa80a0968735856968cce7b4a1e649"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.InteropServices.RuntimeInformation.klib",
+      "sha256": "b8dd6b81370c4ae95020e3c8e6f86143095553493fec391ca1425fbe998cadb6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Intrinsics.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Intrinsics.klib",
+      "sha256": "c93f550139f81bbdd1bd1fda035c25d2a1324b9d4b745ecb9bedd3816f7025d3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Loader.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Loader.klib",
+      "sha256": "a43af0f2853b5f2a40cb5c05037c3cdb6420f75eeacbca57adc47e36b74549cb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Numerics.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Numerics.klib",
+      "sha256": "2bc5ee3c584677c34c7c208a23553340ace6566725b8d7cce0d25359fee3d5b5"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Serialization.klib",
+      "sha256": "baaa8c10974792204c2fa5efc4a44b80c13b3c0b1cc93c8423dfcc6a3976df94"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.Formatters.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Serialization.Formatters.klib",
+      "sha256": "df448519f5d2cb57c31f2b42bacb6d7af49d68e37e7fec21d5fa51d83b897565"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Serialization.Json.klib",
+      "sha256": "95eaceec50c170336906776084d0fd5c42d260970e20d76ffbd484b0e28ecffb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Serialization.Primitives.klib",
+      "sha256": "660639fc834036faa95c781a6879984d8deeb89a52d3bd59db435927809afad3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Runtime.Serialization.Xml.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Runtime.Serialization.Xml.klib",
+      "sha256": "2af122293b8731c61199fc503e27343987e592b2ff146d7c0ea67b8a9fe7e2dd"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.AccessControl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.AccessControl.klib",
+      "sha256": "14ee0a0e6a92d62a04ee8692e62801441dd76bea3da06a82dbc38a28d27c35e1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Claims.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Claims.klib",
+      "sha256": "41f65f42060233f43c04782d9e86b07986af5eb8267b5053274125c64a20978d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Algorithms.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Cryptography.Algorithms.klib",
+      "sha256": "f77c8d191f92d3d1c0f2cc4e49ffd6a72f80662eea5b5ba68a52b8b7886716d1"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Cng.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Cryptography.Cng.klib",
+      "sha256": "f458d8d42cab6da17f414ec0b0a3dd4c5aea15d859e3c201285cf62741e1e79b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Csp.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Cryptography.Csp.klib",
+      "sha256": "863eab817baa84bf12d8e99896c33ecd3f562a0d1338badd190d9904f03a0d34"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Cryptography.klib",
+      "sha256": "0e7955df24cbf3b56113e8f859ee5fa532e4c021f22d13fe0420ff84a43cee24"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Encoding.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Cryptography.Encoding.klib",
+      "sha256": "528fc5f11986383c6b7ba140ab88a6817df43fb49f8f242ebd26032cd70435f9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.OpenSsl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Cryptography.OpenSsl.klib",
+      "sha256": "57a6b7913bfad8045f8997c50cda05e492f20f08e05bf094943415694798c9fc"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.Primitives.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Cryptography.Primitives.klib",
+      "sha256": "5469b5525bedd5d6bb8600cb7dc7d5972a24059cb0921598f17cc66a9d1e9519"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Cryptography.X509Certificates.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Cryptography.X509Certificates.klib",
+      "sha256": "43e4ba411d90a274d8faa9777fa729e030555d8fff01d66c969197379e0bfd5b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.klib",
+      "sha256": "b75034025527c08f0f5903979b9f15d31106fc5c76ecc25a1ba73eb40d278b76"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Principal.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Principal.klib",
+      "sha256": "92f11e054350945f9d8fab49722a7308060de0017f6e2ddb82421223984dc86e"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.Principal.Windows.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.Principal.Windows.klib",
+      "sha256": "595f79171b2a1621e6a13735ff8a15e1c7d6bdcbc65d782a5e7d354ef001a8c8"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Security.SecureString.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Security.SecureString.klib",
+      "sha256": "ab1bb27b77cce832005572892e0f5f81c66ce346ce0682c7daf509ec1f30ad7b"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ServiceModel.Web.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ServiceModel.Web.klib",
+      "sha256": "cf9c60f8158da14d75bf91a5de1b05b36cc54bdcc5cbf928bf67b7b11e79eb02"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ServiceProcess.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ServiceProcess.klib",
+      "sha256": "25df1787eaa76c3a723726f76d75c479cff9b96ba5ee0474a3a17604256ea979"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Encoding.CodePages.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Text.Encoding.CodePages.klib",
+      "sha256": "473c574bf840d53a82661b2841fa5a73ed2c0030ca171390113fe2d4996a474c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Encoding.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Text.Encoding.klib",
+      "sha256": "039b022c35bfc9fac8870ff8b4d5dc7ca1e2877545852ef5a28a7869ac8b0a02"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Encoding.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Text.Encoding.Extensions.klib",
+      "sha256": "25fabc682b317c0c84c05a3826418a040ea792ed22a8deed9705bf08159b8e60"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Encodings.Web.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Text.Encodings.Web.klib",
+      "sha256": "98ed0559cd232530eab7df9003f3952154a18414f71d62e891ed9154b89d312a"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.Json.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Text.Json.klib",
+      "sha256": "e42039302b3c625bbc710d880de537d21936ee593bf431f1757faaffdb950bcd"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Text.RegularExpressions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Text.RegularExpressions.klib",
+      "sha256": "fc4b20ddee22a44f1d874448be9e0b7be8ed4f21abcbd677eec24135cacc89a3"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.AccessControl.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.AccessControl.klib",
+      "sha256": "8f917bbe76157ba041b4bc1c7a1fb507bcc41f529012966672722898f9500bce"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Channels.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.Channels.klib",
+      "sha256": "7c0be9c5cbd223fcb14fbb86e8c14cadf6be514d59e2e80d76fc7b124f024beb"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.klib",
+      "sha256": "1b2df956254409a040c6d79d645953cd1d94fbf31e5967532eae471964277ee7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Overlapped.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.Overlapped.klib",
+      "sha256": "bcd3f74c4514d610d0dc73883a15bccbe74ccc7d9ad1c491d1ab401303018b92"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Tasks.Dataflow.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.Tasks.Dataflow.klib",
+      "sha256": "81ee2c89fe9a7b4b8d15faf1ed815163971ff6ed29b0bbf6b295add498e095cf"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Tasks.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.Tasks.klib",
+      "sha256": "65af27aa5f5c66801bfca887eb3e85908ddac3081c13e26f7648007eb9efc0ca"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Tasks.Extensions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.Tasks.Extensions.klib",
+      "sha256": "9e40bc97bffd9466daca988f00a8e494303d621fd907159cde429c72f83243f7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Tasks.Parallel.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.Tasks.Parallel.klib",
+      "sha256": "60a5eea501340cd13bf5531edac460ee35e9bad78f8ecdf24dfd9f341477fc19"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Thread.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.Thread.klib",
+      "sha256": "2d980cc9bdf3297793cebd1e26a453bf9450a4dba47e053232ab7f126af4e7f6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.ThreadPool.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.ThreadPool.klib",
+      "sha256": "206b493d62a96219f9249bd6f7567896ae22b3f89502e4a2ec748083402677fa"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Threading.Timer.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Threading.Timer.klib",
+      "sha256": "085efced3251cb7cc1c793d4dcd0edf13b3a188cb76e69b63f5f2c92468874db"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Transactions.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Transactions.klib",
+      "sha256": "8cd1268b68093c74cd94af5721765f68652a1c22b274baf0687063965c4e38e9"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Transactions.Local.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Transactions.Local.klib",
+      "sha256": "bbc6637181e51fd278ec015bdad359e6c808ab1060f9fb84acbf495d4fbbaf4c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.ValueTuple.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.ValueTuple.klib",
+      "sha256": "37ace6699ec20ea5714adf012d8e26821b13c5a077859c7b8b613859ec1dc74c"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Web.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Web.klib",
+      "sha256": "75594de3140894dd29cea57c5e47787277191c7507b28f36d8ee6641bed2c108"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Web.HttpUtility.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Web.HttpUtility.klib",
+      "sha256": "8373797d0dfc972efa1eede05984ebef89d4ea10d736e422bb8df57928362ff2"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Windows.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Windows.klib",
+      "sha256": "45c9dc06fee8fb503575194691b27a0c3aefc9293867473e833a33b9429dff12"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.klib",
+      "sha256": "c744b26b33bb3225990432a99e1d0c437ebab7e262628e660cdec079ad60f70f"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.Linq.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.Linq.klib",
+      "sha256": "55994decc31a7fcfa711c13773aba4fb035909027871bbbc994a85118e22bd73"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.ReaderWriter.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.ReaderWriter.klib",
+      "sha256": "a53a2e9d017a7701524e9ac3156bf61d19f1a75b91fbbb5299e2e70fb86ade26"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.Serialization.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.Serialization.klib",
+      "sha256": "7929fa792504b44baeb10e3fc2796f6c11289f021da16511c167d6549facd7c4"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XDocument.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.XDocument.klib",
+      "sha256": "b1d6bd9ba12097f284cae64c02ebfe6f56de153e8f43e15d3bc1b1e286ec931d"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XmlDocument.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.XmlDocument.klib",
+      "sha256": "833f3b9a20a831ae7693892fadb54a0f23437b0163fdab3d53e5b7bee12cb3e6"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XmlSerializer.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.XmlSerializer.klib",
+      "sha256": "52dbbcc25ee0688988f1f9d923eddf03e0ceb69a26e3052bb7697498cf03b361"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XPath.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.XPath.klib",
+      "sha256": "8b6d102fe56a7fa0e4de2d40db6b45ca5e0b4e0fc82143db77b904a3ae101a84"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/System.Xml.XPath.XDocument.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/System.Xml.XPath.XDocument.klib",
+      "sha256": "c776496968d86a677e4ee9d95e2838913ccbcdd8f85ad576779946f4092612bf"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.NETCore.App.Ref/10.0.12/ref/net10.0/WindowsBase.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/WindowsBase.klib",
+      "sha256": "edca9ca1a3337d5bae169cc3c5dab2ddcfd88e300ffafeda437ddb6fb479fad7"
+    },
+    {
+      "sourceAssembly": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/Api/bin/Debug/net10.0/Api.dll",
+      "klib": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib",
+      "sha256": "c42d716b5887fd04cef44de2e7bf23206fb68f9dda19d204bb8c3747e87e46d0"
+    }
+  ],
+  "stdlibSha256": "39bb40168e04570a9d305a29c264f02e8ce05abe7c189001c150c792d0ddc5a5",
+  "dll2klibSha256": "ae03a57accd9e6339dd0403b1d9370e20b410c2c924b61ad1e71655b810a0f3a"
+}

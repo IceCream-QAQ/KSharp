@@ -1,0 +1,90 @@
+{
+  "reviewDate": "2026-10-13",
+  "scope": "Read-only reconciliation of retained run evidence and current source; no new IDE run or compiler build.",
+  "checks": {
+    "physicalNativePsi": true,
+    "mixedCore": true,
+    "realGuiOperations": true,
+    "realGuiErrorsAndRecovery": true,
+    "actualCSharpNavigation": true,
+    "unsavedEditsNoKlibRebuild": true,
+    "webPublicInputs": true,
+    "webAnalysis": true,
+    "threeRealEditors": true,
+    "kotlinCrossFileSource": true,
+    "controllerHttp200": true,
+    "controllerJson": true,
+    "controllerUnicode": true
+  },
+  "sourceDigestComparisons": [
+    {
+      "manifest": "aspnet-controller-source-digests.json",
+      "matching": [
+        "spikes/native-psi/fixtures/aspnet/KotlinWeb/HelloController.kt",
+        "spikes/native-psi/fixtures/aspnet/KotlinWeb/Program.kt",
+        "spikes/native-psi/prepare_aspnet.py",
+        "spikes/native-psi/run_probe.py",
+        "spikes/native-psi/src/GuiDemoActivity.kt"
+      ],
+      "changedSinceEvidence": [],
+      "missing": []
+    },
+    {
+      "manifest": "aspnet-source-digests.json",
+      "matching": [
+        "spikes/native-psi/build.gradle",
+        "spikes/native-psi/src/DocumentEditProbe.kt",
+        "spikes/native-psi/src/NativePsiProbe.java",
+        "spikes/native-psi/src/K2Probe.kt",
+        "spikes/native-psi/src/GuiEditorChecks.kt",
+        "spikes/native-psi/src/NavigationProbeClient.kt",
+        "spikes/native-psi/src/ClrSessionConfigurator.kt",
+        "spikes/native-psi/src/DotKtModuleBinding.kt",
+        "spikes/native-psi/src/CompletionProbe.kt",
+        "spikes/native-psi/fixtures/aspnet/KotlinWeb/Routes.kt",
+        "spikes/native-psi/fixtures/aspnet/KotlinWeb/KotlinWeb.ktproj"
+      ],
+      "changedSinceEvidence": [
+        "spikes/native-psi/prepare_aspnet.py",
+        "spikes/native-psi/run_probe.py",
+        "spikes/native-psi/src/GuiDemoActivity.kt",
+        "spikes/native-psi/fixtures/aspnet/KotlinWeb/Program.kt"
+      ],
+      "missing": []
+    },
+    {
+      "manifest": "native-gui-source-digests.json",
+      "matching": [
+        "spikes/native-psi/src/ClrSessionConfigurator.kt",
+        "spikes/native-psi/src/CompletionProbe.kt",
+        "spikes/native-psi/src/DocumentEditProbe.kt",
+        "spikes/native-psi/src/GuiEditorChecks.kt",
+        "spikes/native-psi/src/NativePsiProbe.java",
+        "spikes/native-psi/src/NavigationProbeClient.kt"
+      ],
+      "changedSinceEvidence": [
+        "spikes/native-psi/run_probe.py",
+        "spikes/native-psi/src/DotKtModuleBinding.kt",
+        "spikes/native-psi/src/GuiDemoActivity.kt",
+        "spikes/native-psi/src/K2Probe.kt"
+      ],
+      "missing": []
+    }
+  ],
+  "currentKlibHashesVerified": 307,
+  "inputs": {
+    "references": 307,
+    "totalKlibsIncludingStdlib": 308,
+    "sourceFiles": 3,
+    "targetFramework": "net10.0",
+    "runtimeIdentifier": ""
+  },
+  "controllerLogReview": {
+    "source": "spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-ili7af2q/log/idea.log",
+    "severeOrErrorEntries": 0,
+    "workspaceCacheWarnings": [
+      "2026-10-13 14:31:26,230 [  13551]   WARN - #c.i.w.i.i.WorkspaceModelCacheSerializer - Workspace model cache was not serialized",
+      "2026-10-13 14:31:41,659 [  28980]   WARN - #c.i.w.i.i.WorkspaceModelCacheSerializer - Suppressed a frequent exception logged for the 2nd time: Metadata for the com.intellij.workspaceModel.ide.NonPersistentEntitySource was not collected. Please run the generator for the class com.intellij.workspaceModel.ide.NonPersistentEntitySource"
+    ]
+  }
+}

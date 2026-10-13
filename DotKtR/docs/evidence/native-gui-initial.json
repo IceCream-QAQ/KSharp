@@ -1,0 +1,168 @@
+{
+  "mode": "interactive",
+  "ide": "JetBrains Rider 2026.2.3.1",
+  "build": "RD-262.10968.170",
+  "processId": 50132,
+  "source": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-h3ua65vj/fixture/App/Program.kt",
+  "phase": "ready",
+  "backendReady": {
+    "ready": true,
+    "status": {
+      "ready": true,
+      "solution": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-h3ua65vj/fixture/Probe.sln",
+      "projects": [
+        "",
+        "",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-h3ua65vj/fixture/Api/Api.csproj",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-h3ua65vj/fixture/App/App.ktproj"
+      ]
+    }
+  },
+  "k2": {
+    "module": "dotktr-kotlin",
+    "klibCount": 169,
+    "fileIndexClass": "com.jetbrains.rider.projectView.ideaInterop.RiderProjectFileIndexImpl",
+    "fileModule": "rider.module",
+    "isInSource": false,
+    "modules": [
+      {
+        "name": "rider.module",
+        "sources": []
+      },
+      {
+        "name": "dotktr-kotlin",
+        "sources": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-h3ua65vj/fixture/App"
+        ]
+      }
+    ],
+    "sourcePsi": "org.jetbrains.kotlin.psi.KtFile",
+    "analysisModule": "org.jetbrains.kotlin.idea.base.fir.projectStructure.modules.source.KaSourceModuleImpl",
+    "platform": "JS/JVM (1.8)/Native (general)/wasm-js (JS)/wasm-wasi (WASI)",
+    "dependencyCount": 169,
+    "stringSymbol": {
+      "origin": "LIBRARY",
+      "file": "/private/tmp/dotktr-dotkt-400ab504/build/clr-stdlib-frontend-klib/kotlin-stdlib-clr-frontend.klib!/default/linkdata/package_kotlin/13_kotlin.knm",
+      "superTypes": [
+        "kotlin/Comparable\u003ckotlin/String\u003e",
+        "kotlin/CharSequence"
+      ]
+    },
+    "calls": [
+      {
+        "text": "Pick(42)",
+        "offset": 164,
+        "symbol": "DotKtProbe/Api.Pick",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "kotlin/Int"
+        ],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Pick(\"hello\")",
+        "offset": 200,
+        "symbol": "DotKtProbe/Api.Pick",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "kotlin/String"
+        ],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Identity(\"generic\")",
+        "offset": 244,
+        "symbol": "DotKtProbe/Api.Identity",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Echo(\"inherited\")",
+        "offset": 300,
+        "symbol": "DotKtProbe/Base.Echo",
+        "resolved": true,
+        "expressionType": "kotlin/String!",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Box(\"boxed\")",
+        "offset": 332,
+        "symbol": "DotKtProbe/Box",
+        "resolved": true,
+        "expressionType": "DotKtProbe/Box\u003ckotlin/String\u003e",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "DotKtProbe/Box\u003cT\u003e",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Read()",
+        "offset": 411,
+        "symbol": "DotKtProbe/Box.Read",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Describe()",
+        "offset": 450,
+        "symbol": "DotKtProbe/Describe",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      }
+    ],
+    "diagnostics": [],
+    "semanticSuccess": true
+  },
+  "editorClass": "com.intellij.openapi.editor.impl.EditorImpl",
+  "editorFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-h3ua65vj/fixture/App/Program.kt",
+  "syntaxTokenTypes": [
+    "CLOSING_QUOTE",
+    "COLON",
+    "DOT",
+    "EQ",
+    "IDENTIFIER",
+    "INTEGER_LITERAL",
+    "LBRACE",
+    "LPAR",
+    "OPEN_QUOTE",
+    "PLUS",
+    "RBRACE",
+    "REGULAR_STRING_PART",
+    "RPAR",
+    "WHITE_SPACE",
+    "fun",
+    "package",
+    "return",
+    "val"
+  ],
+  "visibleCompletion": [],
+  "completionSuccess": false,
+  "success": true
+}

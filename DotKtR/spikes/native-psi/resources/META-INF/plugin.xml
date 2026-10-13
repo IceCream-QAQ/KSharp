@@ -1,0 +1,16 @@
+<idea-plugin>
+  <id>dotktr.native.psi.probe</id>
+  <name>DotKtR Native PSI Probe</name>
+  <version>0.0.1</version>
+  <vendor>DotKtR</vendor>
+  <idea-version since-build="262" until-build="262.*"/>
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.rider</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <appStarter id="dotktr-probe" implementation="dotktr.probe.NativePsiProbe"/>
+    <fileType name="Kotlin" language="kotlin" extensions="kt"
+              implementationClass="org.jetbrains.kotlin.idea.KotlinFileType" fieldName="INSTANCE"/>
+    <lang.parserDefinition language="kotlin" implementationClass="org.jetbrains.kotlin.parsing.KotlinParserDefinition"/>
+    <stubElementTypeHolder externalIdPrefix="kotlin." class="org.jetbrains.kotlin.psi.stubs.elements.KtStubElementTypes"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,12 @@
+{
+  "/": {
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "body": "Hello from Kotlin on ASP.NET Core!"
+  },
+  "/health": {
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"status\":\"ok\",\"language\":\"Kotlin\",\"platform\":\"ASP.NET Core\"}"
+  }
+}

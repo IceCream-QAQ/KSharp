@@ -1,0 +1,41 @@
+<idea-plugin require-restart="true">
+  <id>dev.dotktr</id>
+  <name>DotKtR</name>
+  <version>0.1.0-dev</version>
+  <vendor>DotKtR contributors</vendor>
+  <idea-version since-build="262.10968" until-build="262.10968.*"/>
+  <depends>com.intellij.modules.rider</depends>
+  <depends>com.intellij.java</depends>
+  <depends>org.jetbrains.kotlin</depends>
+  <description><![CDATA[
+    <p>Kotlin support for DotKt .ktproj projects in Rider: native Kotlin analysis,
+    completion and diagnostics, .NET source navigation, and .NET project Run.</p>
+    <p>Early preview for the documented Rider 2026.2.3.1 / IDEA 2026.2.3 host combination.
+    Requires the prepared Kotlin/Java compatibility host and a working DotKt SDK.
+    Import one Kotlin project at a time. Kotlin debugging is not yet validated.</p>
+  ]]></description>
+  <extensions defaultExtensionNs="com.intellij">
+    <postStartupActivity implementation="dev.dotktr.DotKtStartupActivity"/>
+    <notificationGroup id="DotKt" displayType="BALLOON"/>
+    <projectConfigurable parentId="language" id="dev.dotktr.settings" displayName="DotKt" instance="dev.dotktr.DotKtConfigurable"/>
+    <projectService serviceInterface="org.jetbrains.kotlin.idea.base.projectStructure.RootKindMatcher"
+                    serviceImplementation="dev.dotktr.DotKtRootKindMatcher" overrides="true"/>
+    <lang.directNavigationProvider implementation="dev.dotktr.DotNetDirectNavigationProvider" order="first"/>
+    <runConfigurationProducer implementation="dev.dotktr.DotKtRunConfigurationProducer"/>
+    <runLineMarkerContributor language="kotlin" implementationClass="dev.dotktr.DotKtRunLineMarkerContributor"/>
+  </extensions>
+  <extensions defaultExtensionNs="org.jetbrains.kotlin">
+    <supportsKotlinPluginMode supportsK1="false" supportsK2="true"/>
+    <llFirSessionConfigurator implementation="dev.dotktr.ClrSessionConfigurator"/>
+    <k2KaModuleFactory implementation="dev.dotktr.DotKtModuleFactory"/>
+    <kotlinContentScopeRefiner implementation="dev.dotktr.DotKtContentScopeRefiner"/>
+  </extensions>
+  <extensions defaultExtensionNs="org.jetbrains.kotlin.idea.codeInsight.lineMarkers">
+    <kotlinRunLineMarkerHider implementation="dev.dotktr.DotKtJvmRunMarkerHider"/>
+  </extensions>
+  <actions>
+    <action id="DotKt.RefreshProject" class="dev.dotktr.RefreshDotKtAction" text="Refresh DotKt Project" description="Resolve .ktproj sources and KLIB references with MSBuild">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>

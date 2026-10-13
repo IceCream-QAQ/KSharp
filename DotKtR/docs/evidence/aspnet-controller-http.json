@@ -1,0 +1,22 @@
+{
+  "/api/hello": {
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "body": "{\"message\":\"Hello from a Kotlin Controller!\",\"language\":\"Kotlin\"}"
+  },
+  "/api/hello/Ada": {
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "body": "{\"message\":\"Hello, Ada!\",\"language\":\"Kotlin\"}"
+  },
+  "/api/hello/%E4%B8%96%E7%95%8C": {
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "body": "{\"message\":\"Hello, 世界!\",\"language\":\"Kotlin\"}"
+  },
+  "/health": {
+    "status": 200,
+    "contentType": "application/json",
+    "body": "{\"status\":\"ok\",\"language\":\"Kotlin\",\"platform\":\"ASP.NET Core\"}"
+  }
+}

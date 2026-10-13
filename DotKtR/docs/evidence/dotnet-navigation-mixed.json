@@ -1,0 +1,317 @@
+{
+  "mode": "interactive",
+  "ide": "JetBrains Rider 2026.2.3.1",
+  "build": "RD-262.10968.170",
+  "processId": 62250,
+  "source": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/App/Program.kt",
+  "phase": "ready",
+  "backendReady": {
+    "ready": true,
+    "status": {
+      "ready": true,
+      "solution": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/DotKt-Demo.sln",
+      "projects": [
+        "",
+        "",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/Api/Api.csproj",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/App/App.ktproj"
+      ]
+    }
+  },
+  "k2": {
+    "module": "dotktr-kotlin",
+    "klibCount": 169,
+    "sourceIndexing": [
+      {
+        "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/App/Program.kt",
+        "fileType": "Kotlin",
+        "canHaveStub": true,
+        "stubDefinition": "com.intellij.psi.stubs.LanguageStubDefinitionAdapter"
+      }
+    ],
+    "fileIndexClass": "com.jetbrains.rider.projectView.ideaInterop.RiderProjectFileIndexImpl",
+    "fileModule": "rider.module",
+    "isInSource": false,
+    "modules": [
+      {
+        "name": "rider.module",
+        "sources": []
+      },
+      {
+        "name": "dotktr-kotlin",
+        "sources": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/App"
+        ]
+      }
+    ],
+    "sourcePsi": "org.jetbrains.kotlin.psi.KtFile",
+    "analysisModule": "org.jetbrains.kotlin.idea.base.fir.projectStructure.modules.source.KaSourceModuleImpl",
+    "platform": "JS/JVM (1.8)/Native (general)/wasm-js (JS)/wasm-wasi (WASI)",
+    "dependencyCount": 169,
+    "stringSymbol": {
+      "origin": "LIBRARY",
+      "file": "/private/tmp/dotktr-dotkt-400ab504/build/clr-stdlib-frontend-klib/kotlin-stdlib-clr-frontend.klib!/default/linkdata/package_kotlin/13_kotlin.knm",
+      "superTypes": [
+        "kotlin/Comparable\u003ckotlin/String\u003e",
+        "kotlin/CharSequence"
+      ]
+    },
+    "calls": [
+      {
+        "text": "Pick(42)",
+        "offset": 164,
+        "symbol": "DotKtProbe/Api.Pick",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "kotlin/Int"
+        ],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Pick(\"hello\")",
+        "offset": 200,
+        "symbol": "DotKtProbe/Api.Pick",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "kotlin/String"
+        ],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Identity(\"generic\")",
+        "offset": 244,
+        "symbol": "DotKtProbe/Api.Identity",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Echo(\"inherited\")",
+        "offset": 300,
+        "symbol": "DotKtProbe/Base.Echo",
+        "resolved": true,
+        "expressionType": "kotlin/String!",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Box(\"boxed\")",
+        "offset": 332,
+        "symbol": "DotKtProbe/Box",
+        "resolved": true,
+        "expressionType": "DotKtProbe/Box\u003ckotlin/String\u003e",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "DotKtProbe/Box\u003cT\u003e",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Read()",
+        "offset": 411,
+        "symbol": "DotKtProbe/Box.Read",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Describe()",
+        "offset": 450,
+        "symbol": "DotKtProbe/Describe",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      }
+    ],
+    "diagnostics": [],
+    "semanticSuccess": true,
+    "additionalFiles": []
+  },
+  "editorClass": "com.intellij.openapi.editor.impl.EditorImpl",
+  "editorFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/App/Program.kt",
+  "syntaxTokenTypes": [
+    "CLOSING_QUOTE",
+    "COLON",
+    "DOT",
+    "EQ",
+    "IDENTIFIER",
+    "INTEGER_LITERAL",
+    "LBRACE",
+    "LPAR",
+    "OPEN_QUOTE",
+    "PLUS",
+    "RBRACE",
+    "REGULAR_STRING_PART",
+    "RPAR",
+    "WHITE_SPACE",
+    "fun",
+    "package",
+    "return",
+    "val"
+  ],
+  "visibleCompletion": [
+    {
+      "name": "Value",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "Read",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "Describe",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "toString",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "equals",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "hashCode",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    }
+  ],
+  "completionSuccess": true,
+  "completionPopupShown": true,
+  "startupSuccess": true,
+  "success": true,
+  "dotnetNavigation": {
+    "cases": [
+      {
+        "source": "Program.kt",
+        "anchor": "Pick(42)",
+        "target": {
+          "owner": "DotKtProbe.Api",
+          "xmlDocId": "M:DotKtProbe.Api.Pick(System.Int32)",
+          "sourceAssembly": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/Api/bin/Debug/net10.0/Api.dll",
+          "kotlinName": "DotKtProbe/Api.Pick",
+          "targetKind": "method"
+        },
+        "gesture": "cmd-click",
+        "event": {
+          "requestId": 1,
+          "target": {
+            "owner": "DotKtProbe.Api",
+            "xmlDocId": "M:DotKtProbe.Api.Pick(System.Int32)",
+            "sourceAssembly": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/Api/bin/Debug/net10.0/Api.dll",
+            "kotlinName": "DotKtProbe/Api.Pick",
+            "targetKind": "method"
+          },
+          "backend": {
+            "success": true,
+            "owner": "DotKtProbe.Api",
+            "identity": "M:DotKtProbe.Api.Pick(System.Int32)",
+            "expectedAssembly": "Api",
+            "consumerPath": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/App/App.ktproj",
+            "symbol": "Pick",
+            "implementation": "JetBrains.ReSharper.Psi.CSharp.Impl.DeclaredElement.CSharpMethod",
+            "declarations": [
+              {
+                "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/Api/Api.cs",
+                "start": 349,
+                "end": 353
+              }
+            ],
+            "hasSourceDeclaration": true,
+            "navigationRequested": true,
+            "lookupAttempts": 1
+          },
+          "editor": {
+            "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/Api/Api.cs",
+            "fileType": "C#",
+            "caret": 349,
+            "line": 19,
+            "lineText": "    public static string Pick(int value) \u003d\u003e $\"int:{value}\";",
+            "decompiled": false,
+            "sourceKind": "solution-source"
+          },
+          "success": true
+        },
+        "expectedDeclaration": "Pick(int value)",
+        "success": true,
+        "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/navigation-1.png"
+      },
+      {
+        "source": "Program.kt",
+        "anchor": "Pick(\"hello\")",
+        "target": {
+          "owner": "DotKtProbe.Api",
+          "xmlDocId": "M:DotKtProbe.Api.Pick(System.String)",
+          "sourceAssembly": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/Api/bin/Debug/net10.0/Api.dll",
+          "kotlinName": "DotKtProbe/Api.Pick",
+          "targetKind": "method"
+        },
+        "gesture": "cmd-click",
+        "event": {
+          "requestId": 2,
+          "target": {
+            "owner": "DotKtProbe.Api",
+            "xmlDocId": "M:DotKtProbe.Api.Pick(System.String)",
+            "sourceAssembly": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/fixtures/mixed/Api/bin/Debug/net10.0/Api.dll",
+            "kotlinName": "DotKtProbe/Api.Pick",
+            "targetKind": "method"
+          },
+          "backend": {
+            "success": true,
+            "owner": "DotKtProbe.Api",
+            "identity": "M:DotKtProbe.Api.Pick(System.String)",
+            "expectedAssembly": "Api",
+            "consumerPath": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/App/App.ktproj",
+            "symbol": "Pick",
+            "implementation": "JetBrains.ReSharper.Psi.CSharp.Impl.DeclaredElement.CSharpMethod",
+            "declarations": [
+              {
+                "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/Api/Api.cs",
+                "start": 409,
+                "end": 413
+              }
+            ],
+            "hasSourceDeclaration": true,
+            "navigationRequested": true,
+            "lookupAttempts": 1
+          },
+          "editor": {
+            "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/fixture/Api/Api.cs",
+            "fileType": "C#",
+            "caret": 409,
+            "line": 20,
+            "lineText": "    public static string Pick(string value) \u003d\u003e $\"string:{value}\";",
+            "decompiled": false,
+            "sourceKind": "solution-source"
+          },
+          "success": true
+        },
+        "expectedDeclaration": "Pick(string value)",
+        "success": true,
+        "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-d8692bmm/navigation-2.png"
+      }
+    ],
+    "success": true
+  }
+}

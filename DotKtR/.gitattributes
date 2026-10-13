@@ -1,0 +1,6 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Stable wrapper checkout line endings on each platform.
+gradlew text eol=lf
+gradlew.bat text eol=crlf

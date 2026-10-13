@@ -1,0 +1,447 @@
+{
+  "phase": "complete",
+  "import": {
+    "phase": "ready",
+    "message": "KotlinWeb.ktproj · net10.0 · 3 Kotlin files",
+    "generation": 1,
+    "sourceCount": 3,
+    "libraryCount": 308
+  },
+  "indexingFlag": "true",
+  "diagnostics": [
+    {
+      "file": "HelloController.kt",
+      "errors": []
+    },
+    {
+      "file": "Program.kt",
+      "errors": []
+    },
+    {
+      "file": "Routes.kt",
+      "errors": []
+    }
+  ],
+  "sourceRefresh": {
+    "before": 1,
+    "afterAdd": {
+      "phase": "ready",
+      "message": "KotlinWeb.ktproj · net10.0 · 4 Kotlin files",
+      "generation": 2,
+      "sourceCount": 4,
+      "libraryCount": 308
+    },
+    "afterDelete": {
+      "phase": "ready",
+      "message": "KotlinWeb.ktproj · net10.0 · 3 Kotlin files",
+      "generation": 3,
+      "sourceCount": 3,
+      "libraryCount": 308
+    },
+    "success": true
+  },
+  "completion": [
+    "Services",
+    "Run",
+    "Build",
+    "Logger",
+    "Urls",
+    "Configuration",
+    "Environment",
+    "Lifetime",
+    "RunAsync",
+    "ApplicationServices",
+    "DataSources",
+    "Properties",
+    "ServerFeatures",
+    "ServiceProvider",
+    "CreateApplicationBuilder",
+    "Dispose",
+    "DisposeAsync",
+    "New",
+    "StartAsync",
+    "StopAsync",
+    "Use",
+    "Use",
+    "equals",
+    "hashCode",
+    "toString",
+    "mapDotKtEndpoints",
+    "MapControllers"
+  ],
+  "navigation": {
+    "cases": [
+      {
+        "source": "HelloController.kt",
+        "anchor": "ControllerBase()",
+        "target": {
+          "owner": "Microsoft.AspNetCore.Mvc.ControllerBase",
+          "xmlDocId": "T:Microsoft.AspNetCore.Mvc.ControllerBase",
+          "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Core.dll",
+          "kotlinName": "Microsoft.AspNetCore.Mvc.ControllerBase",
+          "targetKind": "type",
+          "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+          "generation": 3
+        },
+        "gesture": "cmd-click",
+        "event": {
+          "requestId": 1,
+          "target": {
+            "owner": "Microsoft.AspNetCore.Mvc.ControllerBase",
+            "xmlDocId": "T:Microsoft.AspNetCore.Mvc.ControllerBase",
+            "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Core.dll",
+            "kotlinName": "Microsoft.AspNetCore.Mvc.ControllerBase",
+            "targetKind": "type",
+            "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "generation": 3
+          },
+          "backend": {
+            "success": true,
+            "owner": "Microsoft.AspNetCore.Mvc.ControllerBase",
+            "identity": "T:Microsoft.AspNetCore.Mvc.ControllerBase",
+            "expectedAssembly": "Microsoft.AspNetCore.Mvc.Core",
+            "consumerPath": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "symbol": "ControllerBase",
+            "implementation": "JetBrains.ReSharper.Psi.Impl.reflection2.elements.Compiled.Class",
+            "declarations": [],
+            "hasSourceDeclaration": false,
+            "navigationRequested": true,
+            "lookupAttempts": 1
+          },
+          "editor": {
+            "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/config/resharper-host/SourcesCache/c7afd9724cf757c4a8469dba2bdc22ab5ac111c91f431dbfefc992dacb3e8635/ControllerBase.cs",
+            "fileType": "C#",
+            "caret": 828,
+            "line": 25,
+            "lineText": "public abstract class ControllerBase",
+            "decompiled": false,
+            "sourceKind": "external-source"
+          },
+          "success": true
+        },
+        "expectedDeclaration": "class ControllerBase",
+        "success": true,
+        "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/navigation-1.png"
+      },
+      {
+        "source": "HelloController.kt",
+        "anchor": "Ok(GreetingResponse",
+        "target": {
+          "owner": "Microsoft.AspNetCore.Mvc.ControllerBase",
+          "xmlDocId": "M:Microsoft.AspNetCore.Mvc.ControllerBase.Ok(System.Object)",
+          "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Core.dll",
+          "kotlinName": "Microsoft/AspNetCore/Mvc/ControllerBase.Ok",
+          "targetKind": "method",
+          "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+          "generation": 3
+        },
+        "gesture": "cmd-click",
+        "event": {
+          "requestId": 2,
+          "target": {
+            "owner": "Microsoft.AspNetCore.Mvc.ControllerBase",
+            "xmlDocId": "M:Microsoft.AspNetCore.Mvc.ControllerBase.Ok(System.Object)",
+            "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Core.dll",
+            "kotlinName": "Microsoft/AspNetCore/Mvc/ControllerBase.Ok",
+            "targetKind": "method",
+            "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "generation": 3
+          },
+          "backend": {
+            "success": true,
+            "owner": "Microsoft.AspNetCore.Mvc.ControllerBase",
+            "identity": "M:Microsoft.AspNetCore.Mvc.ControllerBase.Ok(System.Object)",
+            "expectedAssembly": "Microsoft.AspNetCore.Mvc.Core",
+            "consumerPath": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "symbol": "Ok",
+            "implementation": "JetBrains.ReSharper.Psi.Impl.reflection2.elements.Compiled.Method",
+            "declarations": [],
+            "hasSourceDeclaration": false,
+            "navigationRequested": true,
+            "lookupAttempts": 1
+          },
+          "editor": {
+            "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/config/resharper-host/SourcesCache/c7afd9724cf757c4a8469dba2bdc22ab5ac111c91f431dbfefc992dacb3e8635/ControllerBase.cs",
+            "fileType": "C#",
+            "caret": 11219,
+            "line": 317,
+            "lineText": "    public virtual OkObjectResult Ok([ActionResultObjectValue] object? value)",
+            "decompiled": false,
+            "sourceKind": "external-source"
+          },
+          "success": true
+        },
+        "expectedDeclaration": "Ok([ActionResultObjectValue] object? value)",
+        "success": true,
+        "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/navigation-2.png"
+      },
+      {
+        "source": "Program.kt",
+        "anchor": "MapControllers()",
+        "target": {
+          "owner": "Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions",
+          "xmlDocId": "M:Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)",
+          "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Core.dll",
+          "kotlinName": "Microsoft/AspNetCore/Builder/MapControllers",
+          "targetKind": "method",
+          "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+          "generation": 3
+        },
+        "gesture": "cmd-click",
+        "event": {
+          "requestId": 3,
+          "target": {
+            "owner": "Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions",
+            "xmlDocId": "M:Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)",
+            "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Mvc.Core.dll",
+            "kotlinName": "Microsoft/AspNetCore/Builder/MapControllers",
+            "targetKind": "method",
+            "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "generation": 3
+          },
+          "backend": {
+            "success": true,
+            "owner": "Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions",
+            "identity": "M:Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)",
+            "expectedAssembly": "Microsoft.AspNetCore.Mvc.Core",
+            "consumerPath": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "symbol": "MapControllers",
+            "implementation": "JetBrains.ReSharper.Psi.Impl.reflection2.elements.Compiled.Method",
+            "declarations": [],
+            "hasSourceDeclaration": false,
+            "navigationRequested": true,
+            "lookupAttempts": 1
+          },
+          "editor": {
+            "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/config/resharper-host/SourcesCache/a6d7c3abd4bb25b143ddc7a36ea5f74afd9a85471a3df5ea5d0653fea102b/ControllerEndpointRouteBuilderExtensions.cs",
+            "fileType": "C#",
+            "caret": 1194,
+            "line": 27,
+            "lineText": "    public static ControllerActionEndpointConventionBuilder MapControllers(this IEndpointRouteBuilder endpoints)",
+            "decompiled": false,
+            "sourceKind": "external-source"
+          },
+          "success": true
+        },
+        "expectedDeclaration": "MapControllers(this IEndpointRouteBuilder endpoints)",
+        "success": true,
+        "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/navigation-3.png"
+      },
+      {
+        "source": "Program.kt",
+        "anchor": "CreateBuilder(args)",
+        "target": {
+          "owner": "Microsoft.AspNetCore.Builder.WebApplication",
+          "xmlDocId": "M:Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(System.String[])",
+          "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.dll",
+          "kotlinName": "Microsoft/AspNetCore/Builder/WebApplication.CreateBuilder",
+          "targetKind": "method",
+          "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+          "generation": 3
+        },
+        "gesture": "cmd-click",
+        "event": {
+          "requestId": 4,
+          "target": {
+            "owner": "Microsoft.AspNetCore.Builder.WebApplication",
+            "xmlDocId": "M:Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(System.String[])",
+            "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.dll",
+            "kotlinName": "Microsoft/AspNetCore/Builder/WebApplication.CreateBuilder",
+            "targetKind": "method",
+            "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "generation": 3
+          },
+          "backend": {
+            "success": true,
+            "owner": "Microsoft.AspNetCore.Builder.WebApplication",
+            "identity": "M:Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(System.String[])",
+            "expectedAssembly": "Microsoft.AspNetCore",
+            "consumerPath": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "symbol": "CreateBuilder",
+            "implementation": "JetBrains.ReSharper.Psi.Impl.reflection2.elements.Compiled.Method",
+            "declarations": [],
+            "hasSourceDeclaration": false,
+            "navigationRequested": true,
+            "lookupAttempts": 1
+          },
+          "editor": {
+            "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/config/resharper-host/SourcesCache/ae62ba349516ed6ffc77677754e3f3813337894f9d942dfa80ae3055c49/WebApplication.cs",
+            "fileType": "C#",
+            "caret": 4794,
+            "line": 117,
+            "lineText": "    public static WebApplicationBuilder CreateBuilder(string[] args) \u003d\u003e",
+            "decompiled": false,
+            "sourceKind": "external-source"
+          },
+          "success": true
+        },
+        "expectedDeclaration": "CreateBuilder(string[] args)",
+        "success": true,
+        "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/navigation-4.png"
+      },
+      {
+        "source": "Routes.kt",
+        "anchor": "Response.StatusCode",
+        "target": {
+          "owner": "Microsoft.AspNetCore.Http.HttpResponse",
+          "xmlDocId": "P:Microsoft.AspNetCore.Http.HttpResponse.StatusCode",
+          "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+          "kotlinName": "Microsoft/AspNetCore/Http/HttpResponse.StatusCode",
+          "targetKind": "property",
+          "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+          "generation": 3
+        },
+        "gesture": "cmd-click",
+        "event": {
+          "requestId": 5,
+          "target": {
+            "owner": "Microsoft.AspNetCore.Http.HttpResponse",
+            "xmlDocId": "P:Microsoft.AspNetCore.Http.HttpResponse.StatusCode",
+            "sourceAssembly": "/Users/icecream/.dotnet/packs/Microsoft.AspNetCore.App.Ref/10.0.12/ref/net10.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+            "kotlinName": "Microsoft/AspNetCore/Http/HttpResponse.StatusCode",
+            "targetKind": "property",
+            "consumerProject": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "generation": 3
+          },
+          "backend": {
+            "success": true,
+            "owner": "Microsoft.AspNetCore.Http.HttpResponse",
+            "identity": "P:Microsoft.AspNetCore.Http.HttpResponse.StatusCode",
+            "expectedAssembly": "Microsoft.AspNetCore.Http.Abstractions",
+            "consumerPath": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+            "symbol": "StatusCode",
+            "implementation": "JetBrains.ReSharper.Psi.Impl.reflection2.elements.Compiled.Property",
+            "declarations": [],
+            "hasSourceDeclaration": false,
+            "navigationRequested": true,
+            "lookupAttempts": 1
+          },
+          "editor": {
+            "file": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/config/resharper-host/SourcesCache/ab90db2d8cc5f168d71432ad53a29a4a1a54cdac4b8e573db4ed63469b178/HttpResponse.cs",
+            "fileType": "C#",
+            "caret": 1344,
+            "line": 42,
+            "lineText": "    public abstract int StatusCode { get; set; }",
+            "decompiled": false,
+            "sourceKind": "external-source"
+          },
+          "success": true
+        },
+        "expectedDeclaration": "int StatusCode { get; set; }",
+        "success": true,
+        "image": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/navigation-5.png"
+      },
+      {
+        "source": "Program.kt",
+        "anchor": "mapDotKtEndpoints()",
+        "gesture": "GotoDeclaration action",
+        "target": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/Routes.kt",
+        "bridgeIntercepted": false,
+        "backendRequests": 0,
+        "success": true
+      }
+    ],
+    "success": true
+  },
+  "run": {
+    "phase": "complete",
+    "runnableProjects": [
+      {
+        "project": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+        "kind": "RunnableProjectKind(name\u003dDotNetCore)",
+        "outputs": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/bin/Debug/net10.0/KotlinWeb"
+        ]
+      },
+      {
+        "project": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+        "kind": "RunnableProjectKind(name\u003dStaticMethod)",
+        "outputs": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/bin/Debug/net10.0/KotlinWeb.dll"
+        ]
+      }
+    ],
+    "activeProducers": [
+      "org.jetbrains.kotlin.idea.run.KotlinRunConfigurationProducer",
+      "com.jetbrains.rider.run.configurations.project.DotNetProjectConfigurationProducer",
+      "dev.dotktr.DotKtRunConfigurationProducer"
+    ],
+    "marker": true,
+    "jvmMarkerHidden": true,
+    "directProduced": "KotlinWeb (DotKt)",
+    "contextConfigurations": [
+      {
+        "name": "KotlinWeb",
+        "type": "DotNetProject",
+        "implementation": "com.jetbrains.rider.run.configurations.project.DotNetProjectConfiguration"
+      }
+    ],
+    "beforeRunTasks": [
+      {
+        "provider": "CleanProject",
+        "enabled": true
+      },
+      {
+        "provider": "Build",
+        "enabled": true
+      }
+    ],
+    "configuration": {
+      "project": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/KotlinWeb.ktproj",
+      "tfm": "",
+      "exe": "",
+      "workingDirectory": "",
+      "tracksProjectOutput": true,
+      "expectedOutput": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb/bin/Debug/net10.0/KotlinWeb"
+    },
+    "visibleMarkers": [
+      {
+        "start": 189,
+        "tooltip": "\u003chtml\u003eRun DotKt .NET project\u0026nbsp;\u0026nbsp;\u003cfont color\u003d\u0027#9fa2a8\u0027\u003e⌃⇧R\u003c/font\u003e\u003c/html\u003e"
+      }
+    ],
+    "runActionClass": "com.intellij.execution.actions.RunContextAction",
+    "action": "ProgramRunnerUtil.executeConfiguration from main ConfigurationContext",
+    "executionEvents": [
+      "scheduled",
+      "starting",
+      "started",
+      "scheduled",
+      "scheduled",
+      "starting",
+      "started"
+    ],
+    "http": [
+      {
+        "route": "/",
+        "status": 200,
+        "body": "Hello from Kotlin on ASP.NET Core!"
+      },
+      {
+        "route": "/health",
+        "status": 200,
+        "body": "{\"status\":\"ok\",\"language\":\"Kotlin\",\"platform\":\"ASP.NET Core\"}"
+      },
+      {
+        "route": "/api/hello/Ada",
+        "status": 200,
+        "body": "{\"message\":\"Hello, Ada!\",\"language\":\"Kotlin\"}"
+      }
+    ],
+    "processHandler": "com.jetbrains.rider.run.TerminalProcessHandler",
+    "outputExists": true,
+    "console": "\u001b[?1h\u001b\u003dinfo: Microsoft.Hosting.Lifetime[14]\r\n      Now listening on: http://127.0.0.1:49608\r\ninfo: Microsoft.Hosting.Lifetime[0]\r\n      Application started. Press Ctrl+C to shut down.\r\ninfo: Microsoft.Hosting.Lifetime[0]\r\n      Hosting environment: Production\r\ninfo: Microsoft.Hosting.Lifetime[0]\r\n      Content root path: /Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-pjrp5tjt/fixture/KotlinWeb\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[1]\r\n      Request starting HTTP/1.1 GET http://127.0.0.1:49608/ - - -\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]\r\n      Executing endpoint \u0027HTTP: GET /\u0027\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]\r\n      Executed endpoint \u0027HTTP: GET /\u0027\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[2]\r\n      Request finished HTTP/1.1 GET http://127.0.0.1:49608/ - 200 - text/plain;+charset\u003dutf-8 13.9875ms\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[1]\r\n      Request starting HTTP/1.1 GET http://127.0.0.1:49608/health - - -\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]\r\n      Executing endpoint \u0027HTTP: GET /health\u0027\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]\r\n      Executed endpoint \u0027HTTP: GET /health\u0027\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[2]\r\n      Request finished HTTP/1.1 GET http://127.0.0.1:49608/health - 200 - application/json 1.1239ms\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[1]\r\n      Request starting HTTP/1.1 GET http://127.0.0.1:49608/api/hello/Ada - - -\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]\r\n      Executing endpoint \u0027dotkt.web.controllers.HelloController.greet (KotlinWeb)\u0027\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]\r\n      Route matched with {action \u003d \"greet\", controller \u003d \"Hello\"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult greet(System.String) on controller dotkt.web.controllers.HelloController (KotlinWeb).\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[101]\r\n      Executing action method dotkt.web.controllers.HelloController.greet (KotlinWeb) - Validation state: Valid\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[103]\r\n      Executed action method dotkt.web.controllers.HelloController.greet (KotlinWeb), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2852ms.\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]\r\n      Executing OkObjectResult, writing value of type \u0027dotkt.web.controllers.GreetingResponse\u0027.\r\ninfo: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]\r\n      Executed action dotkt.web.controllers.HelloController.greet (KotlinWeb) in 32.8744ms\r\ninfo: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]\r\n      Executed endpoint \u0027dotkt.web.controllers.HelloController.greet (KotlinWeb)\u0027\r\ninfo: Microsoft.AspNetCore.Hosting.Diagnostics[2]\r\n      Request finished HTTP/1.1 GET http://127.0.0.1:49608/api/hello/Ada - 200 - application/json;+charset\u003dutf-8 52.2562ms\r\n",
+    "stopped": true,
+    "compileFailure": {
+      "executionFailure": "Native .NET execution did not start",
+      "processStarted": false
+    },
+    "rerun": {
+      "status": 200,
+      "body": "Hello from Rider main rerun!"
+    },
+    "rerunStopped": true,
+    "success": true
+  },
+  "success": true
+}

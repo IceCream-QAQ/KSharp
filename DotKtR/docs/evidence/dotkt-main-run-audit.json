@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-13",
+  "sandbox": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-f5iwe7j0",
+  "baselineRunActionSandbox": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-olw4n4tz",
+  "restoredFixtureSources": {
+    "Program.kt": true,
+    "Routes.kt": true,
+    "HelloController.kt": true
+  },
+  "checks": {
+    "nativeContext": "DotNetProject",
+    "nativeBuildBeforeRun": true,
+    "freshOutputCreated": true,
+    "http": [
+      {
+        "route": "/",
+        "status": 200,
+        "body": "Hello from Kotlin on ASP.NET Core!"
+      },
+      {
+        "route": "/health",
+        "status": 200,
+        "body": "{\"status\":\"ok\",\"language\":\"Kotlin\",\"platform\":\"ASP.NET Core\"}"
+      },
+      {
+        "route": "/api/hello/Ada",
+        "status": 200,
+        "body": "{\"message\":\"Hello, Ada!\",\"language\":\"Kotlin\"}"
+      }
+    ],
+    "stop": true,
+    "compileFailure": {
+      "executionFailure": "Native .NET execution did not start",
+      "processStarted": false
+    },
+    "rerunAfterSourceEdit": {
+      "status": 200,
+      "body": "Hello from Rider main rerun!"
+    },
+    "rerunStopped": true
+  },
+  "compileDiagnosticExcerpt": [
+    {
+      "log": "log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2026_10_13_08_42_43_3211.log",
+      "line": "     1>Program.kt(17,23): error G2964B8A6: initializer type mismatch: expected 'Int', actual 'String'."
+    },
+    {
+      "log": "log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2026_10_13_08_42_43_3211.log",
+      "line": "         val dotktrBroken: Int = \"wrong\""
+    },
+    {
+      "log": "log/SolutionBuilder/JetBrainsLog.ReSharperBuild_2026_10_13_08_42_43_3211.log",
+      "line": "         Program.kt(17,23): error G2964B8A6: initializer type mismatch: expected 'Int', actual 'String'."
+    }
+  ],
+  "files": [
+    {
+      "path": "src/DotKtRunConfiguration.kt",
+      "sha256": "4c03240004c8dc812fe8cd7b2415e112fd1a375e2146183ce90dbe684e5576d1"
+    },
+    {
+      "path": "src/MainRunChecks.kt",
+      "sha256": "5cdcdce36b978c4e16362ab3d9dec613137eec00087ada9b94403de3aa5a8e1b"
+    },
+    {
+      "path": "src/GuiDemoActivity.kt",
+      "sha256": "127c8684b219ab28a421c17a14cbf9ece9dd8cb63ac84ab317510083453c97d8"
+    },
+    {
+      "path": "run_probe.py",
+      "sha256": "04689875e80bd38a6d3c913279022d38780ce28d337fcfb2062b82ab19fb1061"
+    }
+  ],
+  "screenshotSource": "dotkt-main-run-action baseline: normal RunClass action with full editor and native Run console visible"
+}

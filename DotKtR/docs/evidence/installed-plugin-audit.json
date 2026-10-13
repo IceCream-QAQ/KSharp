@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-13",
+  "version": "0.1.0-dev",
+  "pluginId": "dev.dotktr",
+  "zipSha256": "830c56e46c73e5b3a26a739bd2d7e193a18bb41e6e65bb8a675acc12b3234b25",
+  "zipBytes": 176638,
+  "installedBytesMatchDistribution": true,
+  "restoredSources": {
+    "Program.kt": true,
+    "Routes.kt": true,
+    "HelloController.kt": true
+  },
+  "unitTests": {
+    "name": "dev.dotktr.MsBuildSnapshotTest",
+    "tests": "5",
+    "skipped": "0",
+    "failures": "0",
+    "errors": "0",
+    "timestamp": "2026-10-13T09:52:52.368Z",
+    "hostname": "IceCream--MacBook-Pro.local",
+    "time": "0.052"
+  },
+  "structureCheck": "verifyPluginStructure passed with ignoreWarnings=false",
+  "sdk": {
+    "Rider": "262.10968.170",
+    "IDEA": "262.10968.63",
+    "Kotlin": "2.4.10"
+  },
+  "compileFailureDiagnostics": [
+    "1>Program.kt(17,23): error G406E71A1: initializer type mismatch: expected 'Int', actual 'String'.",
+    "Program.kt(17,23): error G406E71A1: initializer type mismatch: expected 'Int', actual 'String'."
+  ],
+  "sources": [
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtSettings.kt",
+      "sha256": "e26b5b2ceff8b793d3f0e49a5a1175505912ef76e454d8599b943635aedde595"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtLifecycle.kt",
+      "sha256": "d7057bf54392d4112d816a39d5aa6b6d69757805b7654008c7c40a0a45a69f23"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtRunConfiguration.kt",
+      "sha256": "704e622a57908d37cadb377dbed0d4ff8b0b1043e70a43388f91e3b945baa172"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/MsBuildSnapshot.kt",
+      "sha256": "08b1cd260a9b5b26d142310192da87160bd677c5cb9f4378d9dff19998cb9253"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/ModuleImporter.kt",
+      "sha256": "8d54024ac88c44a923cff6f405155a6f6561d182504180a7d060eb84050a15ea"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtProjectService.kt",
+      "sha256": "2e8324f48809e8e3ab1d51e3d3c757147108a88c36f3b83b0772879eb4e7dc1e"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotNetNavigationService.kt",
+      "sha256": "46a5b18cc46fc126ffdf6129c4aec764b76cd8452d6d8df1d49ef7c1ffe897b5"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/ClrSessionConfigurator.kt",
+      "sha256": "43f691938d928e7680c2e663bbb19877280090596042f90df9147c77b4dc7479"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtModuleBinding.kt",
+      "sha256": "dbc5ee6aaf0345bda9065f83f43b0b942fb82f5905c7d97faea8aa02a5d6568d"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/ClrNavigation.kt",
+      "sha256": "4df191df0bff2b6d1135e98d2c72156faa21f5750c9321be55b9ab4c1d1b4628"
+    },
+    {
+      "path": "src/rider/main/resources/META-INF/pluginIcon.svg",
+      "sha256": "698d0230b918f026dd4cf2ef7031da7d310767515d79bb8ad7cebe5028abf10a"
+    },
+    {
+      "path": "src/rider/main/resources/META-INF/plugin.xml",
+      "sha256": "4d558bcc00260e62574fe02115423773c746322559d2e857ab499a82f87ab920"
+    },
+    {
+      "path": "src/dotnet/DotKtR.Backend/NavigationService.cs",
+      "sha256": "4bd8624d540e456a03840e39251c8b85bbdf381d4faac9a8d244d74554242824"
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "89d3dcf7777014c3303b83e70291f1722242f0c85aabdff9548adf173ee4fd11"
+    }
+  ]
+}

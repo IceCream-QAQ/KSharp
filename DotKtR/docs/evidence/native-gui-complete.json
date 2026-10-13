@@ -1,0 +1,414 @@
+{
+  "mode": "interactive",
+  "ide": "JetBrains Rider 2026.2.3.1",
+  "build": "RD-262.10968.170",
+  "processId": 52753,
+  "source": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/fixture/App/Program.kt",
+  "phase": "ready",
+  "backendReady": {
+    "ready": true,
+    "status": {
+      "ready": true,
+      "solution": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/fixture/DotKt-UI-Checks.sln",
+      "projects": [
+        "",
+        "",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/fixture/Api/Api.csproj",
+        "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/fixture/App/App.ktproj"
+      ]
+    }
+  },
+  "k2": {
+    "module": "dotktr-kotlin",
+    "klibCount": 169,
+    "fileIndexClass": "com.jetbrains.rider.projectView.ideaInterop.RiderProjectFileIndexImpl",
+    "fileModule": "rider.module",
+    "isInSource": false,
+    "modules": [
+      {
+        "name": "rider.module",
+        "sources": []
+      },
+      {
+        "name": "dotktr-kotlin",
+        "sources": [
+          "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/fixture/App"
+        ]
+      }
+    ],
+    "sourcePsi": "org.jetbrains.kotlin.psi.KtFile",
+    "analysisModule": "org.jetbrains.kotlin.idea.base.fir.projectStructure.modules.source.KaSourceModuleImpl",
+    "platform": "JS/JVM (1.8)/Native (general)/wasm-js (JS)/wasm-wasi (WASI)",
+    "dependencyCount": 169,
+    "stringSymbol": {
+      "origin": "LIBRARY",
+      "file": "/private/tmp/dotktr-dotkt-400ab504/build/clr-stdlib-frontend-klib/kotlin-stdlib-clr-frontend.klib!/default/linkdata/package_kotlin/13_kotlin.knm",
+      "superTypes": [
+        "kotlin/Comparable\u003ckotlin/String\u003e",
+        "kotlin/CharSequence"
+      ]
+    },
+    "calls": [
+      {
+        "text": "Pick(42)",
+        "offset": 164,
+        "symbol": "DotKtProbe/Api.Pick",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "kotlin/Int"
+        ],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Pick(\"hello\")",
+        "offset": 200,
+        "symbol": "DotKtProbe/Api.Pick",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "kotlin/String"
+        ],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Identity(\"generic\")",
+        "offset": 244,
+        "symbol": "DotKtProbe/Api.Identity",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Echo(\"inherited\")",
+        "offset": 300,
+        "symbol": "DotKtProbe/Base.Echo",
+        "resolved": true,
+        "expressionType": "kotlin/String!",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Box(\"boxed\")",
+        "offset": 332,
+        "symbol": "DotKtProbe/Box",
+        "resolved": true,
+        "expressionType": "DotKtProbe/Box\u003ckotlin/String\u003e",
+        "parameters": [
+          "T"
+        ],
+        "returnType": "DotKtProbe/Box\u003cT\u003e",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Read()",
+        "offset": 411,
+        "symbol": "DotKtProbe/Box.Read",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [],
+        "returnType": "T",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      },
+      {
+        "text": "Describe()",
+        "offset": 450,
+        "symbol": "DotKtProbe/Describe",
+        "resolved": true,
+        "expressionType": "kotlin/String",
+        "parameters": [],
+        "returnType": "kotlin/String",
+        "origin": "LIBRARY",
+        "declarationFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/klib/Api.klib!/default/linkdata/package_DotKtProbe/0_DotKtProbe.knm"
+      }
+    ],
+    "diagnostics": [],
+    "semanticSuccess": true
+  },
+  "editorClass": "com.intellij.openapi.editor.impl.EditorImpl",
+  "editorFile": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/fixture/App/Program.kt",
+  "syntaxTokenTypes": [
+    "CLOSING_QUOTE",
+    "COLON",
+    "DOT",
+    "EQ",
+    "IDENTIFIER",
+    "INTEGER_LITERAL",
+    "LBRACE",
+    "LPAR",
+    "OPEN_QUOTE",
+    "PLUS",
+    "RBRACE",
+    "REGULAR_STRING_PART",
+    "RPAR",
+    "WHITE_SPACE",
+    "fun",
+    "package",
+    "return",
+    "val"
+  ],
+  "editorChecks": {
+    "phase": "finished",
+    "baseline": {
+      "highlightingAvailable": true,
+      "kotlinHighlightFile": true,
+      "kotlinHighlightErrors": true,
+      "filters": [
+        {
+          "class": "com.intellij.codeInsight.daemon.JavaProblemHighlightFilter",
+          "allows": true
+        },
+        {
+          "class": "org.jetbrains.kotlin.idea.highlighting.KotlinProblemHighlightFilter",
+          "allows": true
+        },
+        {
+          "class": "org.jetbrains.kotlin.idea.core.script.k2.highlighting.ScriptProblemHighlightFilter",
+          "allows": true
+        }
+      ],
+      "analysisFinished": true,
+      "errors": []
+    },
+    "image-baseline": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/ui-baseline.png",
+    "longArgument": {
+      "highlightingAvailable": true,
+      "kotlinHighlightFile": true,
+      "kotlinHighlightErrors": true,
+      "filters": [
+        {
+          "class": "com.intellij.codeInsight.daemon.JavaProblemHighlightFilter",
+          "allows": true
+        },
+        {
+          "class": "org.jetbrains.kotlin.idea.highlighting.KotlinProblemHighlightFilter",
+          "allows": true
+        },
+        {
+          "class": "org.jetbrains.kotlin.idea.core.script.k2.highlighting.ScriptProblemHighlightFilter",
+          "allows": true
+        }
+      ],
+      "analysisFinished": true,
+      "errors": [
+        {
+          "start": 164,
+          "end": 168,
+          "message": "[NONE_APPLICABLE] None of the following candidates is applicable:\n\ncompanion fun Pick(value: Int): String:\n  Argument type mismatch: actual type is \u0027Long\u0027, but \u0027Int\u0027 was expected.\n\ncompanion fun Pick(value: String): String:\n  Argument type mismatch: actual type is \u0027Long\u0027, but \u0027String\u0027 was expected.",
+          "severity": "ERROR(400)",
+          "text": "Pick"
+        }
+      ]
+    },
+    "image-long-error": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/ui-long-error.png",
+    "unterminatedString": {
+      "highlightingAvailable": true,
+      "kotlinHighlightFile": true,
+      "kotlinHighlightErrors": true,
+      "filters": [
+        {
+          "class": "com.intellij.codeInsight.daemon.JavaProblemHighlightFilter",
+          "allows": true
+        },
+        {
+          "class": "org.jetbrains.kotlin.idea.highlighting.KotlinProblemHighlightFilter",
+          "allows": true
+        },
+        {
+          "class": "org.jetbrains.kotlin.idea.core.script.k2.highlighting.ScriptProblemHighlightFilter",
+          "allows": true
+        }
+      ],
+      "analysisFinished": true,
+      "errors": [
+        {
+          "start": 183,
+          "end": 183,
+          "message": "Expecting \u0027\"\u0027",
+          "severity": "ERROR(400)",
+          "text": ""
+        },
+        {
+          "start": 188,
+          "end": 191,
+          "message": "Expecting \u0027)\u0027",
+          "severity": "ERROR(400)",
+          "text": "val"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "message": "[UNRESOLVED_REFERENCE] Unresolved reference \u0027text\u0027 on receiver of type \u0027String\u0027.",
+          "severity": "ERROR(400)",
+          "text": "text"
+        },
+        {
+          "start": 196,
+          "end": 197,
+          "message": "Expecting an element",
+          "severity": "ERROR(400)",
+          "text": ":"
+        },
+        {
+          "start": 205,
+          "end": 206,
+          "message": "Expecting an element",
+          "severity": "ERROR(400)",
+          "text": "\u003d"
+        },
+        {
+          "start": 210,
+          "end": 211,
+          "message": "Expecting an element",
+          "severity": "ERROR(400)",
+          "text": "."
+        },
+        {
+          "start": 492,
+          "end": 496,
+          "message": "[UNRESOLVED_REFERENCE] Unresolved reference \u0027text\u0027.",
+          "severity": "ERROR(400)",
+          "text": "text"
+        }
+      ]
+    },
+    "image-syntax-error": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/ui-syntax-error.png",
+    "restored": {
+      "highlightingAvailable": true,
+      "kotlinHighlightFile": true,
+      "kotlinHighlightErrors": true,
+      "filters": [
+        {
+          "class": "com.intellij.codeInsight.daemon.JavaProblemHighlightFilter",
+          "allows": true
+        },
+        {
+          "class": "org.jetbrains.kotlin.idea.highlighting.KotlinProblemHighlightFilter",
+          "allows": true
+        },
+        {
+          "class": "org.jetbrains.kotlin.idea.core.script.k2.highlighting.ScriptProblemHighlightFilter",
+          "allows": true
+        }
+      ],
+      "analysisFinished": true,
+      "errors": []
+    },
+    "editorFocus": {
+      "showing": true,
+      "isFocusOwner": true,
+      "activeWindow": "com.intellij.openapi.wm.impl.IdeFrameImpl",
+      "focusOwner": "com.intellij.openapi.editor.impl.EditorComponentImpl"
+    },
+    "completion": [
+      {
+        "name": "Value",
+        "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+      },
+      {
+        "name": "Describe",
+        "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+      },
+      {
+        "name": "Read",
+        "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+      },
+      {
+        "name": "toString",
+        "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+      },
+      {
+        "name": "equals",
+        "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+      },
+      {
+        "name": "hashCode",
+        "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+      }
+    ],
+    "completionSuccess": true,
+    "image-completion": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/ui-completion.png",
+    "afterInsertion": "package probe\n\nimport DotKtProbe.Api\nimport DotKtProbe.Box\nimport DotKtProbe.Derived\nimport DotKtProbe.Describe\n\nfun probe(): String {\n    val number: String \u003d Api.Pick(42)\n    val text: String \u003d Api.Pick(\"hello\")\n    val generic: String \u003d Api.Identity(\"generic\")\n    val inherited: String \u003d Derived.Echo(\"inherited\")\n    val box \u003d Box(\"boxed\")\n    val property: String \u003d box.Value\n    val method: String \u003d box.Read()\n    val extension: String \u003d box.Describe()\n    return number + text + generic + inherited + property + method + extension\n}\n",
+    "insertionSuccess": true,
+    "autoCompletion": [
+      "Value",
+      "Describe",
+      "Read",
+      "toString",
+      "equals",
+      "hashCode"
+    ],
+    "autoCompletionSuccess": true,
+    "parameterInfoVisible": true,
+    "parameterInfoObjects": [
+      "CandidateInfo(callInfo\u003dCallInfo(target\u003dFUN, callElement\u003dCALL_EXPRESSION, valueArguments\u003d[VALUE_ARGUMENT], firstArgumentInNamedMode\u003dnull, arguments\u003d[INTEGER_CONSTANT], argumentToParameterIndex\u003d{INTEGER_CONSTANT\u003d0}, valueParameterCount\u003d1, parameterIndexToText\u003d{0\u003dvalue: Int}, shouldHighlightGreen\u003dtrue, hasTypeMismatchBeforeCurrent\u003dfalse, highlightParameterIndex\u003d0, isDeprecated\u003dfalse, representation\u003dCallStringRepresentation(beforeParameters\u003dPick, afterParameters\u003d: String)))",
+      "CandidateInfo(callInfo\u003dCallInfo(target\u003dFUN, callElement\u003dCALL_EXPRESSION, valueArguments\u003d[VALUE_ARGUMENT], firstArgumentInNamedMode\u003dnull, arguments\u003d[INTEGER_CONSTANT], argumentToParameterIndex\u003d{INTEGER_CONSTANT\u003d0}, valueParameterCount\u003d1, parameterIndexToText\u003d{0\u003dvalue: String}, shouldHighlightGreen\u003dfalse, hasTypeMismatchBeforeCurrent\u003dfalse, highlightParameterIndex\u003d0, isDeprecated\u003dfalse, representation\u003dCallStringRepresentation(beforeParameters\u003dPick, afterParameters\u003d: String)))"
+    ],
+    "parameterInfoText": [
+      "Analyzing project…",
+      "\u003chtml\u003e\u003chead\u003e\u003c/head\u003e\u003cbody\u003e\u003cb color\u003d\"d0d0d0\"\u003evalue: Int\u003c/b\u003e\u003c/body\u003e\u003c/html\u003e",
+      "\u003chtml\u003e\u003chead\u003e\u003c/head\u003e\u003cbody\u003e\u003cb color\u003d\"d0d0d0\"\u003evalue: String\u003c/b\u003e\u003c/body\u003e\u003c/html\u003e"
+    ],
+    "image-parameter-info": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/ui-parameter-info.png",
+    "hoverEnabled": true,
+    "hoverEvent": {
+      "offset": 165,
+      "overText": true,
+      "area": "EDITING_AREA",
+      "consumed": false
+    },
+    "hoverVisible": true,
+    "hoverText": [
+      "",
+      "\u003chtml\u003e\u003chead\u003e\u003c/head\u003e\u003cbody\u003e\u003cdiv class\u003d\"definition\"\u003e\u003cpre\u003e\u003cspan style\u003d\"color:#6c95eb;\"\u003epublic\u003c/span\u003e \u003cspan style\u003d\"color:#6c95eb;\"\u003efinal\u003c/span\u003e \u003cspan style\u003d\"color:#6c95eb;\"\u003efun\u003c/span\u003e \u003cspan style\u003d\"color:#39cc9b;\"\u003ePick\u003c/span\u003e(\n    \u003cspan style\u003d\"color:#bdbdbd;\"\u003evalue\u003c/span\u003e\u003cspan style\u003d\"\"\u003e: \u003c/span\u003e\u003cspan style\u003d\"color:#c191ff;\"\u003e\u003ca href\u003d\"psi_element://kotlin.Int\"\u003eInt\u003c/a\u003e\u003c/span\u003e\n)\u003cspan style\u003d\"\"\u003e: \u003c/span\u003e\u003cspan style\u003d\"color:#c191ff;\"\u003e\u003ca href\u003d\"psi_element://kotlin.String\"\u003eString\u003c/a\u003e\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\u003chr\u003e\u003cdiv class\u003d\"bottom\"\u003e\u003cicon src\u003d\"KotlinBaseResourcesIcons.ClassKotlin\"\u003e\u003c/icon\u003e\u0026nbsp;\u003ca href\u003d\"psi_element://DotKtProbe.Api\"\u003e\u003ccode\u003eDotKtProbe.\u003cwbr\u003eApi\u003c/code\u003e\u003c/a\u003e\u003cbr\u003e\u003c/div\u003e\u003c/body\u003e\u003c/html\u003e",
+      "",
+      ""
+    ],
+    "image-hover": "/Users/icecream/RiderProjects/DotKtR/DotKtR/spikes/native-psi/build/full-kotlin-solution-java-host-ui-fresh-eyxjrvc9/ui-hover.png",
+    "success": true
+  },
+  "visibleCompletion": [
+    {
+      "name": "Value",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.VariableLookupObject"
+    },
+    {
+      "name": "Read",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "Describe",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "toString",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "equals",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    },
+    {
+      "name": "hashCode",
+      "objectClass": "org.jetbrains.kotlin.idea.completion.impl.k2.lookups.factories.FunctionCallLookupObject"
+    }
+  ],
+  "completionSuccess": true,
+  "startupSuccess": true,
+  "success": true
+}

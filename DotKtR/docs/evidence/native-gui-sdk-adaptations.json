@@ -1,0 +1,19 @@
+{
+  "sourceIdea": "/Users/icecream/Applications/IntelliJ IDEA.app/Contents",
+  "markerInterfaces": {
+    "com/intellij/psi/jsp/JspxLanguage.class": "bdf275c3f4524bb52c9af8722812d85f607382ca944cc1a6b07757d3b7a1228d",
+    "com/intellij/psi/jsp/JspLanguage.class": "0d1e7fc5a0c2ab08c9757f441d5b2986d456853e1971df5c8f338d3a198a8e29"
+  },
+  "removedActions": [
+    {
+      "jar": "java-impl.jar",
+      "descriptor": "META-INF/plugin.xml",
+      "id": "CompileFile"
+    },
+    {
+      "jar": "modules/intellij.java.backend.jar",
+      "descriptor": "META-INF/JavaActions.xml",
+      "id": "CompileFile"
+    }
+  ]
+}
