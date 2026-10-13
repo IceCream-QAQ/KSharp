@@ -5,6 +5,7 @@ import com.intellij.openapi.project.DumbAwareAction
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.vfs.VirtualFileManager
+import com.intellij.openapi.util.io.FileUtil
 import com.intellij.openapi.startup.ProjectActivity
 import com.intellij.openapi.vfs.newvfs.BulkFileListener
 import com.intellij.openapi.vfs.newvfs.events.VFileEvent
@@ -31,7 +32,7 @@ class DotKtFilesListener(private val project: Project) : BulkFileListener {
         val projectRoot = binding.sourceRoot.path + "/"
         val changed = events.any {
             val path = it.path
-            path == binding.projectFile || path in binding.referenceAssemblies.values ||
+            FileUtil.pathsEqual(path, binding.projectFile) || binding.watchedFiles.any { input -> FileUtil.pathsEqual(path, input) } ||
                 (path.startsWith(projectRoot) && !path.startsWith(projectRoot + "obj/") && !path.startsWith(projectRoot + "bin/") &&
                     ((path.endsWith(".kt") && it !is VFileContentChangeEvent) ||
                     path.endsWith(".props") || path.endsWith(".targets")))

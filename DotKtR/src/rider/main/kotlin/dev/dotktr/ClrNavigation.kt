@@ -7,6 +7,7 @@ import com.intellij.navigation.DirectNavigationProvider
 import com.intellij.navigation.ItemPresentation
 import com.intellij.navigation.NavigationItem
 import com.intellij.openapi.project.Project
+import com.intellij.openapi.util.io.FileUtil
 import com.intellij.platform.backend.navigation.NavigationRequest
 import com.intellij.platform.backend.navigation.NavigationRequests
 import com.intellij.pom.Navigatable
@@ -37,6 +38,7 @@ data class ClrNavigationTarget(
     val fallbackReason: String? = null,
     val consumerProject: String? = null,
     val generation: Long = 0,
+    val sourceAssemblyIdentity: String? = null,
 )
 
 object ClrNavigationResolver {
@@ -74,11 +76,13 @@ object ClrNavigationResolver {
             val intrinsic = annotation(symbol, "kotlin.clr.ClrIntrinsic")?.get("name")
             val owner = ownOrigin?.get("physicalOwner") ?: clazz?.let(::physicalClass) ?:
                 intrinsic?.takeIf { '.' in it }?.substringBeforeLast('.') ?: return@with null
-            val sourceAssembly = binding.referenceAssemblies[declarationPath.substringBefore("!/")]
+            val libraryPath = declarationPath.substringBefore("!/")
+            val sourceAssembly = binding.referenceAssemblies.entries.firstOrNull { FileUtil.pathsEqual(it.key, libraryPath) }?.value
             val kotlinName = callable?.callableId?.toString() ?: (symbol as? KaNamedClassSymbol)?.classId?.asSingleFqName()?.asString()
                 ?: reference.getReferencedName()
             val ownerInId = owner.replace('+', '.')
-            fun typeTarget(reason: String? = null) = ClrNavigationTarget(owner, "T:$ownerInId", sourceAssembly, kotlinName, "type", reason, binding.projectFile, binding.generation)
+            val assemblyIdentity = sourceAssembly?.let { binding.assemblyIdentities[it] }
+            fun typeTarget(reason: String? = null) = ClrNavigationTarget(owner, "T:$ownerInId", sourceAssembly, kotlinName, "type", reason, binding.projectFile, binding.generation, assemblyIdentity)
             if (symbol is KaNamedClassSymbol) return@with typeTarget()
 
             // XML documentation signatures describe formal declarations, never inferred argument types.
@@ -127,12 +131,12 @@ object ClrNavigationResolver {
                         val generics = (symbol as? KaTypeParameterOwnerSymbol)?.typeParameters?.size ?: 0
                         val arity = if (generics == 0) "" else "``$generics"
                         val signature = if (parameters.isEmpty()) "" else parameters.joinToString(",", "(", ")", transform = ::typeName)
-                        ClrNavigationTarget(owner, "M:$ownerInId.$member$arity$signature", sourceAssembly, kotlinName, "method", consumerProject = binding.projectFile, generation = binding.generation)
+                        ClrNavigationTarget(owner, "M:$ownerInId.$member$arity$signature", sourceAssembly, kotlinName, "method", consumerProject = binding.projectFile, generation = binding.generation, sourceAssemblyIdentity = assemblyIdentity)
                     }
                     is KaPropertySymbol -> {
                         val prefix = if (annotation(symbol, "kotlin.clr.ClrField") != null) "F" else "P"
                         val property = annotation(symbol, "kotlin.clr.ClrProperty")?.get("name") ?: member
-                        ClrNavigationTarget(owner, "$prefix:$ownerInId.$property", sourceAssembly, kotlinName, "property", consumerProject = binding.projectFile, generation = binding.generation)
+                        ClrNavigationTarget(owner, "$prefix:$ownerInId.$property", sourceAssembly, kotlinName, "property", consumerProject = binding.projectFile, generation = binding.generation, sourceAssemblyIdentity = assemblyIdentity)
                     }
                     else -> typeTarget("Unsupported declaration kind")
                 }

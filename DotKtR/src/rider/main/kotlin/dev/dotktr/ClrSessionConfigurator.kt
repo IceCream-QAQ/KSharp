@@ -19,6 +19,7 @@ import org.jetbrains.kotlin.fir.deserialization.FirDeserializationExtension
 import org.jetbrains.kotlin.fir.resolve.calls.overloads.ConeCallConflictResolverFactory
 import com.intellij.openapi.diagnostic.Logger
 import com.intellij.openapi.roots.OrderRootType
+import com.intellij.openapi.util.io.FileUtil
 import org.jetbrains.kotlin.analysis.api.platform.projectStructure.KotlinProjectStructureProvider
 import org.jetbrains.kotlin.idea.base.fir.projectStructure.provider.K2IDEProjectStructureProvider
 
@@ -36,8 +37,13 @@ class ClrSessionConfigurator : LLFirSessionConfigurator {
                 // KLIB-backed IDE modules expose no binaryRoots in this SDK. Read the
                 // underlying IDE library URLs, whose identities came from MSBuild.
                 val provider = KotlinProjectStructureProvider.getInstance(session.project) as K2IDEProjectStructureProvider
-                provider.getOpenapiLibrary(module)?.getUrls(OrderRootType.CLASSES).orEmpty().any {
-                    it.removePrefix("jar://").removeSuffix("!/") in libraries
+                val urls = provider.getOpenapiLibrary(module)?.getUrls(OrderRootType.CLASSES).orEmpty()
+                if (log.isDebugEnabled && module.libraryName.contains("stdlib")) log.debug("CLR stdlib URLs=${urls.toList()}; registered stdlib=${libraries.filter { "stdlib" in it }}")
+                urls.any { url ->
+                    val path = url.removePrefix("jar://").removeSuffix("!/")
+                    // Jar and local VFS can expose different casing for the same
+                    // file on a case-insensitive filesystem.
+                    libraries.any { FileUtil.pathsEqual(path, it) }
                 }
             }
             else -> false

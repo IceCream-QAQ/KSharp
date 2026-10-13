@@ -14,6 +14,7 @@ import com.intellij.openapi.project.DumbService
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.startup.ProjectActivity
 import com.intellij.openapi.wm.IdeFocusManager
+import com.intellij.openapi.wm.WindowManager
 import com.intellij.openapi.vfs.LocalFileSystem
 import com.intellij.psi.PsiManager
 import kotlinx.coroutines.*
@@ -80,6 +81,7 @@ class InstalledPluginSmoke : ProjectActivity {
                         "afterDelete" to service.status, "success" to true)
                 } finally { Files.deleteIfExists(extra) }
                 DumbService.getInstance(project).waitForSmartMode()
+                report["phase"] = "completion"; save()
                 val source = binding.sourceFiles.single { it.name == "Program.kt" }
                 ApplicationManager.getApplication().invokeAndWait {
                     val editor = FileEditorManager.getInstance(project).openTextEditor(OpenFileDescriptor(project, source), true)!!
@@ -97,12 +99,19 @@ class InstalledPluginSmoke : ProjectActivity {
                     while (!candidates.containsAll(listOf("Run", "MapControllers", "mapDotKtEndpoints"))) {
                         ApplicationManager.getApplication().invokeAndWait {
                             candidates = LookupManager.getInstance(project).activeLookup?.items?.map { it.lookupString }.orEmpty()
+                            val editor = FileEditorManager.getInstance(project).selectedTextEditor
+                            report["completionProbe"] = mapOf("items" to candidates, "focused" to editor?.contentComponent?.isFocusOwner,
+                                "offset" to editor?.caretModel?.offset, "dumb" to DumbService.isDumb(project))
                         }
+                        save()
                         delay(100)
                     }
                 }
                 report["completion"] = candidates
                 ApplicationManager.getApplication().invokeAndWait { LookupManager.getInstance(project).hideActiveLookup() }
+                report["phase"] = "klib-cache"; save()
+                report["cache"] = KlibCacheChecks.run(project) { report["cache"] = it; save() }
+                check((report["cache"] as Map<*, *>)["success"] == true) { "KLIB cache regression failed" }
                 report["phase"] = "navigation"; save()
                 report["navigation"] = DotNetNavigationChecks.run(project) { report["navigation"] = it; save() }
                 check((report["navigation"] as Map<*, *>)["success"] == true) { "Installed plugin navigation failed" }
@@ -112,6 +121,14 @@ class InstalledPluginSmoke : ProjectActivity {
                 report["success"] = true; report["phase"] = "complete"
             } catch (failure: Throwable) {
                 report["success"] = false; report["phase"] = "failed"; report["error"] = failure.stackTraceToString()
+                ApplicationManager.getApplication().invokeAndWait {
+                    WindowManager.getInstance().getFrame(project)?.let { frame ->
+                        val image = java.awt.image.BufferedImage(frame.width, frame.height, java.awt.image.BufferedImage.TYPE_INT_RGB)
+                        val graphics = image.createGraphics()
+                        try { frame.paint(graphics) } finally { graphics.dispose() }
+                        javax.imageio.ImageIO.write(image, "png", Path.of(reportPath).resolveSibling("failure.png").toFile())
+                    }
+                }
             }
             save()
         }

@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>dev.dotktr.integration</id><name>DotKtR Integration Driver</name><version>0.1.0-dev</version>
+  <id>dev.dotktr.integration</id><name>DotKtR Integration Driver</name><version>0.1.1-dev</version>
   <vendor>DotKtR contributors</vendor><idea-version since-build="262.10968" until-build="262.10968.*"/>
   <depends>dev.dotktr</depends><depends>org.jetbrains.kotlin</depends><depends>com.intellij.modules.rider</depends>
   <extensions defaultExtensionNs="com.intellij"><postStartupActivity implementation="dev.dotktr.InstalledPluginSmoke"/></extensions>

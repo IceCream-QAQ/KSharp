@@ -24,7 +24,10 @@ import org.jetbrains.kotlin.psi.KtFile
 
 data class DotKtModuleBinding(val module: Module, val sourceRoot: VirtualFile, val sourceFiles: List<VirtualFile>,
                              val referenceAssemblies: Map<String, String> = emptyMap(), val projectFile: String? = null,
-                             val generation: Long = 0, val targetFramework: String = "") {
+                             val generation: Long = 0, val targetFramework: String = "",
+                             val runtimeIdentifier: String = "", val libraryPaths: Set<String> = emptySet(),
+                             val assemblyIdentities: Map<String, String> = emptyMap(), val inputKey: String = "",
+                             val watchedFiles: Set<String> = emptySet()) {
     companion object {
         val KEY = Key.create<DotKtModuleBinding>("dotktr.module.binding")
         val CLR_LIBRARIES = Key.create<Set<String>>("dotktr.clr.libraries")

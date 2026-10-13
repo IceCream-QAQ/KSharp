@@ -1,7 +1,7 @@
 <idea-plugin require-restart="true">
   <id>dev.dotktr</id>
   <name>DotKtR</name>
-  <version>0.1.0-dev</version>
+  <version>0.1.1-dev</version>
   <vendor>DotKtR contributors</vendor>
   <idea-version since-build="262.10968" until-build="262.10968.*"/>
   <depends>com.intellij.modules.rider</depends>
@@ -17,6 +17,7 @@
   <extensions defaultExtensionNs="com.intellij">
     <postStartupActivity implementation="dev.dotktr.DotKtStartupActivity"/>
     <notificationGroup id="DotKt" displayType="BALLOON"/>
+    <editorNotificationProvider implementation="dev.dotktr.KtProjectEditorNotificationProvider"/>
     <projectConfigurable parentId="language" id="dev.dotktr.settings" displayName="DotKt" instance="dev.dotktr.DotKtConfigurable"/>
     <projectService serviceInterface="org.jetbrains.kotlin.idea.base.projectStructure.RootKindMatcher"
                     serviceImplementation="dev.dotktr.DotKtRootKindMatcher" overrides="true"/>

@@ -42,6 +42,13 @@ public sealed class NavigationService
         try
         {
             using var request = JsonDocument.Parse(json);
+            if (request.RootElement.GetProperty("action").GetString() == "assemblyIdentities")
+            {
+                var identities = request.RootElement.GetProperty("paths").EnumerateArray()
+                    .Select(p => p.GetString()!).Distinct().ToDictionary(p => p,
+                        p => System.Reflection.AssemblyName.GetAssemblyName(p).FullName);
+                return JsonSerializer.Serialize(new { success = true, identities });
+            }
             if (request.RootElement.GetProperty("action").GetString() == "ping")
                 return _solution.Locks.UsingReadLock(() => JsonSerializer.Serialize(new {
                     ready = _solution.GetPsiServices().CachesState.IsInitialUpdateFinished.Value,
@@ -62,7 +69,10 @@ public sealed class NavigationService
         var identity = request.GetProperty("xmlDocId").GetString()!;
         var sourceAssembly = request.TryGetProperty("sourceAssembly", out var assemblyPath) && assemblyPath.ValueKind == JsonValueKind.String
             ? assemblyPath.GetString() : null;
-        var expectedAssembly = sourceAssembly is null ? null : System.Reflection.AssemblyName.GetAssemblyName(sourceAssembly).Name;
+        var cachedIdentity = request.TryGetProperty("sourceAssemblyIdentity", out var identityProperty) && identityProperty.ValueKind == JsonValueKind.String
+            ? identityProperty.GetString() : null;
+        var expectedAssembly = cachedIdentity is not null ? new System.Reflection.AssemblyName(cachedIdentity).Name
+            : sourceAssembly is null ? null : System.Reflection.AssemblyName.GetAssemblyName(sourceAssembly).Name;
         var consumerPath = request.TryGetProperty("consumerProject", out var consumerProperty) && consumerProperty.ValueKind == JsonValueKind.String
             ? consumerProperty.GetString() : null;
         var consumers = consumerPath is null ? Array.Empty<IProject>() : _solution.GetTopLevelProjects()

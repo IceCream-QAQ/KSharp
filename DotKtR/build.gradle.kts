@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "dev.dotktr"
-version = "0.1.0-dev"
+version = "0.1.1-dev"
 val riderPath = providers.gradleProperty("riderPath").orElse(providers.environmentVariable("RIDER_HOME"))
     .orElse("${System.getProperty("user.home")}/Applications/Rider.app/Contents")
 val ideaPath = providers.gradleProperty("ideaPath").orElse(providers.environmentVariable("IDEA_HOME"))

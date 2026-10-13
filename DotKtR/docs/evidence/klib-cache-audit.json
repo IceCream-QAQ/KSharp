@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-13",
+  "version": "0.1.1-dev",
+  "pluginId": "dev.dotktr",
+  "sandbox": "/Users/icecream/RiderProjects/DotKtR/DotKtR/build/installed-smoke-_r8fddrn",
+  "zipSha256": "849b47baf8396cbd02b4b2993f3331bcb9bf4e88141c9f420e72c1eccdba056f",
+  "zipBytes": 232006,
+  "installedBytesMatchDistribution": true,
+  "restoredSources": {
+    "Program.kt": true,
+    "KotlinWeb.ktproj": true,
+    "Routes.kt": true,
+    "HelloController.kt": true
+  },
+  "unitTests": [
+    {
+      "name": "dev.dotktr.KlibCacheTest",
+      "tests": "5",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-13T12:08:32.048Z",
+      "hostname": "IceCream--MacBook-Pro.local",
+      "time": "0.128"
+    },
+    {
+      "name": "dev.dotktr.MsBuildSnapshotTest",
+      "tests": "5",
+      "skipped": "0",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-13T12:08:32.178Z",
+      "hostname": "IceCream--MacBook-Pro.local",
+      "time": "0.012"
+    }
+  ],
+  "structureCheck": "verifyPluginStructure passed with ignoreWarnings=false",
+  "sdk": {
+    "Rider": "262.10968.170",
+    "IDEA": "262.10968.63",
+    "Kotlin": "2.4.10"
+  },
+  "cache": {
+    "objectsVerified": 308,
+    "buildOwnedKlibsRemovedByClean": 307,
+    "stagingDirectoryEmpty": true,
+    "afterCleanDiagnosticErrors": 0,
+    "afterCleanCompletionCount": 27,
+    "button": {
+      "text": "Refresh KLIB",
+      "showing": true,
+      "x": 836,
+      "panelWidth": 980
+    },
+    "failedRefreshRetainedModel": true
+  },
+  "validationScope": {
+    "diskRestoreAndInputInvalidation": "unit tests",
+    "cleanButtonCompletionNavigationRun": "fresh Rider installation tests",
+    "dllReplacementAutoRefreshAndReopen": "not separately exercised in the GUI"
+  },
+  "sources": [
+    {
+      "path": "build.gradle.kts",
+      "sha256": "bb1bc63419f02d4b3d5fc0db6cec353092cefdcc1225a671c5c6fd98fded875a"
+    },
+    {
+      "path": "src/dotnet/DotKtR.Backend/NavigationService.cs",
+      "sha256": "6f6aa52e1eed45b16ae591db09ce0998f14c0dff8794692ebdd12c7232cbb2e7"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/ClrNavigation.kt",
+      "sha256": "f06813ef098d085dde626d91c48bbda0263b8db7605ad290fd7ddbb9a30d1427"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/ClrSessionConfigurator.kt",
+      "sha256": "8f5d5c3f385df5896c613747a5f223e05d9f8a7e4bcee4e7651532e230d58481"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtLifecycle.kt",
+      "sha256": "85f7e15b8680f272280d28845d8befeccb43c965e116e8d97e8cbecc3c489c19"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtModuleBinding.kt",
+      "sha256": "d056f7ba75d28a5665c963a33d89df4d7641ac9c3d3d53a452220c949ae89b24"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtProjectService.kt",
+      "sha256": "85b2e6ee22a5c5b4e688feaa3500b1975057c0a148343997de523ec7fbb8782d"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtRunConfiguration.kt",
+      "sha256": "704e622a57908d37cadb377dbed0d4ff8b0b1043e70a43388f91e3b945baa172"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotKtSettings.kt",
+      "sha256": "e26b5b2ceff8b793d3f0e49a5a1175505912ef76e454d8599b943635aedde595"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/DotNetNavigationService.kt",
+      "sha256": "46a5b18cc46fc126ffdf6129c4aec764b76cd8452d6d8df1d49ef7c1ffe897b5"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/KlibCache.kt",
+      "sha256": "5ef69207d3f04129ab3136514fa7e2f42bbc10c6e65d38ef7802a688fff15999"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/KtProjectEditorNotificationProvider.kt",
+      "sha256": "12a3452dceba615b1a902f34456691f4a1ad3856ff92eaea54e7ee047fc8c276"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/ModuleImporter.kt",
+      "sha256": "b2d1a936cacf7439f60cb55dde0b7cd94a6dee04028c97be67da0c550d9cef96"
+    },
+    {
+      "path": "src/rider/main/kotlin/dev/dotktr/MsBuildSnapshot.kt",
+      "sha256": "af2bb926641a28f4d5a99571d89e80e7763a8fa78b48affcbad943f430372b28"
+    },
+    {
+      "path": "src/rider/main/resources/META-INF/plugin.xml",
+      "sha256": "ac89902f47a0bc3977aac8bd03fa0684e45cc41c3f2c98c30a8b7915dc58cf6e"
+    },
+    {
+      "path": "src/rider/main/resources/META-INF/pluginIcon.svg",
+      "sha256": "698d0230b918f026dd4cf2ef7031da7d310767515d79bb8ad7cebe5028abf10a"
+    }
+  ]
+}

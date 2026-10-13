@@ -21,23 +21,34 @@ object ModuleImporter {
         val vfs = LocalFileSystem.getInstance()
         val root = vfs.refreshAndFindFileByNioFile(snapshot.projectFile.parent) ?: error("Project directory disappeared.")
         val sources = snapshot.sources.map { vfs.refreshAndFindFileByNioFile(it) ?: error("Source disappeared: $it") }
-        snapshot.libraries.forEach { vfs.refreshAndFindFileByNioFile(it)?.refresh(false, false) }
+        // VFS canonicalizes path spelling (including case on macOS/Windows). Use the
+        // very same spelling for library roots, CLR ownership and navigation maps.
+        val libraryFiles = snapshot.libraries.associate { path ->
+            val file = vfs.refreshAndFindFileByNioFile(path) ?: error("Cached KLIB disappeared: $path")
+            path.toString() to file
+        }
+        val assemblies = snapshot.assemblies.mapKeys { (path, _) -> libraryFiles.getValue(path).path }
         val manager = ModuleManager.getInstance(project)
         val previous = project.getUserData(DotKtModuleBinding.KEY)
-        val name = "dotktr-" + snapshot.projectFile.toString().hashCode().toUInt().toString(16)
-        project.putUserData(DotKtModuleBinding.KEY, null)
-        project.putUserData(DotKtModuleBinding.CLR_LIBRARIES, snapshot.libraries.map { it.toString() }.toSet())
-        previous?.module?.takeIf { !it.isDisposed }?.let(manager::disposeModule)
-        manager.findModuleByName(name)?.let(manager::disposeModule)
+        val libraries = libraryFiles.values.map { it.path }.toSet()
+        if (previous != null && !previous.module.isDisposed && previous.projectFile == snapshot.projectFile.toString() &&
+            previous.targetFramework == snapshot.framework && previous.runtimeIdentifier == snapshot.runtimeIdentifier &&
+            previous.sourceFiles.map { it.path }.toSet() == sources.map { it.path }.toSet() &&
+            previous.libraryPaths == libraries && previous.referenceAssemblies == assemblies &&
+            previous.assemblyIdentities == snapshot.assemblyIdentities) {
+            project.putUserData(DotKtModuleBinding.KEY, previous.copy(generation = generation, inputKey = snapshot.inputKey, watchedFiles = snapshot.watchedFiles))
+            return@run
+        }
+        val name = "dotktr-" + snapshot.projectFile.toString().hashCode().toUInt().toString(16) + "-$generation"
         val module = manager.newNonPersistentModule(name, "JAVA_MODULE")
         try {
             val roots = ModuleRootManager.getInstance(module).modifiableModel
             roots.addContentEntry(root).addSourceFolder(root, false)
-            snapshot.libraries.forEach { path ->
-                val library = roots.moduleLibraryTable.createLibrary(path.fileName.toString())
+            libraryFiles.values.forEach { file ->
+                val library = roots.moduleLibraryTable.createLibrary(file.name)
                 val model = library.modifiableModel as LibraryEx.ModifiableModelEx
                 model.kind = KotlinCommonLibraryKind
-                model.addRoot("jar://$path!/", OrderRootType.CLASSES)
+                model.addRoot("jar://${file.path}!/", OrderRootType.CLASSES)
                 model.commit()
             }
             roots.commit()
@@ -56,12 +67,14 @@ object ModuleImporter {
             val model = facets.createModifiableModel()
             model.addFacet(facets.createFacet(KotlinFacetType.INSTANCE, "DotKt", configuration, null))
             model.commit()
+            project.putUserData(DotKtModuleBinding.CLR_LIBRARIES, libraries)
             project.putUserData(DotKtModuleBinding.KEY, DotKtModuleBinding(module, root, sources,
-                snapshot.assemblies, snapshot.projectFile.toString(), generation, snapshot.framework))
+                assemblies, snapshot.projectFile.toString(), generation, snapshot.framework,
+                snapshot.runtimeIdentifier, libraries, snapshot.assemblyIdentities, snapshot.inputKey, snapshot.watchedFiles))
+            previous?.module?.takeIf { !it.isDisposed }?.let(manager::disposeModule)
             DotKtRunTasks.configureExisting(project, snapshot.projectFile.toString())
         } catch (failure: Throwable) {
-            manager.disposeModule(module)
-            project.putUserData(DotKtModuleBinding.CLR_LIBRARIES, emptySet())
+            if (project.getUserData(DotKtModuleBinding.KEY)?.module != module) manager.disposeModule(module)
             throw failure
         }
     }
